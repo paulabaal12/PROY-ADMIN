@@ -49,28 +49,6 @@
       Diego García &nbsp;·&nbsp; Angela García &nbsp;·&nbsp; Gerardo Pineda
     </div>
 
-    <!-- Stats row -->
-    <div style="display:flex;gap:2.5rem;margin-top:2.5rem;" class="reveal">
-      <div>
-        <div style="font-size:2.2rem;font-weight:900;color:var(--green-main);" data-to="6" data-suf=" módulos">0 módulos</div>
-        <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:.1em;color:#999;font-weight:600;">Funcionalidades centralizadas</div>
-      </div>
-      <div>
-        <div style="font-size:2.2rem;font-weight:900;color:var(--green-main);" data-to="6" data-suf=" meses">0 meses</div>
-        <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:.1em;color:#999;font-weight:600;">Duración del proyecto</div>
-      </div>
-      <div>
-        <div style="font-size:2.2rem;font-weight:900;color:var(--green-main);" data-to="445500" data-pre="Q">Q0</div>
-        <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:.1em;color:#999;font-weight:600;">Inversión estimada</div>
-      </div>
-    </div>
-
-    <div style="margin-top:2rem;" class="reveal">
-      <a href="#problema" style="display:inline-flex;align-items:center;gap:.5rem;background:var(--green-dark);color:#fff;padding:.85rem 2rem;border-radius:100px;font-weight:700;font-size:.85rem;text-decoration:none;text-transform:uppercase;letter-spacing:.08em;">
-        <span class="material-icons-outlined" style="font-size:18px;">explore</span>
-        Ver Presentación
-      </a>
-    </div>
   </div>
 
   <div class="hero-right">
@@ -416,6 +394,7 @@
   <div class="geo geo-tl"></div>
   <div class="geo geo-br"></div>
 
+  <!-- Título + imagen 3.png -->
   <div style="display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1;" class="reveal">
     <div>
       <h2 class="slide-title" style="margin-bottom:.5rem;">Cronograma del Proyecto</h2>
@@ -423,7 +402,7 @@
         Duración total: <strong style="color:var(--green-dark)">6 meses</strong>
       </p>
     </div>
-    <img src="img/8.png" alt="Cronograma" style="height:170px;object-fit:contain;filter:drop-shadow(0 8px 24px rgba(0,0,0,.13));" onerror="this.style.display='none'"/>
+    <img src="img/3.png" alt="Cronograma" style="height:170px;object-fit:contain;filter:drop-shadow(0 8px 24px rgba(0,0,0,.13));" onerror="this.style.display='none'"/>
   </div>
 
   <div style="position:relative;z-index:1;margin-top:2rem;">
@@ -620,52 +599,111 @@
   <div class="geo geo-tr-sm"></div>
   <div class="geo geo-bl"></div>
 
+  <!-- Título + dragon -->
   <div style="display:flex;align-items:center;gap:2rem;position:relative;z-index:1;" class="reveal">
     <h2 class="slide-title" style="margin-bottom:0;">Inversión del Proyecto</h2>
     <img src="img/9.png" alt="Inversión" style="height:160px;object-fit:contain;filter:drop-shadow(0 8px 24px rgba(0,0,0,.12));" onerror="this.style.display='none'"/>
   </div>
   <div style="margin-bottom:2rem;"></div>
 
-  <div class="costs-grid">
-    <div class="cost-card cc-neutral reveal">
-      <div class="cost-method-name">Scrum</div>
-      <div class="cost-amount-badge">Q573,000</div>
-      <div class="cost-months-badge">6 meses</div>
-      <div class="cost-desc">Entregas organizadas en ciclos regulares con fechas claras de entrega.</div>
-      <div class="cost-details-list">
-        <div class="cost-detail-row"><span class="cdl">Inversión real</span><span class="cdv">Q445,500</span></div>
-        <div class="cost-detail-row"><span class="cdl">Gasto mensual</span><span class="cdv">Q74,250/mes</span></div>
-        <div class="cost-detail-row"><span class="cdl">Organización</span><span class="cdv">Alta</span></div>
+  <!-- Layout: hero izquierda + métricas derecha -->
+  <div style="display:grid;grid-template-columns:1fr 1.6fr;gap:2rem;position:relative;z-index:1;" class="reveal">
+
+    <!-- Hero card — inversión total -->
+    <div style="background:linear-gradient(145deg,var(--green-dark) 0%,#2d7a4f 100%);border-radius:24px;padding:2.5rem 2rem;display:flex;flex-direction:column;justify-content:space-between;min-height:320px;box-shadow:0 12px 40px rgba(26,77,46,.3);">
+      <div>
+        <div style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:rgba(255,255,255,.6);margin-bottom:.5rem;">Inversión total del proyecto</div>
+        <div style="font-size:3.5rem;font-weight:900;color:#fff;line-height:1;margin-bottom:.25rem;">Q892,000</div>
+        <div style="font-size:.85rem;color:rgba(255,255,255,.65);font-weight:500;">Presupuesto aprobado</div>
+      </div>
+
+      <div style="border-top:1px solid rgba(255,255,255,.15);padding-top:1.5rem;display:flex;flex-direction:column;gap:.75rem;">
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+          <span style="font-size:.82rem;color:rgba(255,255,255,.7);">Flujo mensual</span>
+          <span style="font-size:1.05rem;font-weight:800;color:#fff;">Q137,230.77</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+          <span style="font-size:.82rem;color:rgba(255,255,255,.7);">Duración</span>
+          <span style="font-size:1.05rem;font-weight:800;color:#fff;">6.5 meses</span>
+        </div>
+      </div>
+
+      <!-- barra visual flujo -->
+      <div style="margin-top:1.25rem;">
+        <div style="display:flex;justify-content:space-between;font-size:.7rem;color:rgba(255,255,255,.55);margin-bottom:.4rem;">
+          <span>Avance de inversión</span><span>100%</span>
+        </div>
+        <div style="height:6px;background:rgba(255,255,255,.15);border-radius:100px;overflow:hidden;">
+          <div style="height:100%;width:100%;background:linear-gradient(90deg,rgba(255,255,255,.4),rgba(255,255,255,.9));border-radius:100px;"></div>
+        </div>
       </div>
     </div>
 
-    <div class="cost-card cc-scrumban reveal" style="position:relative;">
-      <div style="position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:#fff;color:var(--green-dark);font-size:.7rem;font-weight:800;padding:.3rem 1.1rem;border-radius:100px;text-transform:uppercase;letter-spacing:.08em;box-shadow:0 4px 12px rgba(0,0,0,.18);">Recomendado</div>
-      <div class="cost-method-name">Enfoque Mixto</div>
-      <div class="cost-amount-badge">Q676,000</div>
-      <div class="cost-months-badge">6.5 meses</div>
-      <div class="cost-desc">Equilibrio entre estructura y flexibilidad, maximizando el valor entregado.</div>
-      <div class="cost-details-list">
-        <div class="cost-detail-row"><span class="cdl">Inversión real</span><span class="cdv">Q482,625</span></div>
-        <div class="cost-detail-row"><span class="cdl">Ingreso mensual</span><span class="cdv">Q104,000</span></div>
-        <div class="cost-detail-row"><span class="cdl">Mayor rentabilidad</span><span class="cdv">~28.6%</span></div>
-      </div>
-    </div>
+    <!-- Grid de métricas financieras -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;">
 
-    <div class="cost-card cc-neutral reveal">
-      <div class="cost-method-name">Kanban</div>
-      <div class="cost-amount-badge">Q682,500</div>
-      <div class="cost-months-badge">7 meses</div>
-      <div class="cost-desc">Máxima flexibilidad para adaptarse a cambios durante el proyecto.</div>
-      <div class="cost-details-list">
-        <div class="cost-detail-row"><span class="cdl">Inversión real</span><span class="cdv">Q526,750</span></div>
-        <div class="cost-detail-row"><span class="cdl">Gasto mensual</span><span class="cdv">Q75,250/mes</span></div>
-        <div class="cost-detail-row"><span class="cdl">Flexibilidad</span><span class="cdv">Máxima</span></div>
+      <!-- ROI -->
+      <div style="background:var(--green-bg);border-radius:18px;padding:1.5rem;display:flex;flex-direction:column;gap:.4rem;border:2px solid var(--green-pale);position:relative;overflow:hidden;">
+        <div style="position:absolute;top:-10px;right:-10px;width:60px;height:60px;background:var(--green-pale);border-radius:50%;opacity:.5;"></div>
+        <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.25rem;">
+          <span class="material-icons-outlined" style="font-size:18px;color:var(--green-dark);">trending_up</span>
+          <span style="font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--green-dark);">Retorno sobre inversión</span>
+        </div>
+        <div style="font-size:2.8rem;font-weight:900;color:var(--green-dark);line-height:1;">42.86<span style="font-size:1.4rem;">%</span></div>
+        <div style="font-size:.78rem;color:#888;font-weight:500;">ROI del proyecto</div>
+        <!-- mini barra -->
+        <div style="height:4px;background:#e0f0e8;border-radius:100px;margin-top:.5rem;overflow:hidden;">
+          <div style="height:100%;width:43%;background:var(--green-main);border-radius:100px;"></div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <div style="background:var(--green-bg);border-radius:20px;padding:1.75rem 2.5rem;margin-top:2rem;position:relative;z-index:1;text-align:center;" class="reveal">
+      <!-- TMAR -->
+      <div style="background:var(--green-bg);border-radius:18px;padding:1.5rem;display:flex;flex-direction:column;gap:.4rem;border:2px solid var(--green-pale);position:relative;overflow:hidden;">
+        <div style="position:absolute;top:-10px;right:-10px;width:60px;height:60px;background:var(--green-pale);border-radius:50%;opacity:.5;"></div>
+        <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.25rem;">
+          <span class="material-icons-outlined" style="font-size:18px;color:var(--green-dark);">shield</span>
+          <span style="font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--green-dark);">Tasa mínima aceptable</span>
+        </div>
+        <div style="font-size:2.8rem;font-weight:900;color:var(--green-dark);line-height:1;">25<span style="font-size:1.4rem;">%</span></div>
+        <div style="font-size:.78rem;color:#888;font-weight:500;">TMAR requerida</div>
+        <div style="height:4px;background:#e0f0e8;border-radius:100px;margin-top:.5rem;overflow:hidden;">
+          <div style="height:100%;width:25%;background:var(--green-main);border-radius:100px;"></div>
+        </div>
+      </div>
+
+      <!-- Periodo de retorno -->
+      <div style="background:var(--green-bg);border-radius:18px;padding:1.5rem;display:flex;flex-direction:column;gap:.4rem;border:2px solid var(--green-pale);position:relative;overflow:hidden;">
+        <div style="position:absolute;top:-10px;right:-10px;width:60px;height:60px;background:var(--green-pale);border-radius:50%;opacity:.5;"></div>
+        <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.25rem;">
+          <span class="material-icons-outlined" style="font-size:18px;color:var(--green-dark);">event_available</span>
+          <span style="font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--green-dark);">Período de retorno</span>
+        </div>
+        <div style="font-size:2.8rem;font-weight:900;color:var(--green-dark);line-height:1;">6 <span style="font-size:1.2rem;font-weight:700;">meses</span></div>
+        <div style="font-size:.78rem;color:#888;font-weight:500;">Recuperación estimada</div>
+        <div style="height:4px;background:#e0f0e8;border-radius:100px;margin-top:.5rem;overflow:hidden;">
+          <div style="height:100%;width:100%;background:linear-gradient(90deg,var(--green-dark),var(--green-light));border-radius:100px;"></div>
+        </div>
+      </div>
+
+      <!-- Beneficio esperado -->
+      <div style="background:var(--green-dark);border-radius:18px;padding:1.5rem;display:flex;flex-direction:column;gap:.4rem;position:relative;overflow:hidden;">
+        <div style="position:absolute;bottom:-15px;right:-15px;width:70px;height:70px;background:rgba(255,255,255,.07);border-radius:50%;"></div>
+        <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.25rem;">
+          <span class="material-icons-outlined" style="font-size:18px;color:rgba(255,255,255,.8);">savings</span>
+          <span style="font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.7);">Beneficio esperado</span>
+        </div>
+        <div style="font-size:2rem;font-weight:900;color:#fff;line-height:1;">Q892,000</div>
+        <div style="font-size:.78rem;color:rgba(255,255,255,.6);font-weight:500;">Valor total generado</div>
+        <div style="display:flex;align-items:center;gap:.4rem;margin-top:.4rem;background:rgba(255,255,255,.1);border-radius:8px;padding:.4rem .7rem;">
+          <span class="material-icons-outlined" style="font-size:14px;color:rgba(255,255,255,.7);">repeat</span>
+          <span style="font-size:.75rem;color:rgba(255,255,255,.85);font-weight:600;">Q137,230.77 / mes</span>
+        </div>
+      </div>
+
+    </div><!-- fin grid métricas -->
+  </div><!-- fin layout -->
+
+  <div style="background:var(--green-bg);border-radius:20px;padding:1.5rem 2.5rem;margin-top:2rem;position:relative;z-index:1;text-align:center;" class="reveal">
     <p style="font-size:1.05rem;font-weight:700;color:var(--green-dark);font-style:italic;">
       La inversión busca mejorar la experiencia estudiantil y optimizar procesos del departamento.
     </p>
@@ -681,38 +719,67 @@
 
   <h2 class="slide-title reveal">Equipo de Trabajo</h2>
 
-  <p style="font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.78rem;color:var(--green-dark);margin-bottom:1.25rem;position:relative;z-index:1;" class="reveal">Equipo Multidisciplinario</p>
-  <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:1.25rem;position:relative;z-index:1;justify-items:center;">
-    <div class="team-card reveal" style="border-bottom-color:var(--green-dark);width:100%;display:flex;flex-direction:column;align-items:center;">
-      <div class="team-card-icon" style="background:var(--green-dark);color:#fff;"><span class="material-icons-outlined">account_tree</span></div>
-      <div class="team-role" style="color:var(--green-dark)">Dirección</div>
-      <div class="team-name">Project Manager</div>
-      <div class="team-id">Planificación y visión del proyecto</div>
+  <p style="font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.78rem;color:var(--green-dark);margin-bottom:1.5rem;position:relative;z-index:1;" class="reveal">Equipo Multidisciplinario</p>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.5rem;position:relative;z-index:1;">
+
+    <!-- Encargado del Proyecto -->
+    <div class="team-card reveal" style="border-bottom:4px solid var(--green-dark);width:100%;display:flex;flex-direction:column;align-items:center;padding:2rem 1.5rem;background:#fff;border-radius:18px;box-shadow:0 4px 20px rgba(0,0,0,.07);">
+      <div style="width:64px;height:64px;border-radius:50%;background:var(--green-dark);color:#fff;display:flex;align-items:center;justify-content:center;margin-bottom:1rem;box-shadow:0 6px 18px rgba(26,77,46,.3);">
+        <span class="material-icons-outlined" style="font-size:28px;">person_pin</span>
+      </div>
+      <div style="font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--green-dark);margin-bottom:.35rem;">Encargado del Proyecto</div>
+      <div style="font-size:1.05rem;font-weight:800;color:var(--black);margin-bottom:.4rem;">1 Persona</div>
+      <div style="font-size:.83rem;color:#888;text-align:center;line-height:1.6;">
+        Define la dirección, toma decisiones clave y representa al equipo ante los interesados.
+      </div>
+      <div style="margin-top:1rem;background:var(--green-bg);border-radius:10px;padding:.5rem 1rem;font-size:.75rem;font-weight:700;color:var(--green-dark);">
+        Responsable general
+      </div>
     </div>
-    <div class="team-card reveal" style="border-bottom-color:var(--green-dark);width:100%;display:flex;flex-direction:column;align-items:center;">
-      <div class="team-card-icon" style="background:var(--green-dark);color:#fff;"><span class="material-icons-outlined">sports_score</span></div>
-      <div class="team-role" style="color:var(--green-dark)">Coordinación</div>
-      <div class="team-name">Scrum Master</div>
-      <div class="team-id">Seguimiento y destrabe de bloqueos</div>
+
+    <!-- Coordinador -->
+    <div class="team-card reveal" style="border-bottom:4px solid var(--green-mid);width:100%;display:flex;flex-direction:column;align-items:center;padding:2rem 1.5rem;background:#fff;border-radius:18px;box-shadow:0 4px 20px rgba(0,0,0,.07);">
+      <div style="width:64px;height:64px;border-radius:50%;background:var(--green-mid);color:#fff;display:flex;align-items:center;justify-content:center;margin-bottom:1rem;box-shadow:0 6px 18px rgba(45,122,79,.25);">
+        <span class="material-icons-outlined" style="font-size:28px;">groups</span>
+      </div>
+      <div style="font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--green-mid);margin-bottom:.35rem;">Coordinador</div>
+      <div style="font-size:1.05rem;font-weight:800;color:var(--black);margin-bottom:.4rem;">1 Persona</div>
+      <div style="font-size:.83rem;color:#888;text-align:center;line-height:1.6;">
+        Organiza el trabajo del equipo, da seguimiento al avance y resuelve bloqueos del día a día.
+      </div>
+      <div style="margin-top:1rem;background:#f0faf4;border-radius:10px;padding:.5rem 1rem;font-size:.75rem;font-weight:700;color:var(--green-mid);">
+        Seguimiento continuo
+      </div>
     </div>
-    <div class="team-card reveal" style="width:100%;display:flex;flex-direction:column;align-items:center;">
-      <div class="team-card-icon"><span class="material-icons-outlined">code</span></div>
-      <div class="team-role">Construcción</div>
-      <div class="team-name">Desarrollo Fullstack</div>
-      <div class="team-id">Frontend · Backend · Base de datos</div>
+
+    <!-- El resto del equipo -->
+    <div class="team-card reveal" style="border-bottom:4px solid var(--green-light);width:100%;display:flex;flex-direction:column;align-items:center;padding:2rem 1.5rem;background:#fff;border-radius:18px;box-shadow:0 4px 20px rgba(0,0,0,.07);">
+      <div style="width:64px;height:64px;border-radius:50%;background:var(--green-light);color:#fff;display:flex;align-items:center;justify-content:center;margin-bottom:1rem;box-shadow:0 6px 18px rgba(92,191,126,.25);">
+        <span class="material-icons-outlined" style="font-size:28px;">diversity_3</span>
+      </div>
+      <div style="font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--green-light);margin-bottom:.35rem;">Equipo de Trabajo</div>
+      <div style="font-size:1.05rem;font-weight:800;color:var(--black);margin-bottom:.7rem;">4 Personas</div>
+      <!-- chips de roles -->
+      <div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;">
+        <span style="background:var(--green-bg);border-radius:100px;padding:.3rem .9rem;font-size:.75rem;font-weight:700;color:var(--green-dark);">
+          <span class="material-icons-outlined" style="font-size:13px;vertical-align:middle;">build_circle</span> Construcción
+        </span>
+        <span style="background:var(--green-bg);border-radius:100px;padding:.3rem .9rem;font-size:.75rem;font-weight:700;color:var(--green-dark);">
+          <span class="material-icons-outlined" style="font-size:13px;vertical-align:middle;">check_circle_outline</span> Validación
+        </span>
+        <span style="background:var(--green-bg);border-radius:100px;padding:.3rem .9rem;font-size:.75rem;font-weight:700;color:var(--green-dark);">
+          <span class="material-icons-outlined" style="font-size:13px;vertical-align:middle;">palette</span> Diseño
+        </span>
+        <span style="background:var(--green-bg);border-radius:100px;padding:.3rem .9rem;font-size:.75rem;font-weight:700;color:var(--green-dark);">
+          <span class="material-icons-outlined" style="font-size:13px;vertical-align:middle;">edit_note</span> Planificación
+        </span>
+      </div>
+      <div style="margin-top:.9rem;font-size:.78rem;color:#888;text-align:center;line-height:1.6;">
+        Ejecutan, validan y entregan el portal de principio a fin.
+      </div>
     </div>
-    <div class="team-card reveal" style="width:100%;display:flex;flex-direction:column;align-items:center;">
-      <div class="team-card-icon"><span class="material-icons-outlined">fact_check</span></div>
-      <div class="team-role">Calidad</div>
-      <div class="team-name">QA / Validación</div>
-      <div class="team-id">Pruebas y control de calidad</div>
-    </div>
-    <div class="team-card reveal" style="width:100%;display:flex;flex-direction:column;align-items:center;">
-      <div class="team-card-icon"><span class="material-icons-outlined">design_services</span></div>
-      <div class="team-role">Experiencia</div>
-      <div class="team-name">Diseño y Planificación</div>
-      <div class="team-id">UI/UX · Experiencia de usuario</div>
-    </div>
+
   </div>
 
   <div style="background:linear-gradient(135deg,var(--green-dark),var(--green-main));color:#fff;border-radius:20px;padding:1.5rem 2.5rem;margin-top:2rem;position:relative;z-index:1;text-align:center;" class="reveal">
@@ -768,7 +835,7 @@
 
   <div style="background:var(--green-bg);border-radius:20px;padding:1.5rem 2.5rem;margin-top:2rem;position:relative;z-index:1;text-align:center;" class="reveal">
     <p style="font-size:1.05rem;font-weight:700;color:var(--green-dark);font-style:italic;">
-      "El proyecto mantiene control continuo y capacidad de adaptación."
+      El proyecto mantiene control continuo y capacidad de adaptación.
     </p>
   </div>
 
@@ -828,7 +895,7 @@
 <!-- ═══════════════════ FOOTER ═══════════════════ -->
 <footer>
   <div class="footer-logo">JACK'S CAVE</div>
-  <div class="footer-sub">Universidad del Valle de Guatemala — Administración de Proyectos 2026</div>
+  <div class="footer-sub">Universidad del Valle de Guatemala — Administración de Proyectos 2025</div>
   <div class="footer-names">
     Irving Acosta &nbsp;·&nbsp; Francis Aguilar &nbsp;·&nbsp; Paula Barillas<br/>
     Diego García &nbsp;·&nbsp; Angela García &nbsp;·&nbsp; Gerardo Pineda
