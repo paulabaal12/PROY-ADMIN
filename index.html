@@ -19,20 +19,17 @@
     <span class="nav-brand-text">Jack's <span>Cave</span></span>
   </a>
   <ul class="nav-links">
-    <li><a href="#producto">Producto</a></li>
-    <li><a href="#usuarios">Usuarios</a></li>
-    <li><a href="#epicas">Épicas</a></li>
-    <li><a href="#metodologias">Metodologías</a></li>
-    <li><a href="#costos">Costos</a></li>
-    <li><a href="#sla">Acuerdo de Servicio</a></li>
+    <li><a href="#problema">Problemática</a></li>
+    <li><a href="#solucion">Solución</a></li>
+    <li><a href="#usuarios">Interesados</a></li>
+    <li><a href="#modulos">Módulos</a></li>
+    <li><a href="#inversion">Inversión</a></li>
     <li><a href="#equipo">Equipo</a></li>
   </ul>
-  <!-- investor toggle hidden, activated by dragon click -->
 </nav>
 
 <!-- ═══════════════════ HERO ═══════════════════ -->
 <section id="hero">
-  <!-- Deco shapes -->
   <div class="geo geo-tl"></div>
   <div class="geo geo-tr"></div>
   <div class="geo geo-tr-sm"></div>
@@ -43,30 +40,35 @@
       JACK'S<br/><span class="green">CAVE</span>
     </h1>
     <p class="hero-names reveal">
-      Gerardo Pineda, Francis Aguilar, Diego García,<br/>
-      Angela García, Irving Acosta, Paula Barillas
+      Portal Académico de Ciencias de la Computación<br/>
+      <strong style="color:var(--green-dark)">Universidad del Valle de Guatemala</strong>
     </p>
+
+    <div style="margin-top:1.5rem;font-size:.88rem;color:#888;font-style:italic;" class="reveal">
+      Irving Acosta &nbsp;·&nbsp; Francis Aguilar &nbsp;·&nbsp; Paula Barillas<br/>
+      Diego García &nbsp;·&nbsp; Angela García &nbsp;·&nbsp; Gerardo Pineda
+    </div>
 
     <!-- Stats row -->
     <div style="display:flex;gap:2.5rem;margin-top:2.5rem;" class="reveal">
       <div>
-        <div style="font-size:2.2rem;font-weight:900;color:var(--green-main);" data-to="200" data-suf=" pts">0 pts</div>
-        <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:.1em;color:#999;font-weight:600;">Funcionalidades del producto</div>
+        <div style="font-size:2.2rem;font-weight:900;color:var(--green-main);" data-to="6" data-suf=" módulos">0 módulos</div>
+        <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:.1em;color:#999;font-weight:600;">Funcionalidades centralizadas</div>
       </div>
       <div>
-        <div style="font-size:2.2rem;font-weight:900;color:var(--green-main);" data-to="6" data-suf=" épicas">0 épicas</div>
-        <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:.1em;color:#999;font-weight:600;">Épicas definidas</div>
+        <div style="font-size:2.2rem;font-weight:900;color:var(--green-main);" data-to="6" data-suf=" meses">0 meses</div>
+        <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:.1em;color:#999;font-weight:600;">Duración del proyecto</div>
       </div>
       <div>
-        <div style="font-size:2.2rem;font-weight:900;color:var(--green-main);" data-to="3" data-suf=" metod.">0 metod.</div>
-        <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:.1em;color:#999;font-weight:600;">Metodologías</div>
+        <div style="font-size:2.2rem;font-weight:900;color:var(--green-main);" data-to="445500" data-pre="Q">Q0</div>
+        <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:.1em;color:#999;font-weight:600;">Inversión estimada</div>
       </div>
     </div>
 
     <div style="margin-top:2rem;" class="reveal">
-      <a href="#producto" style="display:inline-flex;align-items:center;gap:.5rem;background:var(--green-dark);color:#fff;padding:.85rem 2rem;border-radius:100px;font-weight:700;font-size:.85rem;text-decoration:none;text-transform:uppercase;letter-spacing:.08em;">
+      <a href="#problema" style="display:inline-flex;align-items:center;gap:.5rem;background:var(--green-dark);color:#fff;padding:.85rem 2rem;border-radius:100px;font-weight:700;font-size:.85rem;text-decoration:none;text-transform:uppercase;letter-spacing:.08em;">
         <span class="material-icons-outlined" style="font-size:18px;">explore</span>
-        Ver Proyecto
+        Ver Presentación
       </a>
     </div>
   </div>
@@ -79,23 +81,72 @@
   <div class="slide-num">01</div>
 </section>
 
-<!-- ═══════════════════ PRODUCTO ═══════════════════ -->
-<section id="producto" class="slide slide-light">
+<!-- ═══════════════════ PROBLEMÁTICA ═══════════════════ -->
+<section id="problema" class="slide slide-light">
   <div class="geo geo-tl"></div>
   <div class="geo geo-br"></div>
 
-  <h2 class="slide-title reveal">Producto a Desarrollar</h2>
+  <h2 class="slide-title reveal">La información está dispersa</h2>
 
   <div class="product-grid">
     <div class="product-text reveal">
-      <p>Un <strong>portal web centralizado</strong> de gestión de información académica.</p>
-      <br/>
-      <p>El sistema permite a los estudiantes <strong>consultar sus horas de extensión y beca</strong>, acceder a oportunidades para completarlas y leer o publicar contenido en un blog, operando bajo un esquema robusto de <strong>roles y permisos</strong>.</p>
-      <br/>
-      <p style="font-size:.85rem;color:#888;font-style:italic;">
-        Exclusivo para estudiantes de Ingeniería en Ciencias de la Computación y Licenciatura en Sistemas Informáticos — UVG.
+      <p style="font-size:1.1rem;font-weight:600;color:var(--green-dark);margin-bottom:1.25rem;">
+        Actualmente los estudiantes deben consultar múltiples plataformas para encontrar información importante del departamento.
       </p>
+
+      <p style="font-weight:700;text-transform:uppercase;font-size:.75rem;letter-spacing:.1em;color:#999;margin-bottom:.75rem;">Problemas principales</p>
+      <ul style="list-style:none;margin-bottom:1.5rem;">
+        <li style="display:flex;align-items:center;gap:.6rem;padding:.4rem 0;border-bottom:1px solid #f0f0f0;font-size:.95rem;color:var(--gray-text);">
+          <span class="material-icons-outlined" style="font-size:16px;color:#dc2626;">cancel</span> Pérdida de oportunidades académicas
+        </li>
+        <li style="display:flex;align-items:center;gap:.6rem;padding:.4rem 0;border-bottom:1px solid #f0f0f0;font-size:.95rem;color:var(--gray-text);">
+          <span class="material-icons-outlined" style="font-size:16px;color:#dc2626;">cancel</span> Información desactualizada
+        </li>
+        <li style="display:flex;align-items:center;gap:.6rem;padding:.4rem 0;border-bottom:1px solid #f0f0f0;font-size:.95rem;color:var(--gray-text);">
+          <span class="material-icons-outlined" style="font-size:16px;color:#dc2626;">cancel</span> Desorganización institucional
+        </li>
+        <li style="display:flex;align-items:center;gap:.6rem;padding:.4rem 0;border-bottom:1px solid #f0f0f0;font-size:.95rem;color:var(--gray-text);">
+          <span class="material-icons-outlined" style="font-size:16px;color:#dc2626;">cancel</span> Comunicación fragmentada
+        </li>
+        <li style="display:flex;align-items:center;gap:.6rem;padding:.4rem 0;font-size:.95rem;color:var(--gray-text);">
+          <span class="material-icons-outlined" style="font-size:16px;color:#dc2626;">cancel</span> Procesos administrativos manuales
+        </li>
+      </ul>
+
+      <div style="background:var(--green-dark);color:#fff;border-radius:14px;padding:1.25rem 1.5rem;font-size:1.05rem;font-weight:700;line-height:1.5;font-style:italic;">
+        No existe un punto central de información para los estudiantes.
+      </div>
     </div>
+
+    <div class="product-img reveal">
+      <div style="display:flex;flex-direction:column;gap:1rem;width:100%;">
+        <p style="font-weight:700;text-transform:uppercase;font-size:.75rem;letter-spacing:.1em;color:#999;margin-bottom:.25rem;">Impacto actual</p>
+        <div class="info-card" style="border-top:4px solid #dc2626;">
+          <div class="info-card-title" style="color:#dc2626;"><span class="material-icons-outlined" style="color:#dc2626;">person</span> Estudiantes</div>
+          <div class="metric-row"><span class="metric-label">Horas beca y extensión perdidas</span><span class="metric-val" style="color:#dc2626;">Sin visibilidad</span></div>
+          <div class="metric-row"><span class="metric-label">Menor participación estudiantil</span><span class="metric-val" style="color:#dc2626;">Impacto alto</span></div>
+        </div>
+        <div class="info-card" style="border-top:4px solid #d97706;">
+          <div class="info-card-title" style="color:#d97706;"><span class="material-icons-outlined" style="color:#d97706;">admin_panel_settings</span> Administración</div>
+          <div class="metric-row"><span class="metric-label">Mayor carga administrativa</span><span class="metric-val" style="color:#d97706;">Ineficiencia</span></div>
+          <div class="metric-row"><span class="metric-label">Procesos manuales repetitivos</span><span class="metric-val" style="color:#d97706;">Costo alto</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-num">02</div>
+</section>
+
+<!-- ═══════════════════ SOLUCIÓN ═══════════════════ -->
+<section id="solucion" class="slide slide-white">
+  <div class="geo geo-tr"></div>
+  <div class="geo geo-tr-sm"></div>
+  <div class="geo geo-bl"></div>
+
+  <h2 class="slide-title reveal">Una plataforma centralizada<br/><span style="color:var(--black);font-size:.6em;">para estudiantes del departamento</span></h2>
+
+  <div class="product-grid">
     <div class="product-img reveal">
       <div class="product-mockup">
         <div class="pm-bar">
@@ -129,18 +180,37 @@
         </div>
       </div>
     </div>
+
+    <div class="product-text reveal">
+      <p style="font-size:1.05rem;font-weight:600;color:var(--green-dark);margin-bottom:1.25rem;">
+        Jack's Cave es un portal web que centraliza toda la información académica y extracurricular del Departamento de Ciencias de la Computación.
+      </p>
+
+      <p style="font-weight:700;text-transform:uppercase;font-size:.75rem;letter-spacing:.1em;color:#999;margin-bottom:.75rem;">Características principales</p>
+      <ul class="check-list">
+        <li><span class="material-icons-outlined">check_circle_outline</span> Consulta de horas beca y extensión</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Oportunidades académicas centralizadas</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Noticias y actividades del departamento</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Blog académico estudiantil</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Gestión de usuarios y roles</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Notificaciones y alertas importantes</li>
+      </ul>
+
+      <div style="background:var(--green-bg);border-radius:14px;padding:1.25rem 1.5rem;margin-top:1.5rem;font-size:1.05rem;font-weight:700;color:var(--green-dark);line-height:1.5;font-style:italic;">
+        Un solo lugar para toda la información importante.
+      </div>
+    </div>
   </div>
 
-  <div class="slide-num">02</div>
+  <div class="slide-num">03</div>
 </section>
 
-<!-- ═══════════════════ USUARIOS ═══════════════════ -->
-<section id="usuarios" class="slide slide-white">
-  <div class="geo geo-tr"></div>
-  <div class="geo geo-tr-sm"></div>
-  <div class="geo geo-bl"></div>
+<!-- ═══════════════════ USUARIOS / INTERESADOS ═══════════════════ -->
+<section id="usuarios" class="slide slide-pale">
+  <div class="geo geo-tl"></div>
+  <div class="geo geo-br"></div>
 
-  <h2 class="slide-title reveal">Tipos de Usuarios</h2>
+  <h2 class="slide-title reveal">Interesados del Proyecto</h2>
 
   <div class="users-grid">
     <div class="reveal">
@@ -149,14 +219,14 @@
         <div class="user-arrow"><span class="material-icons-outlined">chevron_right</span></div>
         <div>
           <div class="user-name">Estudiantes</div>
-          <div class="user-desc">Lectores del portal, consultan horas y aplican a oportunidades.</div>
+          <div class="user-desc">Consultan sus horas beca y extensión, exploran oportunidades y acceden al portal.</div>
         </div>
       </div>
       <div class="user-item">
         <div class="user-arrow"><span class="material-icons-outlined">chevron_right</span></div>
         <div>
           <div class="user-name">Redactores</div>
-          <div class="user-desc">Estudiantes autorizados para proponer y escribir artículos del blog.</div>
+          <div class="user-desc">Estudiantes autorizados para proponer y escribir artículos del blog académico.</div>
         </div>
       </div>
       <div class="user-item">
@@ -174,548 +244,585 @@
         <div class="user-arrow" style="background:var(--green-dark);"><span class="material-icons-outlined">chevron_right</span></div>
         <div>
           <div class="user-name">Catedráticos</div>
-          <div class="user-desc">Publican oportunidades de horas beca y extensión.</div>
+          <div class="user-desc">Publican oportunidades de horas beca y extensión para los estudiantes.</div>
         </div>
       </div>
       <div class="user-item">
         <div class="user-arrow" style="background:var(--green-dark);"><span class="material-icons-outlined">chevron_right</span></div>
         <div>
           <div class="user-name">Administradores</div>
-          <div class="user-desc">Asignan roles, gestionan el portal y actualizan registros masivos.</div>
+          <div class="user-desc">Asignan roles, gestionan el portal y actualizan registros masivos de horas.</div>
         </div>
       </div>
       <div class="user-item">
         <div class="user-arrow" style="background:var(--green-dark);"><span class="material-icons-outlined">chevron_right</span></div>
         <div>
           <div class="user-name">Asociación</div>
-          <div class="user-desc">Publica noticias, actividades y controla cupos de oportunidades.</div>
+          <div class="user-desc">Publica noticias, actividades y controla cupos de oportunidades estudiantiles.</div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="slide-num">03</div>
+  <div class="slide-num">04</div>
 </section>
 
-<!-- ═══════════════════ ÉPICAS ═══════════════════ -->
-<section id="epicas" class="slide slide-pale">
+<!-- ═══════════════════ MÓDULOS ═══════════════════ -->
+<section id="modulos" class="slide slide-light">
   <div class="geo geo-tl"></div>
   <div class="geo geo-br"></div>
 
-  <h2 class="slide-title reveal">Épicas del Proyecto</h2>
+  <div style="display:flex;align-items:center;gap:2rem;position:relative;z-index:1;" class="reveal">
+    <h2 class="slide-title" style="margin-bottom:0;">Módulos Principales</h2>
+    <img src="img/3.png" alt="Módulos" style="height:160px;object-fit:contain;filter:drop-shadow(0 8px 24px rgba(0,0,0,.12));" onerror="this.style.display='none'"/>
+  </div>
   <p style="color:#666;margin-bottom:2rem;position:relative;z-index:1;font-size:.88rem;" class="reveal">
-    Haz clic en cada módulo para ver sus funcionalidades. Producto inicial: <strong style="color:var(--green-dark)">200 puntos</strong> de 255 en total.
+    Haz clic en cada módulo para ver su alcance.
   </p>
 
   <div class="epics-grid">
 
     <div class="epic-card reveal">
-      <div class="epic-code">EP01</div>
-      <div class="epic-name">Registro y Gestión de Perfiles de Usuario</div>
-      <span class="epic-pts"><span class="material-icons-outlined">stars</span> 34 pts</span>
+      <div class="epic-code" style="display:flex;align-items:center;gap:.4rem;"><span class="material-icons-outlined" style="font-size:16px;">manage_accounts</span> Módulo 1</div>
+      <div class="epic-name">Gestión de Usuarios</div>
+      <span class="epic-pts"><span class="material-icons-outlined">check_circle_outline</span> Registro · Roles · Accesos</span>
       <div class="epic-detail">
-        <div class="epic-us"><span class="epic-us-tag">US01</span> Registro de estudiante</div>
-        <div class="epic-us"><span class="epic-us-tag">US04</span> Registro usuario administrativo</div>
-        <div class="epic-us"><span class="epic-us-tag">US05</span> Inicio de sesión</div>
-        <div class="epic-us"><span class="epic-us-tag">US07</span> Redirección según rol</div>
-        <div class="epic-us"><span class="epic-us-tag">US08</span> Recuperación de contraseña</div>
-        <div class="epic-us"><span class="epic-us-tag">US09</span> Edición de perfil</div>
-        <div class="epic-us"><span class="epic-us-tag">US10</span> Cierre de sesión</div>
-        <div class="epic-us"><span class="epic-us-tag">US12</span> Cambio de contraseña</div>
-        <div class="epic-us"><span class="epic-us-tag">US13</span> Bloqueo por intentos fallidos</div>
-        <div class="epic-us"><span class="epic-us-tag">US15</span> Sesión persistente</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Registro de estudiantes y personal</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Asignación de roles y permisos</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Inicio de sesión seguro</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Recuperación de contraseña</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Control de accesos por perfil</div>
       </div>
     </div>
 
     <div class="epic-card reveal">
-      <div class="epic-code">EP02</div>
-      <div class="epic-name">Consulta de Horas de Extensión y Horas Beca</div>
-      <span class="epic-pts"><span class="material-icons-outlined">stars</span> 17 pts</span>
+      <div class="epic-code" style="display:flex;align-items:center;gap:.4rem;"><span class="material-icons-outlined" style="font-size:16px;">schedule</span> Módulo 2</div>
+      <div class="epic-name">Horas Beca y Extensión</div>
+      <span class="epic-pts"><span class="material-icons-outlined">check_circle_outline</span> Consulta · Progreso · Historial</span>
       <div class="epic-detail">
-        <div class="epic-us"><span class="epic-us-tag">US01</span> Consultar horas por tipo</div>
-        <div class="epic-us"><span class="epic-us-tag">US02</span> Carga y actualización (Admin)</div>
-        <div class="epic-us"><span class="epic-us-tag">US03</span> Estado de cumplimiento</div>
-        <div class="epic-us"><span class="epic-us-tag">US04</span> Acceso seguro de información</div>
-        <div class="epic-us"><span class="epic-us-tag">US05</span> Mensaje cuando no hay horas</div>
-        <div class="epic-us"><span class="epic-us-tag">US09</span> Ordenar historial de horas</div>
-        <div class="epic-us"><span class="epic-us-tag">US10</span> Filtrar por tipo y semestre</div>
-        <div class="epic-us"><span class="epic-us-tag">US11</span> Exportar historial PDF/CSV</div>
-        <div class="epic-us"><span class="epic-us-tag">US12</span> Gráfica de progreso</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Consulta de horas por tipo</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Estado de cumplimiento visible</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Historial por semestre</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Gráfica de progreso académico</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Exportar información</div>
       </div>
     </div>
 
     <div class="epic-card reveal">
-      <div class="epic-code">EP03</div>
-      <div class="epic-name">Gestión de Oportunidades de Horas</div>
-      <span class="epic-pts"><span class="material-icons-outlined">stars</span> 68 pts</span>
+      <div class="epic-code" style="display:flex;align-items:center;gap:.4rem;"><span class="material-icons-outlined" style="font-size:16px;">work_outline</span> Módulo 3</div>
+      <div class="epic-name">Oportunidades</div>
+      <span class="epic-pts"><span class="material-icons-outlined">check_circle_outline</span> Convocatorias · Postulaciones</span>
       <div class="epic-detail">
-        <div class="epic-us"><span class="epic-us-tag">US01</span> Crear oportunidad hora beca</div>
-        <div class="epic-us"><span class="epic-us-tag">US02</span> Editar oportunidades publicadas</div>
-        <div class="epic-us"><span class="epic-us-tag">US03</span> Cerrar convocatoria manualmente</div>
-        <div class="epic-us"><span class="epic-us-tag">US04</span> Cierre automático por cupos</div>
-        <div class="epic-us"><span class="epic-us-tag">US06</span> Listado de oportunidades</div>
-        <div class="epic-us"><span class="epic-us-tag">US08</span> Postularse a una oportunidad</div>
-        <div class="epic-us"><span class="epic-us-tag">US12</span> Aprobar / rechazar postulaciones</div>
-        <div class="epic-us"><span class="epic-us-tag">US13</span> Registro de asistencia</div>
-        <div class="epic-us"><span class="epic-us-tag">US17-19</span> Notificaciones de postulación</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Listado de oportunidades disponibles</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Postulación en línea</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Aprobación o rechazo de postulantes</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Cierre automático por cupos</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Notificaciones de resultado</div>
       </div>
     </div>
 
     <div class="epic-card reveal">
-      <div class="epic-code">EP04</div>
-      <div class="epic-name">Blog: Redacción, Edición y Publicación</div>
-      <span class="epic-pts"><span class="material-icons-outlined">stars</span> 23 pts</span>
+      <div class="epic-code" style="display:flex;align-items:center;gap:.4rem;"><span class="material-icons-outlined" style="font-size:16px;">article</span> Módulo 4</div>
+      <div class="epic-name">Blog Académico</div>
+      <span class="epic-pts"><span class="material-icons-outlined">check_circle_outline</span> Publicaciones · Artículos</span>
       <div class="epic-detail">
-        <div class="epic-us"><span class="epic-us-tag">US01</span> Crear borrador de artículo</div>
-        <div class="epic-us"><span class="epic-us-tag">US02</span> Guardar borrador manualmente</div>
-        <div class="epic-us"><span class="epic-us-tag">US03</span> Editar artículo en borrador</div>
-        <div class="epic-us"><span class="epic-us-tag">US04</span> Agregar imágenes</div>
-        <div class="epic-us"><span class="epic-us-tag">US07</span> Enviar a revisión</div>
-        <div class="epic-us"><span class="epic-us-tag">US09</span> Aprobar artículo (Editor)</div>
-        <div class="epic-us"><span class="epic-us-tag">US10</span> Rechazar con comentarios</div>
-        <div class="epic-us"><span class="epic-us-tag">US11</span> Publicar artículo (Admin)</div>
-        <div class="epic-us"><span class="epic-us-tag">US12</span> Despublicar sin eliminar</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Redacción de artículos estudiantiles</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Revisión editorial antes de publicar</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Publicación y despublicación</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Contenido con imágenes</div>
       </div>
     </div>
 
     <div class="epic-card reveal">
-      <div class="epic-code">EP05</div>
-      <div class="epic-name">Administración de Contenido y Roles</div>
-      <span class="epic-pts"><span class="material-icons-outlined">stars</span> 31 pts</span>
+      <div class="epic-code" style="display:flex;align-items:center;gap:.4rem;"><span class="material-icons-outlined" style="font-size:16px;">admin_panel_settings</span> Módulo 5</div>
+      <div class="epic-name">Administración</div>
+      <span class="epic-pts"><span class="material-icons-outlined">check_circle_outline</span> Gestión · Control · Permisos</span>
       <div class="epic-detail">
-        <div class="epic-us"><span class="epic-us-tag">US01</span> Ver listado de usuarios</div>
-        <div class="epic-us"><span class="epic-us-tag">US03</span> Asignar rol a usuario</div>
-        <div class="epic-us"><span class="epic-us-tag">US04</span> Cambiar rol de usuario</div>
-        <div class="epic-us"><span class="epic-us-tag">US05</span> Activar / desactivar acceso</div>
-        <div class="epic-us"><span class="epic-us-tag">US06</span> Cargar archivos de horas</div>
-        <div class="epic-us"><span class="epic-us-tag">US07</span> Validar errores en carga</div>
-        <div class="epic-us"><span class="epic-us-tag">US08</span> Actualizar horas un usuario</div>
-        <div class="epic-us"><span class="epic-us-tag">US09</span> Historial de actualizaciones</div>
-        <div class="epic-us"><span class="epic-us-tag">US11</span> Búsqueda avanzada usuarios</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Panel administrativo centralizado</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Gestión de roles y accesos</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Carga masiva de información</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Historial de actualizaciones</div>
       </div>
     </div>
 
     <div class="epic-card reveal">
-      <div class="epic-code">EP06</div>
-      <div class="epic-name">Notificaciones y Difusión de la Asociación</div>
-      <span class="epic-pts"><span class="material-icons-outlined">stars</span> 27 pts</span>
+      <div class="epic-code" style="display:flex;align-items:center;gap:.4rem;"><span class="material-icons-outlined" style="font-size:16px;">notifications_active</span> Módulo 6</div>
+      <div class="epic-name">Notificaciones</div>
+      <span class="epic-pts"><span class="material-icons-outlined">check_circle_outline</span> Alertas · Recordatorios</span>
       <div class="epic-detail">
-        <div class="epic-us"><span class="epic-us-tag">US01</span> Publicar noticia o actividad</div>
-        <div class="epic-us"><span class="epic-us-tag">US04</span> Feed público de noticias</div>
-        <div class="epic-us"><span class="epic-us-tag">US07</span> Alerta nueva oportunidad</div>
-        <div class="epic-us"><span class="epic-us-tag">US08</span> Centro de notificaciones</div>
-        <div class="epic-us"><span class="epic-us-tag">US12</span> Buscar por palabra clave</div>
-        <div class="epic-us"><span class="epic-us-tag">US13</span> Notif. cambio de postulación</div>
-        <div class="epic-us"><span class="epic-us-tag">US14</span> Notif. actualización de horas</div>
-        <div class="epic-us"><span class="epic-us-tag">US15</span> Notif. cambio de rol</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Alertas de nuevas oportunidades</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Centro de notificaciones</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Aviso de actualización de horas</div>
+        <div class="epic-us"><span class="epic-us-tag">✓</span> Notificación de cambio de rol</div>
       </div>
     </div>
 
   </div>
-  <div class="slide-num">04</div>
+  <div class="slide-num">05</div>
 </section>
 
-<!-- ═══════════════════ METODOLOGÍAS ═══════════════════ -->
-<section id="metodologias" class="slide slide-white">
+<!-- ═══════════════════ ENTREGABLES ═══════════════════ -->
+<section class="slide slide-white">
   <div class="geo geo-tr"></div>
   <div class="geo geo-tr-sm"></div>
   <div class="geo geo-bl"></div>
 
-  <h2 class="slide-title reveal">Metodologías</h2>
+  <h2 class="slide-title reveal">¿Qué recibe el cliente?</h2>
 
-  <div class="method-hero">
-    <div class="method-dragon reveal">
-      <img src="img/8.png" alt="Dragon Metodologías"
-           onerror="this.src='img/2.png'"/>
+  <div class="method-detail-grid" style="position:relative;z-index:1;">
+    <div class="info-card reveal">
+      <div class="info-card-title"><span class="material-icons-outlined">public</span> Portal Web</div>
+      <ul class="check-list">
+        <li><span class="material-icons-outlined">check_circle_outline</span> Portal web funcional y accesible</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Plataforma centralizada de información</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Sistema de gestión académica</li>
+      </ul>
     </div>
-    <div class="method-cards reveal">
-      <div class="method-badge">
-        <div class="method-badge-icon">S</div>
-        <div>
-          <div class="method-badge-text">Scrum</div>
-          <div class="method-badge-sub">12 iteraciones · 6 meses · entrega continua</div>
-        </div>
-      </div>
-      <div class="method-badge dark-badge">
-        <div class="method-badge-icon">K</div>
-        <div>
-          <div class="method-badge-text">Kanban</div>
-          <div class="method-badge-sub">92 tareas · 7 meses · resolución promedio 5 días</div>
-        </div>
-      </div>
-      <div class="method-badge" style="background:var(--green-dark);">
-        <div class="method-badge-icon">SB</div>
-        <div>
-          <div class="method-badge-text">Scrumban</div>
-          <div class="method-badge-sub">13 iteraciones · 6.5 meses · 60% Desarrollo / 40% Soporte</div>
-        </div>
-      </div>
-      <div style="background:var(--green-bg);border-radius:16px;padding:1.25rem 1.5rem;display:flex;align-items:center;gap:1rem;">
-        <span class="material-icons-outlined" style="color:var(--green-dark);font-size:28px;">confirmation_number</span>
-        <div>
-          <div style="font-size:1.6rem;font-weight:900;color:var(--green-dark);">92</div>
-          <div style="font-size:.78rem;color:var(--green-main);font-weight:600;text-transform:uppercase;letter-spacing:.08em;">Funcionalidades documentadas</div>
-        </div>
-      </div>
+    <div class="info-card reveal">
+      <div class="info-card-title"><span class="material-icons-outlined">school</span> Módulos Académicos</div>
+      <ul class="check-list">
+        <li><span class="material-icons-outlined">check_circle_outline</span> Módulo de horas beca y extensión</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Gestión de oportunidades</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Sistema de notificaciones</li>
+      </ul>
+    </div>
+    <div class="info-card reveal">
+      <div class="info-card-title"><span class="material-icons-outlined">settings</span> Administración</div>
+      <ul class="check-list">
+        <li><span class="material-icons-outlined">check_circle_outline</span> Panel administrativo completo</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Blog académico con flujo editorial</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Soporte durante el desarrollo</li>
+      </ul>
+    </div>
+    <div class="info-card reveal">
+      <div class="info-card-title"><span class="material-icons-outlined">description</span> Documentación</div>
+      <ul class="check-list">
+        <li><span class="material-icons-outlined">check_circle_outline</span> Documentación técnica del proyecto</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Manual de usuario</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Reportes de avance periódicos</li>
+      </ul>
     </div>
   </div>
 
-  <div class="slide-num">05</div>
-</section>
-
-<!-- ═══════════════════ DETALLE METODOLOGÍAS ═══════════════════ -->
-<section class="slide slide-pale">
-  <div class="geo geo-tl"></div>
-
-  <h2 class="slide-title reveal">Detalle por <span style="color:var(--green-dark)">Metodología</span></h2>
-
-  <div class="tabs-group">
-    <div class="tabs-bar reveal">
-      <button class="tab-btn active" data-tab="t-scrum">Scrum</button>
-      <button class="tab-btn" data-tab="t-kanban">Kanban</button>
-      <button class="tab-btn" data-tab="t-scrumban">Scrumban</button>
-    </div>
-
-    <!-- SCRUM -->
-    <div class="tab-panel active" id="t-scrum">
-      <div class="method-detail-grid">
-        <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">speed</span> Planificación del Proyecto</div>
-          <div class="metric-row"><span class="metric-label">Iteraciones totales (con margen 15%)</span><span class="metric-val green">12 sprints</span></div>
-          <div class="metric-row"><span class="metric-label">Duración de cada iteración</span><span class="metric-val">2 semanas</span></div>
-          <div class="metric-row"><span class="metric-label">Capacidad del equipo</span><span class="metric-val">22 puntos por iteración</span></div>
-          <div class="metric-row"><span class="metric-label">Funcionalidades del producto</span><span class="metric-val">200 pts</span></div>
-          <div class="metric-row"><span class="metric-label">Duración total</span><span class="metric-val green">6 meses (24 semanas)</span></div>
-        </div>
-        <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">payments</span> Costos — Entregas por Iteración</div>
-          <div class="metric-row"><span class="metric-label">Gasto mensual del equipo</span><span class="metric-val">Q74,250</span></div>
-          <div class="metric-row"><span class="metric-label">Costo por iteración</span><span class="metric-val">Q37,125</span></div>
-          <div class="metric-row"><span class="metric-label">Costo total real (12 iteraciones)</span><span class="metric-val">Q445,500</span></div>
-          <div class="metric-row"><span class="metric-label">Costo mensual cliente</span><span class="metric-val">Q95,500</span></div>
-          <div class="metric-row"><span class="metric-label">Costo total cliente</span><span class="metric-val green">Q573,000</span></div>
-          <div class="metric-row"><span class="metric-label">Margen bruto</span><span class="metric-val green">22.25%</span></div>
-        </div>
-        <div class="info-card reveal prog-group">
-          <div class="info-card-title"><span class="material-icons-outlined">auto_graph</span> Velocidad por Escenario</div>
-          <div class="prog-row"><div class="prog-label"><span>Conservador (15 pts)</span><span>60%</span></div><div class="prog-bar"><div class="prog-fill" data-w="60"></div></div></div>
-          <div class="prog-row"><div class="prog-label"><span>Moderado (20 pts)</span><span>80%</span></div><div class="prog-bar"><div class="prog-fill" data-w="80"></div></div></div>
-          <div class="prog-row"><div class="prog-label"><span>Real (22 pts)</span><span>88%</span></div><div class="prog-bar"><div class="prog-fill" data-w="88"></div></div></div>
-          <div class="prog-row"><div class="prog-label"><span>Optimista (25 pts)</span><span>100%</span></div><div class="prog-bar"><div class="prog-fill" data-w="100"></div></div></div>
-        </div>
-        <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">group</span> Distribución del equipo</div>
-          <div class="metric-row"><span class="metric-label">Senior + 3 Middle + Junior</span><span class="metric-val green">Q60,500 dedicación completa</span></div>
-          <div class="metric-row"><span class="metric-label">Product Owner</span><span class="metric-val">Q10,000 dedicación parcial</span></div>
-          <div class="metric-row"><span class="metric-label">Coordinador de equipo</span><span class="metric-val">Q3,750 dedicación parcial</span></div>
-          <div class="metric-row" style="border-top:2px solid var(--green-pale);margin-top:.5rem;padding-top:.75rem"><span class="metric-label" style="font-weight:700">Gasto mensual</span><span class="metric-val green">Q74,250</span></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- KANBAN -->
-    <div class="tab-panel" id="t-kanban">
-      <div class="method-detail-grid">
-        <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">view_kanban</span> Flujo de trabajo</div>
-          <div class="metric-row"><span class="metric-label">Por iniciar</span><span class="metric-val">8 tickets</span></div>
-          <div class="metric-row"><span class="metric-label">En desarrollo</span><span class="metric-val">4 tickets</span></div>
-          <div class="metric-row"><span class="metric-label">En revisión</span><span class="metric-val">3 tickets</span></div>
-          <div class="metric-row"><span class="metric-label">Done</span><span class="metric-val">Sin límite</span></div>
-          <div class="metric-row"><span class="metric-label">Total de tareas</span><span class="metric-val green">92 tareas</span></div>
-        </div>
-        <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">timer</span> Tiempos de entrega</div>
-          <div class="metric-row"><span class="metric-label">Tiempo promedio por tarea</span><span class="metric-val green">5 días por tarea</span></div>
-          <div class="metric-row"><span class="metric-label">Tiempo de espera del cliente</span><span class="metric-val green">17 días hábiles</span></div>
-          <div class="metric-row"><span class="metric-label">Tareas completadas por semana</span><span class="metric-val">~4–5 tareas/semana</span></div>
-          <div class="metric-row"><span class="metric-label">Tareas completadas por mes</span><span class="metric-val">~18 tareas/mes</span></div>
-          <div class="metric-row"><span class="metric-label">Duración total</span><span class="metric-val green">7 meses</span></div>
-        </div>
-        <div class="info-card reveal prog-group">
-          <div class="info-card-title"><span class="material-icons-outlined">bar_chart</span> Clasificación de tareas</div>
-          <div class="prog-row"><div class="prog-label"><span>Tareas rápidas (11 tareas)</span><span>12%</span></div><div class="prog-bar"><div class="prog-fill" data-w="12"></div></div></div>
-          <div class="prog-row"><div class="prog-label"><span>Tareas sencillas (35 tareas)</span><span>38%</span></div><div class="prog-bar"><div class="prog-fill" data-w="38"></div></div></div>
-          <div class="prog-row"><div class="prog-label"><span>Tareas medias (32 tareas)</span><span>35%</span></div><div class="prog-bar"><div class="prog-fill" data-w="35"></div></div></div>
-          <div class="prog-row"><div class="prog-label"><span>Tareas complejas (14 tareas)</span><span>15%</span></div><div class="prog-bar"><div class="prog-fill" data-w="15"></div></div></div>
-        </div>
-        <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">payments</span> Costos — Flujo Continuo</div>
-          <div class="metric-row"><span class="metric-label">Gasto mensual del equipo</span><span class="metric-val">Q75,250</span></div>
-          <div class="metric-row"><span class="metric-label">Costo total real (7 meses)</span><span class="metric-val">Q526,750</span></div>
-          <div class="metric-row"><span class="metric-label">Costo mensual cliente</span><span class="metric-val">Q97,500</span></div>
-          <div class="metric-row"><span class="metric-label">Costo total cliente</span><span class="metric-val green">Q682,500</span></div>
-          <div class="metric-row"><span class="metric-label">Margen bruto</span><span class="metric-val green">22.8%</span></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- SCRUMBAN -->
-    <div class="tab-panel" id="t-scrumban">
-      <div class="method-detail-grid">
-        <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">merge</span> Planificación Híbrida</div>
-          <div class="metric-row"><span class="metric-label">Iteraciones (con margen 25%)</span><span class="metric-val green">13 sprints</span></div>
-          <div class="metric-row"><span class="metric-label">Duración total</span><span class="metric-val green">6.5 meses</span></div>
-          <div class="metric-row"><span class="metric-label">Velocidad</span><span class="metric-val">22 puntos por iteración</span></div>
-          <div class="metric-row"><span class="metric-label">Distribución</span><span class="metric-val">60% Desarrollo / 40% Soporte</span></div>
-        </div>
-        <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">calculate</span> Desglose de Costos</div>
-          <div class="metric-row"><span class="metric-label">Costo de desarrollo por iteración</span><span class="metric-val">Q29,700</span></div>
-          <div class="metric-row"><span class="metric-label">Soporte mensual</span><span class="metric-val">Q39,600</span></div>
-          <div class="metric-row"><span class="metric-label">Cargo por acuerdo de servicio</span><span class="metric-val">Q5,000/periodo</span></div>
-          <div class="metric-row"><span class="metric-label">Ingreso mensual del cliente</span><span class="metric-val">Q104,000</span></div>
-          <div class="metric-row"><span class="metric-label">Ingreso total del proyecto</span><span class="metric-val green">Q676,000</span></div>
-        </div>
-        <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">percent</span> Rentabilidad</div>
-          <div class="metric-row"><span class="metric-label">Costo real total</span><span class="metric-val">Q482,625</span></div>
-          <div class="metric-row"><span class="metric-label">Ingreso total cliente</span><span class="metric-val">Q676,000</span></div>
-          <div class="metric-row"><span class="metric-label">Margen objetivo</span><span class="metric-val">25%</span></div>
-          <div class="metric-row"><span class="metric-label">Margen bruto real</span><span class="metric-val green">~28.6%</span></div>
-        </div>
-        <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">psychology</span> ¿Por qué recomendamos este enfoque?</div>
-          <p style="font-size:.82rem;color:#666;line-height:1.8;">
-            Dado el <strong>alto riesgo de cambios</strong> del cliente, se adoptó enfoque <strong style="color:var(--green-dark)">60% Desarrollo / 40% Soporte</strong>.
-            Combina la organización de entregas planificadas con la flexibilidad de responder a cambios sin comprometer los resultados acordados.
-          </p>
-        </div>
-      </div>
-    </div>
+  <div style="background:linear-gradient(135deg,var(--green-dark),var(--green-main));color:#fff;border-radius:20px;padding:1.75rem 2.5rem;margin-top:2rem;position:relative;z-index:1;font-size:1.1rem;font-weight:700;text-align:center;font-style:italic;" class="reveal">
+    Una solución moderna y centralizada para el departamento.
   </div>
 
   <div class="slide-num">06</div>
 </section>
 
-<!-- ═══════════════════ COSTOS ═══════════════════ -->
-<section id="costos" class="slide slide-white">
-  <div class="geo geo-tr"></div>
-  <div class="geo geo-tr-sm"></div>
-  <div class="geo geo-bl"></div>
+<!-- ═══════════════════ CRONOGRAMA ═══════════════════ -->
+<section class="slide slide-pale">
+  <div class="geo geo-tl"></div>
+  <div class="geo geo-br"></div>
 
-  <h2 class="slide-title reveal">Estrategias de Implementación<br/><span style="font-size:.6em;color:var(--black)">y Opciones de Inversión</span></h2>
-
-  <div class="investor-block reveal">
-    <div class="investor-banner">
-      <h2>Visión para Inversores</h2>
-      <p>Portal SaaS universitario con modelo de servicio gestionado. Mercado inicial: UVG Guatemala.</p>
-      <div class="inv-kpis">
-        <div class="inv-kpi">
-          <div class="inv-kpi-val">28.6%</div>
-          <div class="inv-kpi-label">Mayor rentabilidad</div>
-        </div>
-        <div class="inv-kpi">
-          <div class="inv-kpi-val">Q676K</div>
-          <div class="inv-kpi-label">Ingreso total cliente</div>
-        </div>
-        <div class="inv-kpi">
-          <div class="inv-kpi-val">6 meses</div>
-          <div class="inv-kpi-label">Tiempo de lanzamiento</div>
-        </div>
-      </div>
+  <div style="display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1;" class="reveal">
+    <div>
+      <h2 class="slide-title" style="margin-bottom:.5rem;">Cronograma del Proyecto</h2>
+      <p style="color:#666;font-size:.9rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;">
+        Duración total: <strong style="color:var(--green-dark)">6 meses</strong>
+      </p>
     </div>
+    <img src="img/8.png" alt="Cronograma" style="height:170px;object-fit:contain;filter:drop-shadow(0 8px 24px rgba(0,0,0,.13));" onerror="this.style.display='none'"/>
   </div>
 
-  <div class="costs-grid">
-    <div class="cost-card cc-neutral reveal">
-      <div class="cost-method-name">Scrum</div>
-      <div class="cost-amount-badge">Q573,000</div>
-      <div class="cost-months-badge">6 meses de trabajo</div>
-      <div class="cost-desc">Alta organización con entregas periódicas y fechas claras de entrega.</div>
-      <div class="cost-details-list">
-        <div class="cost-detail-row"><span class="cdl">Costo real</span><span class="cdv">Q445,500</span></div>
-        <div class="cost-detail-row"><span class="cdl">Margen</span><span class="cdv">22.25%</span></div>
-        <div class="cost-detail-row"><span class="cdl">Gasto mensual</span><span class="cdv">Q74,250/mes</span></div>
-        <div class="cost-detail-row"><span class="cdl">Costo por iteración</span><span class="cdv">Q37,125</span></div>
+  <div style="position:relative;z-index:1;margin-top:2rem;">
+
+    <!-- Timeline de nodos -->
+    <div style="display:flex;gap:0;position:relative;margin-bottom:2.5rem;" class="reveal">
+      <div style="position:absolute;top:28px;left:4%;right:4%;height:3px;background:linear-gradient(90deg,var(--green-dark),var(--green-light));z-index:0;border-radius:2px;"></div>
+
+      <!-- Fase 1 -->
+      <div style="flex:1;text-align:center;position:relative;z-index:1;">
+        <div style="width:56px;height:56px;border-radius:50%;background:var(--green-dark);color:#fff;display:flex;align-items:center;justify-content:center;margin:0 auto .75rem;box-shadow:0 4px 16px rgba(26,77,46,.35);">
+          <span class="material-icons-outlined" style="font-size:22px;">edit_note</span>
+        </div>
+        <div style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--green-dark);">Fase 1</div>
+        <div style="font-size:.88rem;font-weight:700;color:var(--black);margin:.15rem 0 .2rem;">Planificación</div>
+        <div style="font-size:.72rem;color:#888;">Mes 1</div>
+      </div>
+      <!-- Fase 2 -->
+      <div style="flex:1;text-align:center;position:relative;z-index:1;">
+        <div style="width:56px;height:56px;border-radius:50%;background:var(--green-mid);color:#fff;display:flex;align-items:center;justify-content:center;margin:0 auto .75rem;box-shadow:0 4px 16px rgba(45,122,79,.3);">
+          <span class="material-icons-outlined" style="font-size:22px;">design_services</span>
+        </div>
+        <div style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--green-mid);">Fase 2</div>
+        <div style="font-size:.88rem;font-weight:700;color:var(--black);margin:.15rem 0 .2rem;">Diseño</div>
+        <div style="font-size:.72rem;color:#888;">Mes 1–2</div>
+      </div>
+      <!-- Fase 3 -->
+      <div style="flex:1;text-align:center;position:relative;z-index:1;">
+        <div style="width:56px;height:56px;border-radius:50%;background:var(--green-main);color:#fff;display:flex;align-items:center;justify-content:center;margin:0 auto .75rem;box-shadow:0 4px 16px rgba(58,143,92,.3);">
+          <span class="material-icons-outlined" style="font-size:22px;">construction</span>
+        </div>
+        <div style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--green-main);">Fase 3</div>
+        <div style="font-size:.88rem;font-weight:700;color:var(--black);margin:.15rem 0 .2rem;">Desarrollo</div>
+        <div style="font-size:.72rem;color:#888;">Mes 2–5</div>
+      </div>
+      <!-- Fase 4 -->
+      <div style="flex:1;text-align:center;position:relative;z-index:1;">
+        <div style="width:56px;height:56px;border-radius:50%;background:var(--green-light);color:#fff;display:flex;align-items:center;justify-content:center;margin:0 auto .75rem;box-shadow:0 4px 16px rgba(92,191,126,.3);">
+          <span class="material-icons-outlined" style="font-size:22px;">fact_check</span>
+        </div>
+        <div style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--green-light);">Fase 4</div>
+        <div style="font-size:.88rem;font-weight:700;color:var(--black);margin:.15rem 0 .2rem;">Pruebas</div>
+        <div style="font-size:.72rem;color:#888;">Mes 5</div>
+      </div>
+      <!-- Fase 5 -->
+      <div style="flex:1;text-align:center;position:relative;z-index:1;">
+        <div style="width:56px;height:56px;border-radius:50%;background:var(--green-pale);color:var(--green-dark);display:flex;align-items:center;justify-content:center;margin:0 auto .75rem;box-shadow:0 4px 12px rgba(0,0,0,.1);">
+          <span class="material-icons-outlined" style="font-size:22px;">rocket_launch</span>
+        </div>
+        <div style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--green-dark);">Fase 5</div>
+        <div style="font-size:.88rem;font-weight:700;color:var(--black);margin:.15rem 0 .2rem;">Implementación</div>
+        <div style="font-size:.72rem;color:#888;">Mes 6</div>
+      </div>
+      <!-- Fase 6 -->
+      <div style="flex:1;text-align:center;position:relative;z-index:1;">
+        <div style="width:56px;height:56px;border-radius:50%;background:#fff;border:3px solid var(--green-dark);color:var(--green-dark);display:flex;align-items:center;justify-content:center;margin:0 auto .75rem;box-shadow:0 4px 12px rgba(0,0,0,.1);">
+          <span class="material-icons-outlined" style="font-size:22px;">verified</span>
+        </div>
+        <div style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--green-dark);">Fase 6</div>
+        <div style="font-size:.88rem;font-weight:700;color:var(--black);margin:.15rem 0 .2rem;">Estabilización</div>
+        <div style="font-size:.72rem;color:#888;">Post-lanzamiento</div>
       </div>
     </div>
-    <div class="cost-card cc-scrumban reveal" style="position:relative;">
-      <div style="position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:#fff;color:var(--green-dark);font-size:.7rem;font-weight:800;padding:.3rem 1.1rem;border-radius:100px;text-transform:uppercase;letter-spacing:.08em;box-shadow:0 4px 12px rgba(0,0,0,.18);">Recomendado</div>
-      <div class="cost-method-name">Scrumban</div>
-      <div class="cost-amount-badge">Q676,000</div>
-      <div class="cost-months-badge">6.5 meses de trabajo</div>
-      <div class="cost-desc">Equilibrio entre estructura y flexibilidad, optimizando eficiencia y tiempos de entrega.</div>
-      <div class="cost-details-list">
-        <div class="cost-detail-row"><span class="cdl">Costo real</span><span class="cdv">Q482,625</span></div>
-        <div class="cost-detail-row"><span class="cdl">Margen</span><span class="cdv">~28.6%</span></div>
-        <div class="cost-detail-row"><span class="cdl">Ingreso/mes</span><span class="cdv">Q104,000</span></div>
+
+    <!-- Gantt mejorado -->
+    <div style="background:#fff;border-radius:20px;padding:2rem 2.5rem;box-shadow:0 4px 24px rgba(0,0,0,.07);" class="prog-group reveal">
+
+      <!-- Encabezado meses -->
+      <div style="display:grid;grid-template-columns:180px 1fr;gap:1rem;margin-bottom:1rem;">
+        <div></div>
+        <div style="display:grid;grid-template-columns:repeat(6,1fr);text-align:center;">
+          <div style="font-size:.7rem;font-weight:700;color:#aaa;text-transform:uppercase;letter-spacing:.06em;">Mes 1</div>
+          <div style="font-size:.7rem;font-weight:700;color:#aaa;text-transform:uppercase;letter-spacing:.06em;">Mes 2</div>
+          <div style="font-size:.7rem;font-weight:700;color:#aaa;text-transform:uppercase;letter-spacing:.06em;">Mes 3</div>
+          <div style="font-size:.7rem;font-weight:700;color:#aaa;text-transform:uppercase;letter-spacing:.06em;">Mes 4</div>
+          <div style="font-size:.7rem;font-weight:700;color:#aaa;text-transform:uppercase;letter-spacing:.06em;">Mes 5</div>
+          <div style="font-size:.7rem;font-weight:700;color:#aaa;text-transform:uppercase;letter-spacing:.06em;">Mes 6</div>
+        </div>
       </div>
-    </div>
-    <div class="cost-card cc-neutral reveal">
-      <div class="cost-method-name">Kanban</div>
-      <div class="cost-amount-badge">Q682,500</div>
-      <div class="cost-months-badge">7 meses de trabajo</div>
-      <div class="cost-desc">Flujo continuo y máxima flexibilidad para adaptarse a cambios.</div>
-      <div class="cost-details-list">
-        <div class="cost-detail-row"><span class="cdl">Costo real</span><span class="cdv">Q526,750</span></div>
-        <div class="cost-detail-row"><span class="cdl">Margen</span><span class="cdv">22.8%</span></div>
-        <div class="cost-detail-row"><span class="cdl">Gasto mensual</span><span class="cdv">Q75,250/mes</span></div>
-        <div class="cost-detail-row"><span class="cdl">Tiempo por tarea</span><span class="cdv">5 días</span></div>
+
+      <!-- Fila Planificación: mes 1 -->
+      <div style="display:grid;grid-template-columns:180px 1fr;gap:1rem;align-items:center;margin-bottom:.9rem;">
+        <div style="display:flex;align-items:center;gap:.6rem;">
+          <span class="material-icons-outlined" style="font-size:16px;color:var(--green-dark);">edit_note</span>
+          <span style="font-size:.82rem;font-weight:700;color:var(--black);">Planificación</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:3px;height:28px;">
+          <div style="background:var(--green-dark);border-radius:6px;grid-column:1/2;display:flex;align-items:center;justify-content:center;">
+            <span style="font-size:.65rem;font-weight:700;color:#fff;">F1</span>
+          </div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+        </div>
       </div>
-    </div>
+
+      <!-- Fila Diseño: mes 1–2 -->
+      <div style="display:grid;grid-template-columns:180px 1fr;gap:1rem;align-items:center;margin-bottom:.9rem;">
+        <div style="display:flex;align-items:center;gap:.6rem;">
+          <span class="material-icons-outlined" style="font-size:16px;color:var(--green-mid);">design_services</span>
+          <span style="font-size:.82rem;font-weight:700;color:var(--black);">Diseño</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:3px;height:28px;">
+          <div style="background:var(--green-mid);border-radius:6px;grid-column:1/3;display:flex;align-items:center;justify-content:center;">
+            <span style="font-size:.65rem;font-weight:700;color:#fff;">F2</span>
+          </div>
+          <div style="background:#f0f0f0;border-radius:6px;grid-column:3/4;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+        </div>
+      </div>
+
+      <!-- Fila Desarrollo: mes 2–5 -->
+      <div style="display:grid;grid-template-columns:180px 1fr;gap:1rem;align-items:center;margin-bottom:.9rem;">
+        <div style="display:flex;align-items:center;gap:.6rem;">
+          <span class="material-icons-outlined" style="font-size:16px;color:var(--green-main);">construction</span>
+          <span style="font-size:.82rem;font-weight:700;color:var(--black);">Desarrollo</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:3px;height:28px;">
+          <div style="background:#f0f0f0;border-radius:6px;grid-column:1/2;"></div>
+          <div style="background:var(--green-main);border-radius:6px;grid-column:2/6;display:flex;align-items:center;justify-content:center;">
+            <span style="font-size:.65rem;font-weight:700;color:#fff;">F3 — Etapa principal</span>
+          </div>
+          <div style="background:#f0f0f0;border-radius:6px;grid-column:6/7;"></div>
+        </div>
+      </div>
+
+      <!-- Fila Pruebas: mes 5 -->
+      <div style="display:grid;grid-template-columns:180px 1fr;gap:1rem;align-items:center;margin-bottom:.9rem;">
+        <div style="display:flex;align-items:center;gap:.6rem;">
+          <span class="material-icons-outlined" style="font-size:16px;color:var(--green-light);">fact_check</span>
+          <span style="font-size:.82rem;font-weight:700;color:var(--black);">Pruebas</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:3px;height:28px;">
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:var(--green-light);border-radius:6px;grid-column:5/6;display:flex;align-items:center;justify-content:center;">
+            <span style="font-size:.65rem;font-weight:700;color:#fff;">F4</span>
+          </div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+        </div>
+      </div>
+
+      <!-- Fila Implementación: mes 6 -->
+      <div style="display:grid;grid-template-columns:180px 1fr;gap:1rem;align-items:center;margin-bottom:.9rem;">
+        <div style="display:flex;align-items:center;gap:.6rem;">
+          <span class="material-icons-outlined" style="font-size:16px;color:var(--green-dark);">rocket_launch</span>
+          <span style="font-size:.82rem;font-weight:700;color:var(--black);">Implementación</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:3px;height:28px;">
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:var(--green-dark);border-radius:6px;grid-column:6/7;display:flex;align-items:center;justify-content:center;">
+            <span style="font-size:.65rem;font-weight:700;color:#fff;">F5</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fila Estabilización: post -->
+      <div style="display:grid;grid-template-columns:180px 1fr;gap:1rem;align-items:center;">
+        <div style="display:flex;align-items:center;gap:.6rem;">
+          <span class="material-icons-outlined" style="font-size:16px;color:#888;">verified</span>
+          <span style="font-size:.82rem;font-weight:700;color:var(--black);">Estabilización</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:3px;height:28px;">
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:#f0f0f0;border-radius:6px;"></div>
+          <div style="background:repeating-linear-gradient(45deg,#ddd,#ddd 3px,#f5f5f5 3px,#f5f5f5 9px);border-radius:6px;border:2px dashed var(--green-pale);grid-column:6/7;display:flex;align-items:center;justify-content:center;">
+            <span style="font-size:.6rem;font-weight:700;color:#999;">F6</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- fin gantt -->
   </div>
 
   <div class="slide-num">07</div>
 </section>
 
-<!-- ═══════════════════ ACUERDO ═══════════════════ -->
-<section id="sla" class="slide slide-pale">
-  <div class="geo geo-tl"></div>
-  <div class="geo geo-br"></div>
+<!-- ═══════════════════ INVERSIÓN ═══════════════════ -->
+<section id="inversion" class="slide slide-white">
+  <div class="geo geo-tr"></div>
+  <div class="geo geo-tr-sm"></div>
+  <div class="geo geo-bl"></div>
 
-  <h2 class="slide-title reveal">Acuerdo de Servicio</h2>
+  <div style="display:flex;align-items:center;gap:2rem;position:relative;z-index:1;" class="reveal">
+    <h2 class="slide-title" style="margin-bottom:0;">Inversión del Proyecto</h2>
+    <img src="img/9.png" alt="Inversión" style="height:160px;object-fit:contain;filter:drop-shadow(0 8px 24px rgba(0,0,0,.12));" onerror="this.style.display='none'"/>
+  </div>
+  <div style="margin-bottom:2rem;"></div>
 
-  <div class="tabs-group">
-    <div class="tabs-bar reveal">
-      <button class="tab-btn active" data-tab="sla-a">Enfoque por Iteraciones</button>
-      <button class="tab-btn" data-tab="sla-b">Kanban</button>
-    </div>
-
-    <div class="tab-panel active" id="sla-a">
-      <div class="sla-grid">
-        <div class="sla-card reveal">
-          <div class="sla-card-title"><span class="material-icons-outlined">shield</span> Niveles de atención</div>
-          <table class="sla-table">
-            <thead><tr><th>Nivel</th><th>Respuesta</th><th>Resolución</th></tr></thead>
-            <tbody>
-              <tr><td><span class="sev sev-c">Crítica</span></td><td>1 hora</td><td>8 horas hábiles</td></tr>
-              <tr><td><span class="sev sev-a">Alta</span></td><td>4 horas</td><td>3 días hábiles</td></tr>
-              <tr><td><span class="sev sev-m">Media</span></td><td>1 día hábil</td><td>10 días hábiles</td></tr>
-              <tr><td><span class="sev sev-b">Baja</span></td><td>2 días hábiles</td><td>Según prioridad</td></tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="sla-card reveal">
-          <div class="sla-card-title"><span class="material-icons-outlined">schedule</span> Términos de Servicio</div>
-          <div class="metric-row"><span class="metric-label">Horario</span><span class="metric-val">Lun–Vie 8:00–16:00</span></div>
-          <div class="metric-row"><span class="metric-label">Canal</span><span class="metric-val">Correo electrónico</span></div>
-          <div class="metric-row"><span class="metric-label">Reportes</span><span class="metric-val">Quincenal + mensual</span></div>
-          <div class="metric-row"><span class="metric-label">Duración</span><span class="metric-val green">6.5 meses</span></div>
-          <div class="metric-row"><span class="metric-label">Pago tardío</span><span class="metric-val">5 días tras reporte</span></div>
-          <div class="metric-row"><span class="metric-label">Terminación anticipada</span><span class="metric-val">Aviso 15 días</span></div>
-        </div>
-        <div class="sla-card reveal">
-          <div class="sla-card-title"><span class="material-icons-outlined">bar_chart</span> Compromisos de servicio</div>
-          <ul class="check-list">
-            <li><span class="material-icons-outlined">check_circle_outline</span> Tareas entregadas por iteración y período</li>
-            <li><span class="material-icons-outlined">check_circle_outline</span> Productividad del equipo</li>
-            <li><span class="material-icons-outlined">check_circle_outline</span> Trabajo en progreso y bloqueos</li>
-            <li><span class="material-icons-outlined">check_circle_outline</span> Tiempo por tarea y tiempo de espera</li>
-            <li><span class="material-icons-outlined">check_circle_outline</span> Distribución Desarrollo vs Soporte</li>
-            <li><span class="material-icons-outlined">check_circle_outline</span> Cumplimiento por severidad</li>
-          </ul>
-        </div>
-        <div class="sla-card reveal">
-          <div class="sla-card-title"><span class="material-icons-outlined">gavel</span> Resolución de Disputas</div>
-          <ul class="check-list">
-            <li><span class="material-icons-outlined">looks_one</span> Reunión de conciliación en 3 días hábiles</li>
-            <li><span class="material-icons-outlined">looks_two</span> De no haber acuerdo → mediación formal</li>
-            <li><span class="material-icons-outlined">looks_3</span> Escalamiento a autoridad organizacional</li>
-            <li><span class="material-icons-outlined">looks_4</span> Continuidad mínima durante disputa</li>
-          </ul>
-        </div>
+  <div class="costs-grid">
+    <div class="cost-card cc-neutral reveal">
+      <div class="cost-method-name">Scrum</div>
+      <div class="cost-amount-badge">Q573,000</div>
+      <div class="cost-months-badge">6 meses</div>
+      <div class="cost-desc">Entregas organizadas en ciclos regulares con fechas claras de entrega.</div>
+      <div class="cost-details-list">
+        <div class="cost-detail-row"><span class="cdl">Inversión real</span><span class="cdv">Q445,500</span></div>
+        <div class="cost-detail-row"><span class="cdl">Gasto mensual</span><span class="cdv">Q74,250/mes</span></div>
+        <div class="cost-detail-row"><span class="cdl">Organización</span><span class="cdv">Alta</span></div>
       </div>
     </div>
 
-    <div class="tab-panel" id="sla-b">
-      <div class="sla-grid">
-        <div class="sla-card reveal">
-          <div class="sla-card-title"><span class="material-icons-outlined">shield</span> Niveles de atención Kanban</div>
-          <table class="sla-table">
-            <thead><tr><th>Nivel</th><th>Respuesta</th><th>Resolución</th></tr></thead>
-            <tbody>
-              <tr><td><span class="sev sev-c">Crítica</span></td><td>1 hora</td><td>1–2 días hábiles</td></tr>
-              <tr><td><span class="sev sev-a">Alta</span></td><td>4 horas</td><td>3–5 días hábiles</td></tr>
-              <tr><td><span class="sev sev-m">Media</span></td><td>1 día hábil</td><td>5–10 días hábiles</td></tr>
-              <tr><td><span class="sev sev-b">Baja</span></td><td>2 días hábiles</td><td>Según prioridad</td></tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="sla-card reveal">
-          <div class="sla-card-title"><span class="material-icons-outlined">speed</span> Métricas Garantizadas</div>
-          <div class="metric-row"><span class="metric-label">Tareas completadas por semana</span><span class="metric-val green">4–5 tareas</span></div>
-          <div class="metric-row"><span class="metric-label">Tareas completadas por mes</span><span class="metric-val green">~18 tickets</span></div>
-          <div class="metric-row"><span class="metric-label">Tiempo por tarea</span><span class="metric-val green">5 días hábiles</span></div>
-          <div class="metric-row"><span class="metric-label">Tiempo de espera</span><span class="metric-val green">15–18 días hábiles</span></div>
-          <div class="metric-row"><span class="metric-label">Reportes</span><span class="metric-val">Mensual</span></div>
-          <div class="metric-row"><span class="metric-label">Duración</span><span class="metric-val">7 meses</span></div>
-        </div>
-        <div class="sla-card reveal">
-          <div class="sla-card-title"><span class="material-icons-outlined">person_pin</span> Responsabilidades Cliente</div>
-          <ul class="check-list">
-            <li><span class="material-icons-outlined">check_circle_outline</span> Designar punto de contacto</li>
-            <li><span class="material-icons-outlined">check_circle_outline</span> Información completa al registrar solicitudes</li>
-            <li><span class="material-icons-outlined">check_circle_outline</span> Responder aclaraciones en 1 día hábil</li>
-            <li><span class="material-icons-outlined">check_circle_outline</span> Validar tareas en revisión final</li>
-            <li><span class="material-icons-outlined">check_circle_outline</span> Actualizar horas 1 vez por semestre</li>
-          </ul>
-        </div>
-        <div class="sla-card reveal">
-          <div class="sla-card-title"><span class="material-icons-outlined">trending_up</span> Mejora Continua</div>
-          <ul class="check-list">
-            <li><span class="material-icons-outlined">looks_one</span> Análisis de causa raíz ante incumplimiento</li>
-            <li><span class="material-icons-outlined">looks_two</span> Plan de mejora documentado</li>
-            <li><span class="material-icons-outlined">looks_3</span> Ajuste de carga de trabajo o capacidad</li>
-            <li><span class="material-icons-outlined">looks_4</span> Revisión del acuerdo si persiste</li>
-          </ul>
-        </div>
+    <div class="cost-card cc-scrumban reveal" style="position:relative;">
+      <div style="position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:#fff;color:var(--green-dark);font-size:.7rem;font-weight:800;padding:.3rem 1.1rem;border-radius:100px;text-transform:uppercase;letter-spacing:.08em;box-shadow:0 4px 12px rgba(0,0,0,.18);">Recomendado</div>
+      <div class="cost-method-name">Enfoque Mixto</div>
+      <div class="cost-amount-badge">Q676,000</div>
+      <div class="cost-months-badge">6.5 meses</div>
+      <div class="cost-desc">Equilibrio entre estructura y flexibilidad, maximizando el valor entregado.</div>
+      <div class="cost-details-list">
+        <div class="cost-detail-row"><span class="cdl">Inversión real</span><span class="cdv">Q482,625</span></div>
+        <div class="cost-detail-row"><span class="cdl">Ingreso mensual</span><span class="cdv">Q104,000</span></div>
+        <div class="cost-detail-row"><span class="cdl">Mayor rentabilidad</span><span class="cdv">~28.6%</span></div>
       </div>
     </div>
+
+    <div class="cost-card cc-neutral reveal">
+      <div class="cost-method-name">Kanban</div>
+      <div class="cost-amount-badge">Q682,500</div>
+      <div class="cost-months-badge">7 meses</div>
+      <div class="cost-desc">Máxima flexibilidad para adaptarse a cambios durante el proyecto.</div>
+      <div class="cost-details-list">
+        <div class="cost-detail-row"><span class="cdl">Inversión real</span><span class="cdv">Q526,750</span></div>
+        <div class="cost-detail-row"><span class="cdl">Gasto mensual</span><span class="cdv">Q75,250/mes</span></div>
+        <div class="cost-detail-row"><span class="cdl">Flexibilidad</span><span class="cdv">Máxima</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:var(--green-bg);border-radius:20px;padding:1.75rem 2.5rem;margin-top:2rem;position:relative;z-index:1;text-align:center;" class="reveal">
+    <p style="font-size:1.05rem;font-weight:700;color:var(--green-dark);font-style:italic;">
+      La inversión busca mejorar la experiencia estudiantil y optimizar procesos del departamento.
+    </p>
   </div>
 
   <div class="slide-num">08</div>
 </section>
 
 <!-- ═══════════════════ EQUIPO ═══════════════════ -->
-<section id="equipo" class="slide slide-white">
-  <div class="geo geo-tr"></div>
-  <div class="geo geo-bl"></div>
+<section id="equipo" class="slide slide-pale">
+  <div class="geo geo-tl"></div>
+  <div class="geo geo-br"></div>
 
-  <h2 class="slide-title reveal">El Equipo</h2>
+  <h2 class="slide-title reveal">Equipo de Trabajo</h2>
 
-  <p style="font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.78rem;color:var(--green-dark);margin-bottom:1.25rem;position:relative;z-index:1;" class="reveal">Equipo de Implementación</p>
-  <div class="team-grid">
-    <div class="team-card reveal" style="border-bottom-color:var(--green-dark);">
+  <p style="font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.78rem;color:var(--green-dark);margin-bottom:1.25rem;position:relative;z-index:1;" class="reveal">Equipo Multidisciplinario</p>
+  <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:1.25rem;position:relative;z-index:1;justify-items:center;">
+    <div class="team-card reveal" style="border-bottom-color:var(--green-dark);width:100%;display:flex;flex-direction:column;align-items:center;">
       <div class="team-card-icon" style="background:var(--green-dark);color:#fff;"><span class="material-icons-outlined">account_tree</span></div>
-      <div class="team-role" style="color:var(--green-dark)">Gestión</div>
-      <div class="team-name">Product Owner</div>
-      <div class="team-id">Middle — Q20,000/mes</div>
+      <div class="team-role" style="color:var(--green-dark)">Dirección</div>
+      <div class="team-name">Project Manager</div>
+      <div class="team-id">Planificación y visión del proyecto</div>
     </div>
-    <div class="team-card reveal" style="border-bottom-color:var(--green-dark);">
+    <div class="team-card reveal" style="border-bottom-color:var(--green-dark);width:100%;display:flex;flex-direction:column;align-items:center;">
       <div class="team-card-icon" style="background:var(--green-dark);color:#fff;"><span class="material-icons-outlined">sports_score</span></div>
-      <div class="team-role" style="color:var(--green-dark)">Liderazgo</div>
-      <div class="team-name">Coordinador de equipo</div>
-      <div class="team-id">Middle — Q15,000/mes</div>
+      <div class="team-role" style="color:var(--green-dark)">Coordinación</div>
+      <div class="team-name">Scrum Master</div>
+      <div class="team-id">Seguimiento y destrabe de bloqueos</div>
     </div>
-    <div class="team-card reveal">
+    <div class="team-card reveal" style="width:100%;display:flex;flex-direction:column;align-items:center;">
       <div class="team-card-icon"><span class="material-icons-outlined">code</span></div>
-      <div class="team-role">Desarrollo</div>
-      <div class="team-name">Senior Fullstack</div>
-      <div class="team-id">Q18,000/mes</div>
+      <div class="team-role">Construcción</div>
+      <div class="team-name">Desarrollo Fullstack</div>
+      <div class="team-id">Frontend · Backend · Base de datos</div>
     </div>
-    <div class="team-card reveal">
-      <div class="team-card-icon"><span class="material-icons-outlined">terminal</span></div>
-      <div class="team-role">Desarrollo</div>
-      <div class="team-name">Middle Fullstack × 3</div>
-      <div class="team-id">Q11,500/mes c/u</div>
+    <div class="team-card reveal" style="width:100%;display:flex;flex-direction:column;align-items:center;">
+      <div class="team-card-icon"><span class="material-icons-outlined">fact_check</span></div>
+      <div class="team-role">Calidad</div>
+      <div class="team-name">QA / Validación</div>
+      <div class="team-id">Pruebas y control de calidad</div>
     </div>
-    <div class="team-card reveal">
-      <div class="team-card-icon"><span class="material-icons-outlined">laptop_code</span></div>
-      <div class="team-role">Desarrollo</div>
-      <div class="team-name">Junior Fullstack</div>
-      <div class="team-id">Q8,000/mes</div>
-    </div>
-    <div class="team-card reveal">
+    <div class="team-card reveal" style="width:100%;display:flex;flex-direction:column;align-items:center;">
       <div class="team-card-icon"><span class="material-icons-outlined">design_services</span></div>
-      <div class="team-role">Diseño</div>
-      <div class="team-name">Diseñador UI/UX</div>
-      <div class="team-id">Freelance</div>
+      <div class="team-role">Experiencia</div>
+      <div class="team-name">Diseño y Planificación</div>
+      <div class="team-id">UI/UX · Experiencia de usuario</div>
     </div>
   </div>
 
+  <div style="background:linear-gradient(135deg,var(--green-dark),var(--green-main));color:#fff;border-radius:20px;padding:1.5rem 2.5rem;margin-top:2rem;position:relative;z-index:1;text-align:center;" class="reveal">
+    <p style="font-size:1.05rem;font-weight:700;font-style:italic;">
+      Un equipo enfocado en entregar valor continuo durante todo el proyecto.
+    </p>
+  </div>
+
   <div class="slide-num">09</div>
+</section>
+
+<!-- ═══════════════════ RIESGOS ═══════════════════ -->
+<section class="slide slide-white">
+  <div class="geo geo-tr"></div>
+  <div class="geo geo-bl"></div>
+
+  <h2 class="slide-title reveal">Gestión y Control del Proyecto</h2>
+
+  <div class="method-detail-grid" style="position:relative;z-index:1;">
+    <div class="info-card reveal" style="border-top-color:#dc2626;">
+      <div class="info-card-title" style="color:#dc2626;"><span class="material-icons-outlined" style="color:#dc2626;">warning_amber</span> Riesgos Identificados</div>
+      <ul class="check-list">
+        <li><span class="material-icons-outlined" style="color:#dc2626;">remove_circle_outline</span> Cambios de alcance durante el proyecto</li>
+        <li><span class="material-icons-outlined" style="color:#dc2626;">remove_circle_outline</span> Retrasos en validaciones del cliente</li>
+        <li><span class="material-icons-outlined" style="color:#dc2626;">remove_circle_outline</span> Baja adopción del portal</li>
+        <li><span class="material-icons-outlined" style="color:#dc2626;">remove_circle_outline</span> Desorganización de información existente</li>
+      </ul>
+    </div>
+    <div class="info-card reveal">
+      <div class="info-card-title"><span class="material-icons-outlined">shield</span> Controles Aplicados</div>
+      <ul class="check-list">
+        <li><span class="material-icons-outlined">check_circle_outline</span> Priorización continua de funcionalidades</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Seguimiento constante del avance</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Organización visual del trabajo</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Adaptación rápida a cambios</li>
+      </ul>
+    </div>
+    <div class="info-card reveal">
+      <div class="info-card-title"><span class="material-icons-outlined">bar_chart</span> Seguimiento</div>
+      <div class="metric-row"><span class="metric-label">Reportes de avance</span><span class="metric-val green">Quincenales</span></div>
+      <div class="metric-row"><span class="metric-label">Reuniones de seguimiento</span><span class="metric-val green">Semanales</span></div>
+      <div class="metric-row"><span class="metric-label">Canal de comunicación</span><span class="metric-val">Correo electrónico</span></div>
+      <div class="metric-row"><span class="metric-label">Resolución de incidentes</span><span class="metric-val">1–3 días hábiles</span></div>
+    </div>
+    <div class="info-card reveal">
+      <div class="info-card-title"><span class="material-icons-outlined">trending_up</span> Mejora Continua</div>
+      <div class="metric-row"><span class="metric-label">Revisiones periódicas</span><span class="metric-val green">Por fase</span></div>
+      <div class="metric-row"><span class="metric-label">Ajuste de prioridades</span><span class="metric-val green">Flexible</span></div>
+      <div class="metric-row"><span class="metric-label">Documentación de decisiones</span><span class="metric-val">Continua</span></div>
+      <div class="metric-row"><span class="metric-label">Plan de contingencia</span><span class="metric-val">Definido</span></div>
+    </div>
+  </div>
+
+  <div style="background:var(--green-bg);border-radius:20px;padding:1.5rem 2.5rem;margin-top:2rem;position:relative;z-index:1;text-align:center;" class="reveal">
+    <p style="font-size:1.05rem;font-weight:700;color:var(--green-dark);font-style:italic;">
+      "El proyecto mantiene control continuo y capacidad de adaptación."
+    </p>
+  </div>
+
+  <div class="slide-num">10</div>
+</section>
+
+<!-- ═══════════════════ BENEFICIOS ═══════════════════ -->
+<section class="slide slide-pale">
+  <div class="geo geo-tl"></div>
+  <div class="geo geo-br"></div>
+
+  <h2 class="slide-title reveal">Beneficios Esperados</h2>
+
+  <div class="epics-grid" style="position:relative;z-index:1;">
+
+    <div class="info-card reveal" style="border-top-color:var(--green-dark);">
+      <div class="info-card-title"><span class="material-icons-outlined">hub</span> Centralización</div>
+      <p style="font-size:.9rem;color:#666;line-height:1.7;">Toda la información académica disponible en un solo punto de acceso para estudiantes y personal.</p>
+    </div>
+
+    <div class="info-card reveal" style="border-top-color:var(--green-main);">
+      <div class="info-card-title"><span class="material-icons-outlined">sentiment_satisfied_alt</span> Experiencia Estudiantil</div>
+      <p style="font-size:.9rem;color:#666;line-height:1.7;">Los estudiantes acceden fácilmente a sus horas, oportunidades y noticias del departamento.</p>
+    </div>
+
+    <div class="info-card reveal" style="border-top-color:var(--green-light);">
+      <div class="info-card-title"><span class="material-icons-outlined">speed</span> Eficiencia Administrativa</div>
+      <p style="font-size:.9rem;color:#666;line-height:1.7;">Reducción de procesos manuales y optimización del tiempo del personal administrativo.</p>
+    </div>
+
+    <div class="info-card reveal" style="border-top-color:var(--green-dark);">
+      <div class="info-card-title"><span class="material-icons-outlined">campaign</span> Mejor Comunicación</div>
+      <p style="font-size:.9rem;color:#666;line-height:1.7;">Noticias, actividades y alertas llegan oportunamente a toda la comunidad estudiantil.</p>
+    </div>
+
+    <div class="info-card reveal" style="border-top-color:var(--green-main);">
+      <div class="info-card-title"><span class="material-icons-outlined">groups</span> Mayor Participación</div>
+      <p style="font-size:.9rem;color:#666;line-height:1.7;">Los estudiantes se enteran de oportunidades a tiempo, aumentando su participación activa.</p>
+    </div>
+
+    <div class="info-card reveal" style="border-top-color:var(--green-light);">
+      <div class="info-card-title"><span class="material-icons-outlined">account_balance</span> Modernización Institucional</div>
+      <p style="font-size:.9rem;color:#666;line-height:1.7;">El departamento se posiciona como una unidad académica moderna, organizada y accesible.</p>
+    </div>
+
+  </div>
+
+  <div style="background:linear-gradient(135deg,var(--green-dark),var(--green-main));color:#fff;border-radius:20px;padding:2rem 2.5rem;margin-top:2.5rem;position:relative;z-index:1;text-align:center;" class="reveal">
+    <p style="font-size:1.15rem;font-weight:800;font-style:italic;line-height:1.5;">
+      Jack's Cave transforma la forma en que estudiantes y departamento<br/>se conectan con la información.
+    </p>
+  </div>
+
+  <div class="slide-num">11</div>
 </section>
 
 <!-- ═══════════════════ FOOTER ═══════════════════ -->
@@ -723,8 +830,8 @@
   <div class="footer-logo">JACK'S CAVE</div>
   <div class="footer-sub">Universidad del Valle de Guatemala — Administración de Proyectos 2025</div>
   <div class="footer-names">
-    Irving Acosta 22781 &nbsp;·&nbsp; Francis Aguilar 22243 &nbsp;·&nbsp; Paula Barillas 22764<br/>
-    Diego García 22404 &nbsp;·&nbsp; Angela García 22869 &nbsp;·&nbsp; Gerardo Pineda 22880
+    Irving Acosta &nbsp;·&nbsp; Francis Aguilar &nbsp;·&nbsp; Paula Barillas<br/>
+    Diego García &nbsp;·&nbsp; Angela García &nbsp;·&nbsp; Gerardo Pineda
   </div>
 </footer>
 
