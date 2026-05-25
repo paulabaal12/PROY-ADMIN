@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jack's Cave — Presentación Gerencial</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-brand">
+    <div class="nav-brand-logo">
+      <img src="img/2.png" alt="dragon" onerror="this.style.display='none'"/>
+    </div>
+    <span class="nav-brand-text">Jack's <span>Cave</span></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#producto">Producto</a></li>
+    <li><a href="#usuarios">Usuarios</a></li>
+    <li><a href="#epicas">Épicas</a></li>
+    <li><a href="#metodologias">Metodologías</a></li>
+    <li><a href="#costos">Costos</a></li>
+    <li><a href="#sla">SLA</a></li>
+    <li><a href="#equipo">Equipo</a></li>
+  </ul>
+  <div class="nav-toggle">
+    <button class="toggle-btn active" data-mode="cliente">Cliente</button>
+    <button class="toggle-btn" data-mode="investor">Inversor</button>
+  </div>
+</nav>
+
+<!-- ═══════════════════ HERO ═══════════════════ -->
+<section id="hero">
+  <!-- Deco shapes -->
+  <div class="geo geo-tl"></div>
+  <div class="geo geo-tr"></div>
+  <div class="geo geo-tr-sm"></div>
+  <div class="geo geo-bl"></div>
+
+  <div class="hero-left">
+    <h1 class="hero-title reveal">
+      JACK'S<br/><span class="green">CAVE</span>
+    </h1>
+    <p class="hero-names reveal">
+      Gerardo Pineda, Francis Aguilar, Diego García,<br/>
+      Angela García, Irving Acosta, Paula Barillas
+    </p>
+
+    <!-- Stats row -->
+    <div style="display:flex;gap:2.5rem;margin-top:2.5rem;" class="reveal">
+      <div>
+        <div style="font-size:2.2rem;font-weight:900;color:var(--green-main);" data-to="200" data-suf=" pts">0 pts</div>
+        <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:.1em;color:#999;font-weight:600;">Story Points MVP</div>
+      </div>
+      <div>
+        <div style="font-size:2.2rem;font-weight:900;color:var(--green-main);" data-to="6" data-suf=" épicas">0 épicas</div>
+        <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:.1em;color:#999;font-weight:600;">Épicas definidas</div>
+      </div>
+      <div>
+        <div style="font-size:2.2rem;font-weight:900;color:var(--green-main);" data-to="3" data-suf=" metod.">0 metod.</div>
+        <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:.1em;color:#999;font-weight:600;">Metodologías</div>
+      </div>
+    </div>
+
+    <div style="margin-top:2rem;" class="reveal">
+      <a href="#producto" style="display:inline-flex;align-items:center;gap:.5rem;background:var(--green-dark);color:#fff;padding:.85rem 2rem;border-radius:100px;font-weight:700;font-size:.85rem;text-decoration:none;text-transform:uppercase;letter-spacing:.08em;">
+        <span class="material-icons-outlined" style="font-size:18px;">explore</span>
+        Ver Proyecto
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <img src="img/2.png" alt="Dragon Jack" class="hero-dragon reveal"
+         onerror="this.src='';this.style.display='none'"/>
+  </div>
+
+  <div class="slide-num">01</div>
+</section>
+
+<!-- ═══════════════════ PRODUCTO ═══════════════════ -->
+<section id="producto" class="slide slide-light">
+  <div class="geo geo-tl"></div>
+  <div class="geo geo-br"></div>
+
+  <h2 class="slide-title reveal">Producto a Desarrollar</h2>
+
+  <div class="product-grid">
+    <div class="product-text reveal">
+      <p>Un <strong>portal web centralizado</strong> de gestión de información académica.</p>
+      <br/>
+      <p>El sistema permite a los estudiantes <strong>consultar sus horas de extensión y beca</strong>, acceder a oportunidades para completarlas y leer o publicar contenido en un blog, operando bajo un esquema robusto de <strong>roles y permisos</strong>.</p>
+      <br/>
+      <p style="font-size:.85rem;color:#888;font-style:italic;">
+        Exclusivo para estudiantes de Ingeniería en Ciencias de la Computación y Licenciatura en Sistemas Informáticos — UVG.
+      </p>
+    </div>
+    <div class="product-img reveal">
+      <img src="img/3.png" alt="Portal Web"
+           onerror="this.parentElement.innerHTML='<div style=&quot;background:var(--green-bg);border-radius:16px;padding:3rem;text-align:center;color:var(--green-dark);font-weight:700;&quot;>Portal Web<br/>Jack\'s Cave</div>'"/>
+    </div>
+  </div>
+
+  <div class="slide-num">02</div>
+</section>
+
+<!-- ═══════════════════ USUARIOS ═══════════════════ -->
+<section id="usuarios" class="slide slide-white">
+  <div class="geo geo-tr"></div>
+  <div class="geo geo-tr-sm"></div>
+  <div class="geo geo-bl"></div>
+
+  <h2 class="slide-title reveal">Tipos de Usuarios</h2>
+
+  <div class="users-grid">
+    <div class="reveal">
+      <div class="user-group-title">Perfil Estudiantil</div>
+      <div class="user-item">
+        <div class="user-arrow"><span class="material-icons-outlined">chevron_right</span></div>
+        <div>
+          <div class="user-name">Estudiantes</div>
+          <div class="user-desc">Lectores del portal, consultan horas y aplican a oportunidades.</div>
+        </div>
+      </div>
+      <div class="user-item">
+        <div class="user-arrow"><span class="material-icons-outlined">chevron_right</span></div>
+        <div>
+          <div class="user-name">Redactores</div>
+          <div class="user-desc">Estudiantes autorizados para proponer y escribir artículos del blog.</div>
+        </div>
+      </div>
+      <div class="user-item">
+        <div class="user-arrow"><span class="material-icons-outlined">chevron_right</span></div>
+        <div>
+          <div class="user-name">Editores</div>
+          <div class="user-desc">Revisan y aprueban artículos antes de su publicación en el blog.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <div class="user-group-title dark">Perfil Administrativo</div>
+      <div class="user-item">
+        <div class="user-arrow" style="background:var(--green-dark);"><span class="material-icons-outlined">chevron_right</span></div>
+        <div>
+          <div class="user-name">Catedráticos</div>
+          <div class="user-desc">Publican oportunidades de horas beca y extensión.</div>
+        </div>
+      </div>
+      <div class="user-item">
+        <div class="user-arrow" style="background:var(--green-dark);"><span class="material-icons-outlined">chevron_right</span></div>
+        <div>
+          <div class="user-name">Administradores</div>
+          <div class="user-desc">Asignan roles, gestionan el portal y actualizan registros masivos.</div>
+        </div>
+      </div>
+      <div class="user-item">
+        <div class="user-arrow" style="background:var(--green-dark);"><span class="material-icons-outlined">chevron_right</span></div>
+        <div>
+          <div class="user-name">Asociación</div>
+          <div class="user-desc">Publica noticias, actividades y controla cupos de oportunidades.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-num">03</div>
+</section>
+
+<!-- ═══════════════════ ÉPICAS ═══════════════════ -->
+<section id="epicas" class="slide slide-pale">
+  <div class="geo geo-tl"></div>
+  <div class="geo geo-br"></div>
+
+  <h2 class="slide-title reveal">Épicas del Proyecto</h2>
+  <p style="color:#666;margin-bottom:2rem;position:relative;z-index:1;font-size:.88rem;" class="reveal">
+    Haz clic en cada épica para ver sus historias de usuario. MVP: <strong style="color:var(--green-dark)">200 pts</strong> de 255 pts totales.
+  </p>
+
+  <div class="epics-grid">
+
+    <div class="epic-card reveal">
+      <div class="epic-code">EP01</div>
+      <div class="epic-name">Registro y Gestión de Perfiles de Usuario</div>
+      <span class="epic-pts"><span class="material-icons-outlined">stars</span> 34 pts</span>
+      <div class="epic-detail">
+        <div class="epic-us"><span class="epic-us-tag">US01</span> Registro de estudiante</div>
+        <div class="epic-us"><span class="epic-us-tag">US04</span> Registro usuario administrativo</div>
+        <div class="epic-us"><span class="epic-us-tag">US05</span> Inicio de sesión</div>
+        <div class="epic-us"><span class="epic-us-tag">US07</span> Redirección según rol</div>
+        <div class="epic-us"><span class="epic-us-tag">US08</span> Recuperación de contraseña</div>
+        <div class="epic-us"><span class="epic-us-tag">US09</span> Edición de perfil</div>
+        <div class="epic-us"><span class="epic-us-tag">US10</span> Cierre de sesión</div>
+        <div class="epic-us"><span class="epic-us-tag">US12</span> Cambio de contraseña</div>
+        <div class="epic-us"><span class="epic-us-tag">US13</span> Bloqueo por intentos fallidos</div>
+        <div class="epic-us"><span class="epic-us-tag">US15</span> Sesión persistente</div>
+      </div>
+    </div>
+
+    <div class="epic-card reveal">
+      <div class="epic-code">EP02</div>
+      <div class="epic-name">Consulta de Horas de Extensión y Horas Beca</div>
+      <span class="epic-pts"><span class="material-icons-outlined">stars</span> 17 pts</span>
+      <div class="epic-detail">
+        <div class="epic-us"><span class="epic-us-tag">US01</span> Consultar horas por tipo</div>
+        <div class="epic-us"><span class="epic-us-tag">US02</span> Carga y actualización (Admin)</div>
+        <div class="epic-us"><span class="epic-us-tag">US03</span> Estado de cumplimiento</div>
+        <div class="epic-us"><span class="epic-us-tag">US04</span> Acceso seguro de información</div>
+        <div class="epic-us"><span class="epic-us-tag">US05</span> Mensaje cuando no hay horas</div>
+        <div class="epic-us"><span class="epic-us-tag">US09</span> Ordenar historial de horas</div>
+        <div class="epic-us"><span class="epic-us-tag">US10</span> Filtrar por tipo y semestre</div>
+        <div class="epic-us"><span class="epic-us-tag">US11</span> Exportar historial PDF/CSV</div>
+        <div class="epic-us"><span class="epic-us-tag">US12</span> Gráfica de progreso</div>
+      </div>
+    </div>
+
+    <div class="epic-card reveal">
+      <div class="epic-code">EP03</div>
+      <div class="epic-name">Gestión de Oportunidades de Horas</div>
+      <span class="epic-pts"><span class="material-icons-outlined">stars</span> 68 pts</span>
+      <div class="epic-detail">
+        <div class="epic-us"><span class="epic-us-tag">US01</span> Crear oportunidad hora beca</div>
+        <div class="epic-us"><span class="epic-us-tag">US02</span> Editar oportunidades publicadas</div>
+        <div class="epic-us"><span class="epic-us-tag">US03</span> Cerrar convocatoria manualmente</div>
+        <div class="epic-us"><span class="epic-us-tag">US04</span> Cierre automático por cupos</div>
+        <div class="epic-us"><span class="epic-us-tag">US06</span> Listado de oportunidades</div>
+        <div class="epic-us"><span class="epic-us-tag">US08</span> Postularse a una oportunidad</div>
+        <div class="epic-us"><span class="epic-us-tag">US12</span> Aprobar / rechazar postulaciones</div>
+        <div class="epic-us"><span class="epic-us-tag">US13</span> Registro de asistencia</div>
+        <div class="epic-us"><span class="epic-us-tag">US17-19</span> Notificaciones de postulación</div>
+      </div>
+    </div>
+
+    <div class="epic-card reveal">
+      <div class="epic-code">EP04</div>
+      <div class="epic-name">Blog: Redacción, Edición y Publicación</div>
+      <span class="epic-pts"><span class="material-icons-outlined">stars</span> 23 pts</span>
+      <div class="epic-detail">
+        <div class="epic-us"><span class="epic-us-tag">US01</span> Crear borrador de artículo</div>
+        <div class="epic-us"><span class="epic-us-tag">US02</span> Guardar borrador manualmente</div>
+        <div class="epic-us"><span class="epic-us-tag">US03</span> Editar artículo en borrador</div>
+        <div class="epic-us"><span class="epic-us-tag">US04</span> Agregar imágenes</div>
+        <div class="epic-us"><span class="epic-us-tag">US07</span> Enviar a revisión</div>
+        <div class="epic-us"><span class="epic-us-tag">US09</span> Aprobar artículo (Editor)</div>
+        <div class="epic-us"><span class="epic-us-tag">US10</span> Rechazar con comentarios</div>
+        <div class="epic-us"><span class="epic-us-tag">US11</span> Publicar artículo (Admin)</div>
+        <div class="epic-us"><span class="epic-us-tag">US12</span> Despublicar sin eliminar</div>
+      </div>
+    </div>
+
+    <div class="epic-card reveal">
+      <div class="epic-code">EP05</div>
+      <div class="epic-name">Administración de Contenido y Roles</div>
+      <span class="epic-pts"><span class="material-icons-outlined">stars</span> 31 pts</span>
+      <div class="epic-detail">
+        <div class="epic-us"><span class="epic-us-tag">US01</span> Ver listado de usuarios</div>
+        <div class="epic-us"><span class="epic-us-tag">US03</span> Asignar rol a usuario</div>
+        <div class="epic-us"><span class="epic-us-tag">US04</span> Cambiar rol de usuario</div>
+        <div class="epic-us"><span class="epic-us-tag">US05</span> Activar / desactivar acceso</div>
+        <div class="epic-us"><span class="epic-us-tag">US06</span> Cargar archivos de horas</div>
+        <div class="epic-us"><span class="epic-us-tag">US07</span> Validar errores en carga</div>
+        <div class="epic-us"><span class="epic-us-tag">US08</span> Actualizar horas un usuario</div>
+        <div class="epic-us"><span class="epic-us-tag">US09</span> Historial de actualizaciones</div>
+        <div class="epic-us"><span class="epic-us-tag">US11</span> Búsqueda avanzada usuarios</div>
+      </div>
+    </div>
+
+    <div class="epic-card reveal">
+      <div class="epic-code">EP06</div>
+      <div class="epic-name">Notificaciones y Difusión de la Asociación</div>
+      <span class="epic-pts"><span class="material-icons-outlined">stars</span> 27 pts</span>
+      <div class="epic-detail">
+        <div class="epic-us"><span class="epic-us-tag">US01</span> Publicar noticia o actividad</div>
+        <div class="epic-us"><span class="epic-us-tag">US04</span> Feed público de noticias</div>
+        <div class="epic-us"><span class="epic-us-tag">US07</span> Alerta nueva oportunidad</div>
+        <div class="epic-us"><span class="epic-us-tag">US08</span> Centro de notificaciones</div>
+        <div class="epic-us"><span class="epic-us-tag">US12</span> Buscar por palabra clave</div>
+        <div class="epic-us"><span class="epic-us-tag">US13</span> Notif. cambio de postulación</div>
+        <div class="epic-us"><span class="epic-us-tag">US14</span> Notif. actualización de horas</div>
+        <div class="epic-us"><span class="epic-us-tag">US15</span> Notif. cambio de rol</div>
+      </div>
+    </div>
+
+  </div>
+  <div class="slide-num">04</div>
+</section>
+
+<!-- ═══════════════════ METODOLOGÍAS ═══════════════════ -->
+<section id="metodologias" class="slide slide-white">
+  <div class="geo geo-tr"></div>
+  <div class="geo geo-tr-sm"></div>
+  <div class="geo geo-bl"></div>
+
+  <h2 class="slide-title reveal">Metodologías</h2>
+
+  <div class="method-hero">
+    <div class="method-dragon reveal">
+      <img src="img/5.png" alt="Dragon Metodologías"
+           onerror="this.src='img/2.png'"/>
+    </div>
+    <div class="method-cards reveal">
+      <div class="method-badge">
+        <div class="method-badge-icon">S</div>
+        <div>
+          <div class="method-badge-text">Scrum</div>
+          <div class="method-badge-sub">12 sprints · 6 meses · 22 pts/sprint</div>
+        </div>
+      </div>
+      <div class="method-badge dark-badge">
+        <div class="method-badge-icon">K</div>
+        <div>
+          <div class="method-badge-text">Kanban</div>
+          <div class="method-badge-sub">92 tickets · 7 meses · Cycle time 5 días</div>
+        </div>
+      </div>
+      <div class="method-badge" style="background:var(--green-dark);">
+        <div class="method-badge-icon">SB</div>
+        <div>
+          <div class="method-badge-text">Scrumban</div>
+          <div class="method-badge-sub">13 sprints · 6.5 meses · 60% Build / 40% Run</div>
+        </div>
+      </div>
+      <div style="background:var(--green-bg);border-radius:16px;padding:1.25rem 1.5rem;display:flex;align-items:center;gap:1rem;">
+        <span class="material-icons-outlined" style="color:var(--green-dark);font-size:28px;">confirmation_number</span>
+        <div>
+          <div style="font-size:1.6rem;font-weight:900;color:var(--green-dark);">92</div>
+          <div style="font-size:.78rem;color:var(--green-main);font-weight:600;text-transform:uppercase;letter-spacing:.08em;">Tickets con descripción</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-num">05</div>
+</section>
+
+<!-- ═══════════════════ DETALLE METODOLOGÍAS ═══════════════════ -->
+<section class="slide slide-pale">
+  <div class="geo geo-tl"></div>
+
+  <h2 class="slide-title reveal">Detalle por <span style="color:var(--green-dark)">Metodología</span></h2>
+
+  <div class="tabs-group">
+    <div class="tabs-bar reveal">
+      <button class="tab-btn active" data-tab="t-scrum">Scrum</button>
+      <button class="tab-btn" data-tab="t-kanban">Kanban</button>
+      <button class="tab-btn" data-tab="t-scrumban">Scrumban</button>
+    </div>
+
+    <!-- SCRUM -->
+    <div class="tab-panel active" id="t-scrum">
+      <div class="method-detail-grid">
+        <div class="info-card reveal">
+          <div class="info-card-title"><span class="material-icons-outlined">speed</span> Parámetros Sprint</div>
+          <div class="metric-row"><span class="metric-label">Sprints totales (con buffer 15%)</span><span class="metric-val green">12 sprints</span></div>
+          <div class="metric-row"><span class="metric-label">Duración del sprint</span><span class="metric-val">2 semanas</span></div>
+          <div class="metric-row"><span class="metric-label">Velocidad del equipo</span><span class="metric-val">22 pts/sprint</span></div>
+          <div class="metric-row"><span class="metric-label">Story Points MVP</span><span class="metric-val">200 pts</span></div>
+          <div class="metric-row"><span class="metric-label">Duración total</span><span class="metric-val green">6 meses (24 semanas)</span></div>
+        </div>
+        <div class="info-card reveal">
+          <div class="info-card-title"><span class="material-icons-outlined">payments</span> Costos Scrum</div>
+          <div class="metric-row"><span class="metric-label">Burn Rate mensual (real)</span><span class="metric-val">Q74,250</span></div>
+          <div class="metric-row"><span class="metric-label">Costo por sprint (real)</span><span class="metric-val">Q37,125</span></div>
+          <div class="metric-row"><span class="metric-label">Costo total real (12 sprints)</span><span class="metric-val">Q445,500</span></div>
+          <div class="metric-row"><span class="metric-label">Costo mensual cliente</span><span class="metric-val">Q95,500</span></div>
+          <div class="metric-row"><span class="metric-label">Costo total cliente</span><span class="metric-val green">Q573,000</span></div>
+          <div class="metric-row"><span class="metric-label">Margen bruto</span><span class="metric-val green">22.25%</span></div>
+        </div>
+        <div class="info-card reveal prog-group">
+          <div class="info-card-title"><span class="material-icons-outlined">auto_graph</span> Velocidad por Escenario</div>
+          <div class="prog-row"><div class="prog-label"><span>Conservador (15 pts)</span><span>60%</span></div><div class="prog-bar"><div class="prog-fill" data-w="60"></div></div></div>
+          <div class="prog-row"><div class="prog-label"><span>Moderado (20 pts)</span><span>80%</span></div><div class="prog-bar"><div class="prog-fill" data-w="80"></div></div></div>
+          <div class="prog-row"><div class="prog-label"><span>Real (22 pts)</span><span>88%</span></div><div class="prog-bar"><div class="prog-fill" data-w="88"></div></div></div>
+          <div class="prog-row"><div class="prog-label"><span>Optimista (25 pts)</span><span>100%</span></div><div class="prog-bar"><div class="prog-fill" data-w="100"></div></div></div>
+        </div>
+        <div class="info-card reveal">
+          <div class="info-card-title"><span class="material-icons-outlined">group</span> Equipo (FTE)</div>
+          <div class="metric-row"><span class="metric-label">Senior + 3 Middle + Junior</span><span class="metric-val green">1.0 FTE — Q60,500</span></div>
+          <div class="metric-row"><span class="metric-label">Product Owner</span><span class="metric-val">0.5 FTE — Q10,000</span></div>
+          <div class="metric-row"><span class="metric-label">Scrum Master</span><span class="metric-val">0.25 FTE — Q3,750</span></div>
+          <div class="metric-row" style="border-top:2px solid var(--green-pale);margin-top:.5rem;padding-top:.75rem"><span class="metric-label" style="font-weight:700">Burn Rate mensual</span><span class="metric-val green">Q74,250</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- KANBAN -->
+    <div class="tab-panel" id="t-kanban">
+      <div class="method-detail-grid">
+        <div class="info-card reveal">
+          <div class="info-card-title"><span class="material-icons-outlined">view_kanban</span> Tablero Kanban</div>
+          <div class="metric-row"><span class="metric-label">To Do (WIP)</span><span class="metric-val">8 tickets</span></div>
+          <div class="metric-row"><span class="metric-label">In Progress (WIP)</span><span class="metric-val">4 tickets</span></div>
+          <div class="metric-row"><span class="metric-label">Revisión Final (WIP)</span><span class="metric-val">3 tickets</span></div>
+          <div class="metric-row"><span class="metric-label">Done</span><span class="metric-val">Sin límite</span></div>
+          <div class="metric-row"><span class="metric-label">Total de tickets</span><span class="metric-val green">92 tickets</span></div>
+        </div>
+        <div class="info-card reveal">
+          <div class="info-card-title"><span class="material-icons-outlined">timer</span> Métricas de Flujo</div>
+          <div class="metric-row"><span class="metric-label">Cycle Time promedio</span><span class="metric-val green">5 días/ticket</span></div>
+          <div class="metric-row"><span class="metric-label">Lead Time promedio</span><span class="metric-val green">17 días hábiles</span></div>
+          <div class="metric-row"><span class="metric-label">Throughput semanal</span><span class="metric-val">4.5 tickets/sem</span></div>
+          <div class="metric-row"><span class="metric-label">Throughput mensual</span><span class="metric-val">~18 tickets/mes</span></div>
+          <div class="metric-row"><span class="metric-label">Duración total</span><span class="metric-val green">7 meses</span></div>
+        </div>
+        <div class="info-card reveal prog-group">
+          <div class="info-card-title"><span class="material-icons-outlined">bar_chart</span> Distribución Tickets</div>
+          <div class="prog-row"><div class="prog-label"><span>SP=1 simples (11 tickets)</span><span>12%</span></div><div class="prog-bar"><div class="prog-fill" data-w="12"></div></div></div>
+          <div class="prog-row"><div class="prog-label"><span>SP=2 simples (35 tickets)</span><span>38%</span></div><div class="prog-bar"><div class="prog-fill" data-w="38"></div></div></div>
+          <div class="prog-row"><div class="prog-label"><span>SP=3 medios (32 tickets)</span><span>35%</span></div><div class="prog-bar"><div class="prog-fill" data-w="35"></div></div></div>
+          <div class="prog-row"><div class="prog-label"><span>SP=5 complejos (14 tickets)</span><span>15%</span></div><div class="prog-bar"><div class="prog-fill" data-w="15"></div></div></div>
+        </div>
+        <div class="info-card reveal">
+          <div class="info-card-title"><span class="material-icons-outlined">payments</span> Costos Kanban</div>
+          <div class="metric-row"><span class="metric-label">Burn Rate mensual (real)</span><span class="metric-val">Q75,250</span></div>
+          <div class="metric-row"><span class="metric-label">Costo total real (7 meses)</span><span class="metric-val">Q526,750</span></div>
+          <div class="metric-row"><span class="metric-label">Costo mensual cliente</span><span class="metric-val">Q97,500</span></div>
+          <div class="metric-row"><span class="metric-label">Costo total cliente</span><span class="metric-val green">Q682,500</span></div>
+          <div class="metric-row"><span class="metric-label">Margen bruto</span><span class="metric-val green">22.8%</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRUMBAN -->
+    <div class="tab-panel" id="t-scrumban">
+      <div class="method-detail-grid">
+        <div class="info-card reveal">
+          <div class="info-card-title"><span class="material-icons-outlined">merge</span> Parámetros Scrumban</div>
+          <div class="metric-row"><span class="metric-label">Sprints (buffer 25%)</span><span class="metric-val green">13 sprints</span></div>
+          <div class="metric-row"><span class="metric-label">Duración total</span><span class="metric-val green">6.5 meses</span></div>
+          <div class="metric-row"><span class="metric-label">Velocidad</span><span class="metric-val">22 pts/sprint</span></div>
+          <div class="metric-row"><span class="metric-label">Distribución</span><span class="metric-val">60% Build / 40% Run</span></div>
+        </div>
+        <div class="info-card reveal">
+          <div class="info-card-title"><span class="material-icons-outlined">calculate</span> Estructura de Precios</div>
+          <div class="metric-row"><span class="metric-label">Precio Build por sprint</span><span class="metric-val">Q29,700</span></div>
+          <div class="metric-row"><span class="metric-label">Precio Run mensual</span><span class="metric-val">Q39,600</span></div>
+          <div class="metric-row"><span class="metric-label">Extra SLA</span><span class="metric-val">Q5,000/periodo</span></div>
+          <div class="metric-row"><span class="metric-label">Ingreso total mensual</span><span class="metric-val">Q104,000</span></div>
+          <div class="metric-row"><span class="metric-label">Ingreso total proyecto</span><span class="metric-val green">Q676,000</span></div>
+        </div>
+        <div class="info-card reveal">
+          <div class="info-card-title"><span class="material-icons-outlined">percent</span> Rentabilidad</div>
+          <div class="metric-row"><span class="metric-label">Costo real total</span><span class="metric-val">Q482,625</span></div>
+          <div class="metric-row"><span class="metric-label">Ingreso total cliente</span><span class="metric-val">Q676,000</span></div>
+          <div class="metric-row"><span class="metric-label">Margen objetivo</span><span class="metric-val">25%</span></div>
+          <div class="metric-row"><span class="metric-label">Margen bruto real</span><span class="metric-val green">~28.6%</span></div>
+        </div>
+        <div class="info-card reveal">
+          <div class="info-card-title"><span class="material-icons-outlined">psychology</span> ¿Por qué Scrumban?</div>
+          <p style="font-size:.82rem;color:#666;line-height:1.8;">
+            Dado el <strong>alto riesgo de cambios</strong> del cliente, se adoptó enfoque <strong style="color:var(--green-dark)">60% Build / 40% Run</strong>.
+            Combina la predictibilidad de sprints con la flexibilidad del flujo continuo para responder a cambios sin comprometer entregables.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-num">06</div>
+</section>
+
+<!-- ═══════════════════ COSTOS ═══════════════════ -->
+<section id="costos" class="slide slide-white">
+  <div class="geo geo-tr"></div>
+  <div class="geo geo-tr-sm"></div>
+  <div class="geo geo-bl"></div>
+
+  <h2 class="slide-title reveal">Estrategias de Implementación<br/><span style="font-size:.6em;color:var(--black)">y Opciones de Inversión</span></h2>
+
+  <div class="investor-block reveal">
+    <div class="investor-banner">
+      <h2>Visión para Inversores</h2>
+      <p>Portal SaaS universitario con modelo de servicio gestionado. Mercado inicial: UVG Guatemala.</p>
+      <div class="inv-kpis">
+        <div class="inv-kpi">
+          <div class="inv-kpi-val">28.6%</div>
+          <div class="inv-kpi-label">Margen máximo (Scrumban)</div>
+        </div>
+        <div class="inv-kpi">
+          <div class="inv-kpi-val">Q676K</div>
+          <div class="inv-kpi-label">Ingreso total cliente</div>
+        </div>
+        <div class="inv-kpi">
+          <div class="inv-kpi-val">6 meses</div>
+          <div class="inv-kpi-label">Time to market (Scrum)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dragon imagen de costos -->
+  <div style="text-align:center;margin-bottom:2rem;position:relative;z-index:1;" class="reveal">
+    <img src="img/6.png" alt="Dragon Costos" style="height:120px;object-fit:contain;filter:drop-shadow(0 8px 20px rgba(0,0,0,.12));"
+         onerror="this.style.display='none'"/>
+  </div>
+
+  <div class="costs-grid">
+    <div class="cost-card cc-scrum reveal">
+      <div class="cost-method-name">Scrum</div>
+      <div class="cost-amount-badge">Q573,000</div>
+      <div class="cost-months-badge">6 meses de trabajo</div>
+      <div class="cost-desc">Alta organización y entregas predecibles mediante sprints definidos.</div>
+      <div class="cost-details-list">
+        <div class="cost-detail-row"><span class="cdl">Costo real</span><span class="cdv">Q445,500</span></div>
+        <div class="cost-detail-row"><span class="cdl">Margen</span><span class="cdv">22.25%</span></div>
+        <div class="cost-detail-row"><span class="cdl">Burn rate</span><span class="cdv">Q74,250/mes</span></div>
+        <div class="cost-detail-row"><span class="cdl">Costo/sprint</span><span class="cdv">Q37,125</span></div>
+      </div>
+    </div>
+    <div class="cost-card cc-kanban reveal">
+      <div class="cost-method-name">Kanban</div>
+      <div class="cost-amount-badge">Q682,500</div>
+      <div class="cost-months-badge">7 meses de trabajo</div>
+      <div class="cost-desc">Flujo continuo y máxima flexibilidad para adaptarse a cambios.</div>
+      <div class="cost-details-list">
+        <div class="cost-detail-row"><span class="cdl">Costo real</span><span class="cdv">Q526,750</span></div>
+        <div class="cost-detail-row"><span class="cdl">Margen</span><span class="cdv">22.8%</span></div>
+        <div class="cost-detail-row"><span class="cdl">Burn rate</span><span class="cdv">Q75,250/mes</span></div>
+        <div class="cost-detail-row"><span class="cdl">Cycle time</span><span class="cdv">5 días</span></div>
+      </div>
+    </div>
+    <div class="cost-card cc-scrumban reveal" style="position:relative;">
+      <div style="position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:#fff;color:var(--green-dark);font-size:.7rem;font-weight:800;padding:.3rem 1rem;border-radius:100px;text-transform:uppercase;letter-spacing:.08em;box-shadow:0 4px 12px rgba(0,0,0,.15);">Recomendado</div>
+      <div class="cost-method-name">Scrumban</div>
+      <div class="cost-amount-badge">Q676,000</div>
+      <div class="cost-months-badge">6.5 meses de trabajo</div>
+      <div class="cost-desc">Equilibrio entre estructura y flexibilidad, optimizando eficiencia y tiempos de entrega.</div>
+      <div class="cost-details-list">
+        <div class="cost-detail-row"><span class="cdl">Costo real</span><span class="cdv">Q482,625</span></div>
+        <div class="cost-detail-row"><span class="cdl">Margen</span><span class="cdv">~28.6%</span></div>
+        <div class="cost-detail-row"><span class="cdl">Ingreso/mes</span><span class="cdv">Q104,000</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-num">07</div>
+</section>
+
+<!-- ═══════════════════ SLA ═══════════════════ -->
+<section id="sla" class="slide slide-pale">
+  <div class="geo geo-tl"></div>
+  <div class="geo geo-br"></div>
+
+  <h2 class="slide-title reveal">SLA por Metodología</h2>
+
+  <div class="tabs-group">
+    <div class="tabs-bar reveal">
+      <button class="tab-btn active" data-tab="sla-a">Scrum / Scrumban</button>
+      <button class="tab-btn" data-tab="sla-b">Kanban</button>
+    </div>
+
+    <div class="tab-panel active" id="sla-a">
+      <div class="sla-grid">
+        <div class="sla-card reveal">
+          <div class="sla-card-title"><span class="material-icons-outlined">shield</span> Severidades</div>
+          <table class="sla-table">
+            <thead><tr><th>Nivel</th><th>Respuesta</th><th>Resolución</th></tr></thead>
+            <tbody>
+              <tr><td><span class="sev sev-c">Crítica</span></td><td>1 hora</td><td>8 horas hábiles</td></tr>
+              <tr><td><span class="sev sev-a">Alta</span></td><td>4 horas</td><td>3 días hábiles</td></tr>
+              <tr><td><span class="sev sev-m">Media</span></td><td>1 día hábil</td><td>10 días hábiles</td></tr>
+              <tr><td><span class="sev sev-b">Baja</span></td><td>2 días hábiles</td><td>Según backlog</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="sla-card reveal">
+          <div class="sla-card-title"><span class="material-icons-outlined">schedule</span> Términos de Servicio</div>
+          <div class="metric-row"><span class="metric-label">Horario</span><span class="metric-val">Lun–Vie 8:00–16:00</span></div>
+          <div class="metric-row"><span class="metric-label">Canal</span><span class="metric-val">Correo electrónico</span></div>
+          <div class="metric-row"><span class="metric-label">Reportes</span><span class="metric-val">Quincenal + mensual</span></div>
+          <div class="metric-row"><span class="metric-label">Duración</span><span class="metric-val green">6.5 meses</span></div>
+          <div class="metric-row"><span class="metric-label">Pago tardío</span><span class="metric-val">5 días tras reporte</span></div>
+          <div class="metric-row"><span class="metric-label">Terminación anticipada</span><span class="metric-val">Aviso 15 días</span></div>
+        </div>
+        <div class="sla-card reveal">
+          <div class="sla-card-title"><span class="material-icons-outlined">bar_chart</span> Métricas Comprometidas</div>
+          <ul class="check-list">
+            <li><span class="material-icons-outlined">check_circle_outline</span> Tareas completadas por sprint y periodo</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> Throughput del equipo</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> WIP y bloqueos por columna</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> Cycle Time y Lead Time</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> Distribución Build vs Run</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> Cumplimiento por severidad</li>
+          </ul>
+        </div>
+        <div class="sla-card reveal">
+          <div class="sla-card-title"><span class="material-icons-outlined">gavel</span> Resolución de Disputas</div>
+          <ul class="check-list">
+            <li><span class="material-icons-outlined">looks_one</span> Reunión de conciliación en 3 días hábiles</li>
+            <li><span class="material-icons-outlined">looks_two</span> De no haber acuerdo → mediación formal</li>
+            <li><span class="material-icons-outlined">looks_3</span> Escalamiento a autoridad organizacional</li>
+            <li><span class="material-icons-outlined">looks_4</span> Continuidad mínima durante disputa</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="sla-b">
+      <div class="sla-grid">
+        <div class="sla-card reveal">
+          <div class="sla-card-title"><span class="material-icons-outlined">shield</span> Severidades Kanban</div>
+          <table class="sla-table">
+            <thead><tr><th>Nivel</th><th>Respuesta</th><th>Resolución</th></tr></thead>
+            <tbody>
+              <tr><td><span class="sev sev-c">Crítica</span></td><td>1 hora</td><td>1–2 días hábiles</td></tr>
+              <tr><td><span class="sev sev-a">Alta</span></td><td>4 horas</td><td>3–5 días hábiles</td></tr>
+              <tr><td><span class="sev sev-m">Media</span></td><td>1 día hábil</td><td>5–10 días hábiles</td></tr>
+              <tr><td><span class="sev sev-b">Baja</span></td><td>2 días hábiles</td><td>Según backlog</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="sla-card reveal">
+          <div class="sla-card-title"><span class="material-icons-outlined">speed</span> Métricas Garantizadas</div>
+          <div class="metric-row"><span class="metric-label">Throughput semanal</span><span class="metric-val green">4–5 tickets</span></div>
+          <div class="metric-row"><span class="metric-label">Throughput mensual</span><span class="metric-val green">~18 tickets</span></div>
+          <div class="metric-row"><span class="metric-label">Cycle Time</span><span class="metric-val green">5 días hábiles</span></div>
+          <div class="metric-row"><span class="metric-label">Lead Time</span><span class="metric-val green">15–18 días hábiles</span></div>
+          <div class="metric-row"><span class="metric-label">Reportes</span><span class="metric-val">Mensual</span></div>
+          <div class="metric-row"><span class="metric-label">Duración</span><span class="metric-val">7 meses</span></div>
+        </div>
+        <div class="sla-card reveal">
+          <div class="sla-card-title"><span class="material-icons-outlined">person_pin</span> Responsabilidades Cliente</div>
+          <ul class="check-list">
+            <li><span class="material-icons-outlined">check_circle_outline</span> Designar punto de contacto</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> Información completa en tickets</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> Responder aclaraciones en 1 día hábil</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> Validar tickets en revisión final</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> Actualizar horas 1 vez por semestre</li>
+          </ul>
+        </div>
+        <div class="sla-card reveal">
+          <div class="sla-card-title"><span class="material-icons-outlined">trending_up</span> Mejora Continua</div>
+          <ul class="check-list">
+            <li><span class="material-icons-outlined">looks_one</span> Análisis de causa raíz ante incumplimiento</li>
+            <li><span class="material-icons-outlined">looks_two</span> Plan de mejora documentado</li>
+            <li><span class="material-icons-outlined">looks_3</span> Ajuste de límites WIP o capacidad</li>
+            <li><span class="material-icons-outlined">looks_4</span> Revisión del SLA si persiste</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-num">08</div>
+</section>
+
+<!-- ═══════════════════ EQUIPO ═══════════════════ -->
+<section id="equipo" class="slide slide-white">
+  <div class="geo geo-tr"></div>
+  <div class="geo geo-bl"></div>
+
+  <h2 class="slide-title reveal">El Equipo</h2>
+
+  <p style="font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.78rem;color:var(--green-main);margin-bottom:1.25rem;position:relative;z-index:1;" class="reveal">Equipo de Proyecto — UVG</p>
+  <div class="team-grid" style="margin-bottom:3rem;">
+    <div class="team-card reveal">
+      <div class="team-card-icon"><span class="material-icons-outlined">person</span></div>
+      <div class="team-role">Estudiante</div>
+      <div class="team-name">Irving Acosta</div>
+      <div class="team-id">22781</div>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-card-icon"><span class="material-icons-outlined">person</span></div>
+      <div class="team-role">Estudiante</div>
+      <div class="team-name">Francis Aguilar</div>
+      <div class="team-id">22243</div>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-card-icon"><span class="material-icons-outlined">person</span></div>
+      <div class="team-role">Estudiante</div>
+      <div class="team-name">Paula Barillas</div>
+      <div class="team-id">22764</div>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-card-icon"><span class="material-icons-outlined">person</span></div>
+      <div class="team-role">Estudiante</div>
+      <div class="team-name">Diego García</div>
+      <div class="team-id">22404</div>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-card-icon"><span class="material-icons-outlined">person</span></div>
+      <div class="team-role">Estudiante</div>
+      <div class="team-name">Angela García</div>
+      <div class="team-id">22869</div>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-card-icon"><span class="material-icons-outlined">person</span></div>
+      <div class="team-role">Estudiante</div>
+      <div class="team-name">Gerardo Pineda</div>
+      <div class="team-id">22880</div>
+    </div>
+  </div>
+
+  <p style="font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.78rem;color:var(--green-dark);margin-bottom:1.25rem;position:relative;z-index:1;" class="reveal">Equipo de Implementación</p>
+  <div class="team-grid">
+    <div class="team-card reveal" style="border-bottom-color:var(--green-dark);">
+      <div class="team-card-icon" style="background:var(--green-dark);color:#fff;"><span class="material-icons-outlined">account_tree</span></div>
+      <div class="team-role" style="color:var(--green-dark)">Gestión</div>
+      <div class="team-name">Product Owner</div>
+      <div class="team-id">Middle — Q20,000/mes</div>
+    </div>
+    <div class="team-card reveal" style="border-bottom-color:var(--green-dark);">
+      <div class="team-card-icon" style="background:var(--green-dark);color:#fff;"><span class="material-icons-outlined">sports_score</span></div>
+      <div class="team-role" style="color:var(--green-dark)">Liderazgo</div>
+      <div class="team-name">Scrum Master</div>
+      <div class="team-id">Middle — Q15,000/mes</div>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-card-icon"><span class="material-icons-outlined">code</span></div>
+      <div class="team-role">Desarrollo</div>
+      <div class="team-name">Senior Fullstack</div>
+      <div class="team-id">Q18,000/mes</div>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-card-icon"><span class="material-icons-outlined">terminal</span></div>
+      <div class="team-role">Desarrollo</div>
+      <div class="team-name">Middle Fullstack × 3</div>
+      <div class="team-id">Q11,500/mes c/u</div>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-card-icon"><span class="material-icons-outlined">laptop_code</span></div>
+      <div class="team-role">Desarrollo</div>
+      <div class="team-name">Junior Fullstack</div>
+      <div class="team-id">Q8,000/mes</div>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-card-icon"><span class="material-icons-outlined">design_services</span></div>
+      <div class="team-role">Diseño</div>
+      <div class="team-name">Diseñador UI/UX</div>
+      <div class="team-id">Freelance</div>
+    </div>
+  </div>
+
+  <div class="slide-num">09</div>
+</section>
+
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
+<footer>
+  <div class="footer-logo">JACK'S CAVE</div>
+  <div class="footer-sub">Universidad del Valle de Guatemala — Administración de Proyectos 2025</div>
+  <div class="footer-names">
+    Irving Acosta 22781 &nbsp;·&nbsp; Francis Aguilar 22243 &nbsp;·&nbsp; Paula Barillas 22764<br/>
+    Diego García 22404 &nbsp;·&nbsp; Angela García 22869 &nbsp;·&nbsp; Gerardo Pineda 22880
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
