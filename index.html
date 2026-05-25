@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jack's Cave</title>
+  <title>Jack's Cave — Presentación Gerencial</title>
   <link rel="stylesheet" href="css/styles.css"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
 </head>
@@ -11,7 +11,7 @@
 
 <!-- NAV -->
 <nav>
-  <a href="#hero" class="nav-brand">
+  <a href="#hero" class="nav-brand" id="nav-dragon" title="Modo especial">
     <div class="nav-brand-logo">
       <img src="img/2.png" alt="dragon" onerror="this.style.display='none'"/>
     </div>
@@ -26,10 +26,7 @@
     <li><a href="#sla">Acuerdo de Servicio</a></li>
     <li><a href="#equipo">Equipo</a></li>
   </ul>
-  <div class="nav-toggle">
-    <button class="toggle-btn active" data-mode="cliente">Cliente</button>
-    <button class="toggle-btn" data-mode="investor">Inversor</button>
-  </div>
+  <!-- investor toggle hidden, activated by dragon click -->
 </nav>
 
 <!-- ═══════════════════ HERO ═══════════════════ -->

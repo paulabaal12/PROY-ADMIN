@@ -45,6 +45,20 @@ nav {
 .nav-brand {
   display: flex; align-items: center; gap: 0.6rem;
   text-decoration: none;
+  cursor: pointer;
+  transition: transform .2s;
+}
+.nav-brand:hover { transform: scale(1.05); }
+.nav-brand.investor-mode .nav-brand-logo {
+  box-shadow: 0 0 0 3px var(--green-light), 0 0 12px rgba(58,143,92,0.5);
+}
+.nav-brand.investor-mode::after {
+  content: '★';
+  font-size: 0.65rem;
+  color: var(--green-light);
+  margin-left: -0.3rem;
+  margin-top: -0.8rem;
+  line-height: 1;
 }
 .nav-brand-logo {
   width: 36px; height: 36px;

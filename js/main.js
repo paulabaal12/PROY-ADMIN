@@ -6,14 +6,17 @@ document.addEventListener('DOMContentLoaded', () => {
       window.scrollY > 20 ? '0 4px 24px rgba(0,0,0,0.1)' : '0 2px 16px rgba(0,0,0,0.06)';
   });
 
-  /* MODE TOGGLE */
-  document.querySelectorAll('.toggle-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      document.body.classList.toggle('investor', btn.dataset.mode === 'investor');
+  /* MODE TOGGLE — dragon click activates investor mode */
+  const dragon = document.getElementById('nav-dragon');
+  let investorActive = false;
+  if (dragon) {
+    dragon.addEventListener('click', (e) => {
+      // only toggle if clicking the logo image area, not the text
+      investorActive = !investorActive;
+      document.body.classList.toggle('investor', investorActive);
+      dragon.classList.toggle('investor-mode', investorActive);
     });
-  });
+  }
 
   /* TABS */
   document.querySelectorAll('.tab-btn').forEach(btn => {
