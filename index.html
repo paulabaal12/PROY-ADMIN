@@ -618,7 +618,7 @@
       <div style="border-left:1px solid rgba(255,255,255,.15);padding-left:3rem;display:flex;flex-direction:column;gap:1.5rem;">
         <div>
           <div style="font-size:.72rem;color:rgba(255,255,255,.55);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.35rem;">Flujo mensual</div>
-          <div style="font-size:1.5rem;font-weight:900;color:#fff;">Q125,661.54</div>
+          <div style="font-size:1.5rem;font-weight:900;color:#fff;">125,661.54</div>
         </div>
         <div>
           <div style="font-size:.72rem;color:rgba(255,255,255,.55);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.35rem;">Duración</div>
@@ -822,14 +822,18 @@
     <div class="info-card reveal" style="border-top-color:#dc2626;">
       <div class="info-card-title" style="color:#dc2626;"><span class="material-icons-outlined" style="color:#dc2626;">warning_amber</span> Riesgos Identificados</div>
       <ul class="check-list">
+        <li><span class="material-icons-outlined" style="color:#dc2626;">remove_circle_outline</span> Cambios de alcance durante el proyecto</li>
         <li><span class="material-icons-outlined" style="color:#dc2626;">remove_circle_outline</span> Información de horas desactualizada o incorrecta</li>
+        <li><span class="material-icons-outlined" style="color:#dc2626;">remove_circle_outline</span> Baja adopción del portal</li>
         <li><span class="material-icons-outlined" style="color:#dc2626;">remove_circle_outline</span> Acceso indebido a información del estudiante</li>
       </ul>
     </div>
     <div class="info-card reveal">
       <div class="info-card-title"><span class="material-icons-outlined">shield</span> Controles Aplicados</div>
       <ul class="check-list">
+        <li><span class="material-icons-outlined">check_circle_outline</span> Priorización continua de funcionalidades</li>
         <li><span class="material-icons-outlined">check_circle_outline</span> Validación de los datos antes de su publicación</li>
+        <li><span class="material-icons-outlined">check_circle_outline</span> Organización visual del trabajo</li>
         <li><span class="material-icons-outlined">check_circle_outline</span> Control de accesos por roles</li>
       </ul>
     </div>
@@ -864,45 +868,146 @@
   <div class="geo geo-br"></div>
 
   <h2 class="slide-title reveal">Beneficios Esperados</h2>
+  <!-- Layout: tabla izquierda + hero total derecha -->
+  <div style="display:grid;grid-template-columns:1.6fr 1fr;gap:2rem;position:relative;z-index:1;" class="reveal">
 
-  <div class="epics-grid" style="position:relative;z-index:1;">
+    <!-- Tabla de beneficios -->
+    <div style="background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.07);">
 
-    <div class="info-card reveal" style="border-top-color:var(--green-dark);">
-      <div class="info-card-title"><span class="material-icons-outlined">hub</span> Centralización</div>
-      <p style="font-size:.9rem;color:#666;line-height:1.7;">Toda la información académica disponible en un solo punto de acceso para estudiantes y personal.</p>
+      <!-- Encabezado tabla -->
+      <div style="background:var(--green-dark);padding:1.1rem 2rem;display:grid;grid-template-columns:1fr auto;align-items:center;">
+        <span style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:rgba(255,255,255,.7);">Beneficio</span>
+        <span style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:rgba(255,255,255,.7);">Ahorro anual</span>
+      </div>
+
+      <!-- Filas -->
+      <div style="padding:.5rem 0;">
+
+        <div style="display:grid;grid-template-columns:1fr auto;align-items:center;padding:1rem 2rem;border-bottom:1px solid #f5f5f5;transition:background .2s;" onmouseover="this.style.background='#f9fef9'" onmouseout="this.style.background='transparent'">
+          <div style="display:flex;align-items:center;gap:.85rem;">
+            <div style="width:38px;height:38px;border-radius:10px;background:var(--green-bg);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <span class="material-icons-outlined" style="font-size:18px;color:var(--green-dark);">manage_accounts</span>
+            </div>
+            <span style="font-size:.92rem;font-weight:600;color:var(--black);">Gestión de horas de secretaría</span>
+          </div>
+          <span style="font-size:1rem;font-weight:800;color:var(--green-dark);">Q41,700</span>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr auto;align-items:center;padding:1rem 2rem;border-bottom:1px solid #f5f5f5;transition:background .2s;" onmouseover="this.style.background='#f9fef9'" onmouseout="this.style.background='transparent'">
+          <div style="display:flex;align-items:center;gap:.85rem;">
+            <div style="width:38px;height:38px;border-radius:10px;background:var(--green-bg);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <span class="material-icons-outlined" style="font-size:18px;color:var(--green-dark);">school</span>
+            </div>
+            <span style="font-size:.92rem;font-weight:600;color:var(--black);">Gestión de horas de profesores</span>
+          </div>
+          <span style="font-size:1rem;font-weight:800;color:var(--green-dark);">Q620,000</span>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr auto;align-items:center;padding:1rem 2rem;border-bottom:1px solid #f5f5f5;transition:background .2s;" onmouseover="this.style.background='#f9fef9'" onmouseout="this.style.background='transparent'">
+          <div style="display:flex;align-items:center;gap:.85rem;">
+            <div style="width:38px;height:38px;border-radius:10px;background:var(--green-bg);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <span class="material-icons-outlined" style="font-size:18px;color:var(--green-dark);">work_outline</span>
+            </div>
+            <span style="font-size:.92rem;font-weight:600;color:var(--black);">Gestión de horas de extensión</span>
+          </div>
+          <span style="font-size:1rem;font-weight:800;color:var(--green-dark);">Q103,340</span>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr auto;align-items:center;padding:1rem 2rem;border-bottom:1px solid #f5f5f5;transition:background .2s;" onmouseover="this.style.background='#f9fef9'" onmouseout="this.style.background='transparent'">
+          <div style="display:flex;align-items:center;gap:.85rem;">
+            <div style="width:38px;height:38px;border-radius:10px;background:#fff5f5;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <span class="material-icons-outlined" style="font-size:18px;color:#dc2626;">hourglass_empty</span>
+            </div>
+            <span style="font-size:.92rem;font-weight:600;color:var(--black);">Atrasos en la entrega</span>
+          </div>
+          <span style="font-size:1rem;font-weight:800;color:var(--green-dark);">Q16,700</span>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr auto;align-items:center;padding:1rem 2rem;border-bottom:1px solid #f5f5f5;transition:background .2s;" onmouseover="this.style.background='#f9fef9'" onmouseout="this.style.background='transparent'">
+          <div style="display:flex;align-items:center;gap:.85rem;">
+            <div style="width:38px;height:38px;border-radius:10px;background:#fff5f5;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <span class="material-icons-outlined" style="font-size:18px;color:#dc2626;">error_outline</span>
+            </div>
+            <span style="font-size:.92rem;font-weight:600;color:var(--black);">Errores al colocar las horas</span>
+          </div>
+          <span style="font-size:1rem;font-weight:800;color:var(--green-dark);">Q21,700</span>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr auto;align-items:center;padding:1rem 2rem;transition:background .2s;" onmouseover="this.style.background='#f9fef9'" onmouseout="this.style.background='transparent'">
+          <div style="display:flex;align-items:center;gap:.85rem;">
+            <div style="width:38px;height:38px;border-radius:10px;background:#fff5f5;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <span class="material-icons-outlined" style="font-size:18px;color:#dc2626;">person_off</span>
+            </div>
+            <span style="font-size:.92rem;font-weight:600;color:var(--black);">Atrasos del estudiante</span>
+          </div>
+          <span style="font-size:1rem;font-weight:800;color:var(--green-dark);">Q35,000</span>
+        </div>
+
+      </div>
+
+      <!-- Total en pie de tabla -->
+      <div style="background:var(--green-bg);padding:1.1rem 2rem;display:grid;grid-template-columns:1fr auto;align-items:center;border-top:2px solid var(--green-pale);">
+        <span style="font-size:.82rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--green-dark);">Total beneficio anual</span>
+        <span style="font-size:1.35rem;font-weight:900;color:var(--green-dark);">Q838,440</span>
+      </div>
+
     </div>
 
-    <div class="info-card reveal" style="border-top-color:var(--green-main);">
-      <div class="info-card-title"><span class="material-icons-outlined">sentiment_satisfied_alt</span> Experiencia Estudiantil</div>
-      <p style="font-size:.9rem;color:#666;line-height:1.7;">Los estudiantes acceden fácilmente a sus horas, oportunidades y noticias del departamento.</p>
+    <!-- Hero total -->
+    <div style="display:flex;flex-direction:column;gap:1.25rem;">
+
+      <!-- Card total grande -->
+      <div style="background:linear-gradient(145deg,var(--green-dark),#2d7a4f);border-radius:22px;padding:2rem 1.75rem;flex:1;display:flex;flex-direction:column;justify-content:center;box-shadow:0 12px 36px rgba(26,77,46,.28);">
+        <div style="font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:rgba(255,255,255,.55);margin-bottom:.6rem;">Beneficio total anual</div>
+        <div style="font-size:3rem;font-weight:900;color:#fff;line-height:1;margin-bottom:.4rem;">Q838,440</div>
+        <div style="font-size:.85rem;color:rgba(255,255,255,.6);margin-bottom:1.5rem;">Valor económico generado por el sistema</div>
+        <!-- mini barras proporcionales -->
+        <div style="display:flex;flex-direction:column;gap:.55rem;">
+          <div>
+            <div style="display:flex;justify-content:space-between;font-size:.68rem;color:rgba(255,255,255,.55);margin-bottom:.3rem;">
+              <span>Profesores</span><span>74%</span>
+            </div>
+            <div style="height:5px;background:rgba(255,255,255,.12);border-radius:100px;overflow:hidden;">
+              <div style="height:100%;width:74%;background:rgba(255,255,255,.75);border-radius:100px;"></div>
+            </div>
+          </div>
+          <div>
+            <div style="display:flex;justify-content:space-between;font-size:.68rem;color:rgba(255,255,255,.55);margin-bottom:.3rem;">
+              <span>Extensión</span><span>12%</span>
+            </div>
+            <div style="height:5px;background:rgba(255,255,255,.12);border-radius:100px;overflow:hidden;">
+              <div style="height:100%;width:12%;background:rgba(255,255,255,.65);border-radius:100px;"></div>
+            </div>
+          </div>
+          <div>
+            <div style="display:flex;justify-content:space-between;font-size:.68rem;color:rgba(255,255,255,.55);margin-bottom:.3rem;">
+              <span>Otros ahorros</span><span>14%</span>
+            </div>
+            <div style="height:5px;background:rgba(255,255,255,.12);border-radius:100px;overflow:hidden;">
+              <div style="height:100%;width:14%;background:rgba(255,255,255,.5);border-radius:100px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card ROI rápido -->
+      <div style="background:#fff;border-radius:18px;padding:1.4rem 1.75rem;border:2px solid var(--green-pale);box-shadow:0 4px 16px rgba(0,0,0,.06);">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.9rem;">
+          <div style="display:flex;align-items:center;gap:.5rem;">
+            <div style="width:32px;height:32px;border-radius:9px;background:var(--green-bg);display:flex;align-items:center;justify-content:center;">
+              <span class="material-icons-outlined" style="font-size:17px;color:var(--green-dark);">trending_up</span>
+            </div>
+            <span style="font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--green-dark);">ROI del proyecto</span>
+          </div>
+          <span style="font-size:1.6rem;font-weight:900;color:var(--green-dark);">42.86%</span>
+        </div>
+        <div style="height:6px;background:#e8f5ee;border-radius:100px;overflow:hidden;">
+          <div style="height:100%;width:43%;background:linear-gradient(90deg,var(--green-dark),var(--green-light));border-radius:100px;"></div>
+        </div>
+        <div style="font-size:.75rem;color:#aaa;margin-top:.6rem;">El proyecto supera la TMAR requerida del 25%</div>
+      </div>
+
     </div>
-
-    <div class="info-card reveal" style="border-top-color:var(--green-light);">
-      <div class="info-card-title"><span class="material-icons-outlined">speed</span> Eficiencia Administrativa</div>
-      <p style="font-size:.9rem;color:#666;line-height:1.7;">Reducción de procesos manuales y optimización del tiempo del personal administrativo.</p>
-    </div>
-
-    <div class="info-card reveal" style="border-top-color:var(--green-dark);">
-      <div class="info-card-title"><span class="material-icons-outlined">campaign</span> Mejor Comunicación</div>
-      <p style="font-size:.9rem;color:#666;line-height:1.7;">Noticias, actividades y alertas llegan oportunamente a toda la comunidad estudiantil.</p>
-    </div>
-
-    <div class="info-card reveal" style="border-top-color:var(--green-main);">
-      <div class="info-card-title"><span class="material-icons-outlined">groups</span> Mayor Participación</div>
-      <p style="font-size:.9rem;color:#666;line-height:1.7;">Los estudiantes se enteran de oportunidades a tiempo, aumentando su participación activa.</p>
-    </div>
-
-    <div class="info-card reveal" style="border-top-color:var(--green-light);">
-      <div class="info-card-title"><span class="material-icons-outlined">account_balance</span> Modernización Institucional</div>
-      <p style="font-size:.9rem;color:#666;line-height:1.7;">El departamento se posiciona como una unidad académica moderna, organizada y accesible.</p>
-    </div>
-
-  </div>
-
-  <div style="background:linear-gradient(135deg,var(--green-dark),var(--green-main));color:#fff;border-radius:20px;padding:2rem 2.5rem;margin-top:2.5rem;position:relative;z-index:1;text-align:center;" class="reveal">
-    <p style="font-size:1.15rem;font-weight:800;font-style:italic;line-height:1.5;">
-      Jack's Cave transforma la forma en que estudiantes y departamento<br/>se conectan con la información.
-    </p>
   </div>
 
   <div class="slide-num">12</div>
