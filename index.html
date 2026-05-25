@@ -75,7 +75,7 @@
 
   <div class="hero-right">
     <img src="img/2.png" alt="Dragon Jack" class="hero-dragon reveal"
-         onerror="this.src='';this.style.display='none'"/>
+         onerror="this.src='';this.style.display='none'" style="width:520px;"/>
   </div>
 
   <div class="slide-num">01</div>
@@ -491,14 +491,8 @@
     </div>
   </div>
 
-  <!-- Dragon imagen de costos -->
-  <div style="text-align:center;margin-bottom:2rem;position:relative;z-index:1;" class="reveal">
-    <img src="img/6.png" alt="Dragon Costos" style="height:120px;object-fit:contain;filter:drop-shadow(0 8px 20px rgba(0,0,0,.12));"
-         onerror="this.style.display='none'"/>
-  </div>
-
   <div class="costs-grid">
-    <div class="cost-card cc-scrum reveal">
+    <div class="cost-card cc-neutral reveal">
       <div class="cost-method-name">Scrum</div>
       <div class="cost-amount-badge">Q573,000</div>
       <div class="cost-months-badge">6 meses de trabajo</div>
@@ -510,7 +504,19 @@
         <div class="cost-detail-row"><span class="cdl">Costo/sprint</span><span class="cdv">Q37,125</span></div>
       </div>
     </div>
-    <div class="cost-card cc-kanban reveal">
+    <div class="cost-card cc-scrumban reveal" style="position:relative;">
+      <div style="position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:#fff;color:var(--green-dark);font-size:.7rem;font-weight:800;padding:.3rem 1.1rem;border-radius:100px;text-transform:uppercase;letter-spacing:.08em;box-shadow:0 4px 12px rgba(0,0,0,.18);">Recomendado</div>
+      <div class="cost-method-name">Scrumban</div>
+      <div class="cost-amount-badge">Q676,000</div>
+      <div class="cost-months-badge">6.5 meses de trabajo</div>
+      <div class="cost-desc">Equilibrio entre estructura y flexibilidad, optimizando eficiencia y tiempos de entrega.</div>
+      <div class="cost-details-list">
+        <div class="cost-detail-row"><span class="cdl">Costo real</span><span class="cdv">Q482,625</span></div>
+        <div class="cost-detail-row"><span class="cdl">Margen</span><span class="cdv">~28.6%</span></div>
+        <div class="cost-detail-row"><span class="cdl">Ingreso/mes</span><span class="cdv">Q104,000</span></div>
+      </div>
+    </div>
+    <div class="cost-card cc-neutral reveal">
       <div class="cost-method-name">Kanban</div>
       <div class="cost-amount-badge">Q682,500</div>
       <div class="cost-months-badge">7 meses de trabajo</div>
@@ -520,18 +526,6 @@
         <div class="cost-detail-row"><span class="cdl">Margen</span><span class="cdv">22.8%</span></div>
         <div class="cost-detail-row"><span class="cdl">Burn rate</span><span class="cdv">Q75,250/mes</span></div>
         <div class="cost-detail-row"><span class="cdl">Cycle time</span><span class="cdv">5 días</span></div>
-      </div>
-    </div>
-    <div class="cost-card cc-scrumban reveal" style="position:relative;">
-      <div style="position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:#fff;color:var(--green-dark);font-size:.7rem;font-weight:800;padding:.3rem 1rem;border-radius:100px;text-transform:uppercase;letter-spacing:.08em;box-shadow:0 4px 12px rgba(0,0,0,.15);">Recomendado</div>
-      <div class="cost-method-name">Scrumban</div>
-      <div class="cost-amount-badge">Q676,000</div>
-      <div class="cost-months-badge">6.5 meses de trabajo</div>
-      <div class="cost-desc">Equilibrio entre estructura y flexibilidad, optimizando eficiencia y tiempos de entrega.</div>
-      <div class="cost-details-list">
-        <div class="cost-detail-row"><span class="cdl">Costo real</span><span class="cdv">Q482,625</span></div>
-        <div class="cost-detail-row"><span class="cdl">Margen</span><span class="cdv">~28.6%</span></div>
-        <div class="cost-detail-row"><span class="cdl">Ingreso/mes</span><span class="cdv">Q104,000</span></div>
       </div>
     </div>
   </div>
@@ -653,46 +647,6 @@
   <div class="geo geo-bl"></div>
 
   <h2 class="slide-title reveal">El Equipo</h2>
-
-  <p style="font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.78rem;color:var(--green-main);margin-bottom:1.25rem;position:relative;z-index:1;" class="reveal">Equipo de Proyecto — UVG</p>
-  <div class="team-grid" style="margin-bottom:3rem;">
-    <div class="team-card reveal">
-      <div class="team-card-icon"><span class="material-icons-outlined">person</span></div>
-      <div class="team-role">Estudiante</div>
-      <div class="team-name">Irving Acosta</div>
-      <div class="team-id">22781</div>
-    </div>
-    <div class="team-card reveal">
-      <div class="team-card-icon"><span class="material-icons-outlined">person</span></div>
-      <div class="team-role">Estudiante</div>
-      <div class="team-name">Francis Aguilar</div>
-      <div class="team-id">22243</div>
-    </div>
-    <div class="team-card reveal">
-      <div class="team-card-icon"><span class="material-icons-outlined">person</span></div>
-      <div class="team-role">Estudiante</div>
-      <div class="team-name">Paula Barillas</div>
-      <div class="team-id">22764</div>
-    </div>
-    <div class="team-card reveal">
-      <div class="team-card-icon"><span class="material-icons-outlined">person</span></div>
-      <div class="team-role">Estudiante</div>
-      <div class="team-name">Diego García</div>
-      <div class="team-id">22404</div>
-    </div>
-    <div class="team-card reveal">
-      <div class="team-card-icon"><span class="material-icons-outlined">person</span></div>
-      <div class="team-role">Estudiante</div>
-      <div class="team-name">Angela García</div>
-      <div class="team-id">22869</div>
-    </div>
-    <div class="team-card reveal">
-      <div class="team-card-icon"><span class="material-icons-outlined">person</span></div>
-      <div class="team-role">Estudiante</div>
-      <div class="team-name">Gerardo Pineda</div>
-      <div class="team-id">22880</div>
-    </div>
-  </div>
 
   <p style="font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.78rem;color:var(--green-dark);margin-bottom:1.25rem;position:relative;z-index:1;" class="reveal">Equipo de Implementación</p>
   <div class="team-grid">

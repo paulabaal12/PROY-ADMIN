@@ -158,12 +158,12 @@ nav {
 }
 
 .hero-right {
-  flex: 0 0 420px;
+  flex: 0 0 540px;
   position: relative; z-index: 1;
   display: flex; align-items: flex-end; justify-content: center;
 }
 .hero-dragon {
-  width: 380px;
+  width: 520px;
   filter: drop-shadow(0 20px 40px rgba(0,0,0,0.12));
   animation: float 4s ease-in-out infinite;
 }
@@ -261,6 +261,7 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
   position: relative; z-index: 1;
+  align-items: start;
 }
 
 .epic-card {
@@ -426,6 +427,7 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   position: relative; z-index: 1;
+  align-items: center;
 }
 
 .cost-card {
@@ -435,9 +437,37 @@ nav {
   transition: transform .3s;
 }
 .cost-card:hover { transform: translateY(-6px); }
-.cost-card.cc-scrum   { background: var(--green-dark); color: #fff; }
-.cost-card.cc-kanban  { background: var(--green-light); color: #fff; }
-.cost-card.cc-scrumban { background: var(--green-main); color: #fff; }
+
+/* Neutral cards for Scrum & Kanban */
+.cost-card.cc-neutral {
+  background: #fff;
+  color: var(--gray-text);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  border: 2px solid var(--green-pale);
+}
+.cost-card.cc-neutral .cost-method-name { color: var(--green-dark); }
+.cost-card.cc-neutral .cost-amount-badge {
+  background: var(--green-bg);
+  color: var(--green-dark);
+}
+.cost-card.cc-neutral .cost-months-badge {
+  background: var(--green-bg);
+  color: var(--green-dark);
+}
+.cost-card.cc-neutral .cost-desc { color: #888; background: var(--gray-light); }
+.cost-card.cc-neutral .cdl { color: #888; }
+.cost-card.cc-neutral .cdv { color: var(--black); }
+.cost-card.cc-neutral .cost-detail-row { border-bottom-color: #f0f0f0; }
+
+/* Green highlighted Scrumban (center) */
+.cost-card.cc-scrumban {
+  background: var(--green-dark);
+  color: #fff;
+  box-shadow: 0 16px 48px rgba(26,77,46,0.35);
+  transform: scale(1.04);
+  padding-top: 3.5rem;
+}
+.cost-card.cc-scrumban:hover { transform: scale(1.04) translateY(-6px); }
 
 .cost-method-name {
   font-size: 1.75rem; font-weight: 900;
@@ -517,14 +547,25 @@ nav {
   padding: 0.4rem 0.5rem;
   border-bottom: 1px solid #eee;
 }
+.sla-table th:first-child { width: 90px; }
 .sla-table td {
   font-size: 0.78rem; padding: 0.6rem 0.5rem;
   border-bottom: 1px solid #f5f5f5;
   color: var(--gray-text);
+  vertical-align: middle;
 }
+.sla-table td:first-child { width: 90px; }
 
-.sev { display: inline-block; font-size: 0.65rem; font-weight: 700;
-  padding: 0.15rem 0.5rem; border-radius: 4px; }
+.sev {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem; font-weight: 700;
+  padding: 0.25rem 0;
+  border-radius: 6px;
+  width: 72px;
+  text-align: center;
+}
 .sev-c { background: #fef2f2; color: #dc2626; border: 1px solid #fca5a5; }
 .sev-a { background: #fffbeb; color: #d97706; border: 1px solid #fcd34d; }
 .sev-m { background: #eff6ff; color: #2563eb; border: 1px solid #93c5fd; }
