@@ -23,7 +23,7 @@
     <li><a href="#epicas">Épicas</a></li>
     <li><a href="#metodologias">Metodologías</a></li>
     <li><a href="#costos">Costos</a></li>
-    <li><a href="#sla">SLA</a></li>
+    <li><a href="#sla">Acuerdo de Servicio</a></li>
     <li><a href="#equipo">Equipo</a></li>
   </ul>
   <div class="nav-toggle">
@@ -53,7 +53,7 @@
     <div style="display:flex;gap:2.5rem;margin-top:2.5rem;" class="reveal">
       <div>
         <div style="font-size:2.2rem;font-weight:900;color:var(--green-main);" data-to="200" data-suf=" pts">0 pts</div>
-        <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:.1em;color:#999;font-weight:600;">Story Points MVP</div>
+        <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:.1em;color:#999;font-weight:600;">Funcionalidades del producto</div>
       </div>
       <div>
         <div style="font-size:2.2rem;font-weight:900;color:var(--green-main);" data-to="6" data-suf=" épicas">0 épicas</div>
@@ -99,8 +99,37 @@
       </p>
     </div>
     <div class="product-img reveal">
-      <img src="img/3.png" alt="Portal Web"
-           onerror="this.parentElement.innerHTML='<div style=&quot;background:var(--green-bg);border-radius:16px;padding:3rem;text-align:center;color:var(--green-dark);font-weight:700;&quot;>Portal Web<br/>Jack\'s Cave</div>'"/>
+      <div class="product-mockup">
+        <div class="pm-bar">
+          <span class="pm-dot"></span><span class="pm-dot"></span><span class="pm-dot"></span>
+          <span class="pm-url">jackcave.uvg.edu.gt</span>
+        </div>
+        <div class="pm-body">
+          <div class="pm-nav-row">
+            <div class="pm-nav-logo">JC</div>
+            <div style="display:flex;gap:.5rem;">
+              <div class="pm-nav-item"></div>
+              <div class="pm-nav-item"></div>
+              <div class="pm-nav-item"></div>
+            </div>
+          </div>
+          <div class="pm-hero-row">
+            <div class="pm-hero-text">
+              <div class="pm-h1"></div>
+              <div class="pm-h2"></div>
+              <div class="pm-btn"></div>
+            </div>
+            <div class="pm-hero-icon">
+              <span class="material-icons-outlined" style="font-size:48px;color:var(--green-dark);opacity:.35;">school</span>
+            </div>
+          </div>
+          <div class="pm-cards-row">
+            <div class="pm-card"><span class="material-icons-outlined" style="font-size:20px;color:var(--green-main);">schedule</span><div class="pm-card-line"></div><div class="pm-card-line short"></div></div>
+            <div class="pm-card"><span class="material-icons-outlined" style="font-size:20px;color:var(--green-main);">work_outline</span><div class="pm-card-line"></div><div class="pm-card-line short"></div></div>
+            <div class="pm-card"><span class="material-icons-outlined" style="font-size:20px;color:var(--green-main);">article</span><div class="pm-card-line"></div><div class="pm-card-line short"></div></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -177,7 +206,7 @@
 
   <h2 class="slide-title reveal">Épicas del Proyecto</h2>
   <p style="color:#666;margin-bottom:2rem;position:relative;z-index:1;font-size:.88rem;" class="reveal">
-    Haz clic en cada épica para ver sus historias de usuario. MVP: <strong style="color:var(--green-dark)">200 pts</strong> de 255 pts totales.
+    Haz clic en cada módulo para ver sus funcionalidades. Producto inicial: <strong style="color:var(--green-dark)">200 puntos</strong> de 255 en total.
   </p>
 
   <div class="epics-grid">
@@ -306,28 +335,28 @@
         <div class="method-badge-icon">S</div>
         <div>
           <div class="method-badge-text">Scrum</div>
-          <div class="method-badge-sub">12 sprints · 6 meses · 22 pts/sprint</div>
+          <div class="method-badge-sub">12 iteraciones · 6 meses · entrega continua</div>
         </div>
       </div>
       <div class="method-badge dark-badge">
         <div class="method-badge-icon">K</div>
         <div>
           <div class="method-badge-text">Kanban</div>
-          <div class="method-badge-sub">92 tickets · 7 meses · Cycle time 5 días</div>
+          <div class="method-badge-sub">92 tareas · 7 meses · resolución promedio 5 días</div>
         </div>
       </div>
       <div class="method-badge" style="background:var(--green-dark);">
         <div class="method-badge-icon">SB</div>
         <div>
           <div class="method-badge-text">Scrumban</div>
-          <div class="method-badge-sub">13 sprints · 6.5 meses · 60% Build / 40% Run</div>
+          <div class="method-badge-sub">13 iteraciones · 6.5 meses · 60% Desarrollo / 40% Soporte</div>
         </div>
       </div>
       <div style="background:var(--green-bg);border-radius:16px;padding:1.25rem 1.5rem;display:flex;align-items:center;gap:1rem;">
         <span class="material-icons-outlined" style="color:var(--green-dark);font-size:28px;">confirmation_number</span>
         <div>
           <div style="font-size:1.6rem;font-weight:900;color:var(--green-dark);">92</div>
-          <div style="font-size:.78rem;color:var(--green-main);font-weight:600;text-transform:uppercase;letter-spacing:.08em;">Tickets con descripción</div>
+          <div style="font-size:.78rem;color:var(--green-main);font-weight:600;text-transform:uppercase;letter-spacing:.08em;">Funcionalidades documentadas</div>
         </div>
       </div>
     </div>
@@ -353,18 +382,18 @@
     <div class="tab-panel active" id="t-scrum">
       <div class="method-detail-grid">
         <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">speed</span> Parámetros Sprint</div>
-          <div class="metric-row"><span class="metric-label">Sprints totales (con buffer 15%)</span><span class="metric-val green">12 sprints</span></div>
-          <div class="metric-row"><span class="metric-label">Duración del sprint</span><span class="metric-val">2 semanas</span></div>
-          <div class="metric-row"><span class="metric-label">Velocidad del equipo</span><span class="metric-val">22 pts/sprint</span></div>
-          <div class="metric-row"><span class="metric-label">Story Points MVP</span><span class="metric-val">200 pts</span></div>
+          <div class="info-card-title"><span class="material-icons-outlined">speed</span> Planificación del Proyecto</div>
+          <div class="metric-row"><span class="metric-label">Iteraciones totales (con margen 15%)</span><span class="metric-val green">12 sprints</span></div>
+          <div class="metric-row"><span class="metric-label">Duración de cada iteración</span><span class="metric-val">2 semanas</span></div>
+          <div class="metric-row"><span class="metric-label">Capacidad del equipo</span><span class="metric-val">22 puntos por iteración</span></div>
+          <div class="metric-row"><span class="metric-label">Funcionalidades del producto</span><span class="metric-val">200 pts</span></div>
           <div class="metric-row"><span class="metric-label">Duración total</span><span class="metric-val green">6 meses (24 semanas)</span></div>
         </div>
         <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">payments</span> Costos Scrum</div>
-          <div class="metric-row"><span class="metric-label">Burn Rate mensual (real)</span><span class="metric-val">Q74,250</span></div>
-          <div class="metric-row"><span class="metric-label">Costo por sprint (real)</span><span class="metric-val">Q37,125</span></div>
-          <div class="metric-row"><span class="metric-label">Costo total real (12 sprints)</span><span class="metric-val">Q445,500</span></div>
+          <div class="info-card-title"><span class="material-icons-outlined">payments</span> Costos — Entregas por Iteración</div>
+          <div class="metric-row"><span class="metric-label">Gasto mensual del equipo</span><span class="metric-val">Q74,250</span></div>
+          <div class="metric-row"><span class="metric-label">Costo por iteración</span><span class="metric-val">Q37,125</span></div>
+          <div class="metric-row"><span class="metric-label">Costo total real (12 iteraciones)</span><span class="metric-val">Q445,500</span></div>
           <div class="metric-row"><span class="metric-label">Costo mensual cliente</span><span class="metric-val">Q95,500</span></div>
           <div class="metric-row"><span class="metric-label">Costo total cliente</span><span class="metric-val green">Q573,000</span></div>
           <div class="metric-row"><span class="metric-label">Margen bruto</span><span class="metric-val green">22.25%</span></div>
@@ -377,11 +406,11 @@
           <div class="prog-row"><div class="prog-label"><span>Optimista (25 pts)</span><span>100%</span></div><div class="prog-bar"><div class="prog-fill" data-w="100"></div></div></div>
         </div>
         <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">group</span> Equipo (FTE)</div>
-          <div class="metric-row"><span class="metric-label">Senior + 3 Middle + Junior</span><span class="metric-val green">1.0 FTE — Q60,500</span></div>
-          <div class="metric-row"><span class="metric-label">Product Owner</span><span class="metric-val">0.5 FTE — Q10,000</span></div>
-          <div class="metric-row"><span class="metric-label">Scrum Master</span><span class="metric-val">0.25 FTE — Q3,750</span></div>
-          <div class="metric-row" style="border-top:2px solid var(--green-pale);margin-top:.5rem;padding-top:.75rem"><span class="metric-label" style="font-weight:700">Burn Rate mensual</span><span class="metric-val green">Q74,250</span></div>
+          <div class="info-card-title"><span class="material-icons-outlined">group</span> Distribución del equipo</div>
+          <div class="metric-row"><span class="metric-label">Senior + 3 Middle + Junior</span><span class="metric-val green">Q60,500 dedicación completa</span></div>
+          <div class="metric-row"><span class="metric-label">Product Owner</span><span class="metric-val">Q10,000 dedicación parcial</span></div>
+          <div class="metric-row"><span class="metric-label">Coordinador de equipo</span><span class="metric-val">Q3,750 dedicación parcial</span></div>
+          <div class="metric-row" style="border-top:2px solid var(--green-pale);margin-top:.5rem;padding-top:.75rem"><span class="metric-label" style="font-weight:700">Gasto mensual</span><span class="metric-val green">Q74,250</span></div>
         </div>
       </div>
     </div>
@@ -390,31 +419,31 @@
     <div class="tab-panel" id="t-kanban">
       <div class="method-detail-grid">
         <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">view_kanban</span> Tablero Kanban</div>
-          <div class="metric-row"><span class="metric-label">To Do (WIP)</span><span class="metric-val">8 tickets</span></div>
-          <div class="metric-row"><span class="metric-label">In Progress (WIP)</span><span class="metric-val">4 tickets</span></div>
-          <div class="metric-row"><span class="metric-label">Revisión Final (WIP)</span><span class="metric-val">3 tickets</span></div>
+          <div class="info-card-title"><span class="material-icons-outlined">view_kanban</span> Flujo de trabajo</div>
+          <div class="metric-row"><span class="metric-label">Por iniciar</span><span class="metric-val">8 tickets</span></div>
+          <div class="metric-row"><span class="metric-label">En desarrollo</span><span class="metric-val">4 tickets</span></div>
+          <div class="metric-row"><span class="metric-label">En revisión</span><span class="metric-val">3 tickets</span></div>
           <div class="metric-row"><span class="metric-label">Done</span><span class="metric-val">Sin límite</span></div>
-          <div class="metric-row"><span class="metric-label">Total de tickets</span><span class="metric-val green">92 tickets</span></div>
+          <div class="metric-row"><span class="metric-label">Total de tareas</span><span class="metric-val green">92 tareas</span></div>
         </div>
         <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">timer</span> Métricas de Flujo</div>
-          <div class="metric-row"><span class="metric-label">Cycle Time promedio</span><span class="metric-val green">5 días/ticket</span></div>
-          <div class="metric-row"><span class="metric-label">Lead Time promedio</span><span class="metric-val green">17 días hábiles</span></div>
-          <div class="metric-row"><span class="metric-label">Throughput semanal</span><span class="metric-val">4.5 tickets/sem</span></div>
-          <div class="metric-row"><span class="metric-label">Throughput mensual</span><span class="metric-val">~18 tickets/mes</span></div>
+          <div class="info-card-title"><span class="material-icons-outlined">timer</span> Tiempos de entrega</div>
+          <div class="metric-row"><span class="metric-label">Tiempo promedio por tarea</span><span class="metric-val green">5 días por tarea</span></div>
+          <div class="metric-row"><span class="metric-label">Tiempo de espera del cliente</span><span class="metric-val green">17 días hábiles</span></div>
+          <div class="metric-row"><span class="metric-label">Tareas completadas por semana</span><span class="metric-val">~4–5 tareas/semana</span></div>
+          <div class="metric-row"><span class="metric-label">Tareas completadas por mes</span><span class="metric-val">~18 tareas/mes</span></div>
           <div class="metric-row"><span class="metric-label">Duración total</span><span class="metric-val green">7 meses</span></div>
         </div>
         <div class="info-card reveal prog-group">
-          <div class="info-card-title"><span class="material-icons-outlined">bar_chart</span> Distribución Tickets</div>
-          <div class="prog-row"><div class="prog-label"><span>SP=1 simples (11 tickets)</span><span>12%</span></div><div class="prog-bar"><div class="prog-fill" data-w="12"></div></div></div>
-          <div class="prog-row"><div class="prog-label"><span>SP=2 simples (35 tickets)</span><span>38%</span></div><div class="prog-bar"><div class="prog-fill" data-w="38"></div></div></div>
-          <div class="prog-row"><div class="prog-label"><span>SP=3 medios (32 tickets)</span><span>35%</span></div><div class="prog-bar"><div class="prog-fill" data-w="35"></div></div></div>
-          <div class="prog-row"><div class="prog-label"><span>SP=5 complejos (14 tickets)</span><span>15%</span></div><div class="prog-bar"><div class="prog-fill" data-w="15"></div></div></div>
+          <div class="info-card-title"><span class="material-icons-outlined">bar_chart</span> Clasificación de tareas</div>
+          <div class="prog-row"><div class="prog-label"><span>Tareas rápidas (11 tareas)</span><span>12%</span></div><div class="prog-bar"><div class="prog-fill" data-w="12"></div></div></div>
+          <div class="prog-row"><div class="prog-label"><span>Tareas sencillas (35 tareas)</span><span>38%</span></div><div class="prog-bar"><div class="prog-fill" data-w="38"></div></div></div>
+          <div class="prog-row"><div class="prog-label"><span>Tareas medias (32 tareas)</span><span>35%</span></div><div class="prog-bar"><div class="prog-fill" data-w="35"></div></div></div>
+          <div class="prog-row"><div class="prog-label"><span>Tareas complejas (14 tareas)</span><span>15%</span></div><div class="prog-bar"><div class="prog-fill" data-w="15"></div></div></div>
         </div>
         <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">payments</span> Costos Kanban</div>
-          <div class="metric-row"><span class="metric-label">Burn Rate mensual (real)</span><span class="metric-val">Q75,250</span></div>
+          <div class="info-card-title"><span class="material-icons-outlined">payments</span> Costos — Flujo Continuo</div>
+          <div class="metric-row"><span class="metric-label">Gasto mensual del equipo</span><span class="metric-val">Q75,250</span></div>
           <div class="metric-row"><span class="metric-label">Costo total real (7 meses)</span><span class="metric-val">Q526,750</span></div>
           <div class="metric-row"><span class="metric-label">Costo mensual cliente</span><span class="metric-val">Q97,500</span></div>
           <div class="metric-row"><span class="metric-label">Costo total cliente</span><span class="metric-val green">Q682,500</span></div>
@@ -427,19 +456,19 @@
     <div class="tab-panel" id="t-scrumban">
       <div class="method-detail-grid">
         <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">merge</span> Parámetros Scrumban</div>
-          <div class="metric-row"><span class="metric-label">Sprints (buffer 25%)</span><span class="metric-val green">13 sprints</span></div>
+          <div class="info-card-title"><span class="material-icons-outlined">merge</span> Planificación Híbrida</div>
+          <div class="metric-row"><span class="metric-label">Iteraciones (con margen 25%)</span><span class="metric-val green">13 sprints</span></div>
           <div class="metric-row"><span class="metric-label">Duración total</span><span class="metric-val green">6.5 meses</span></div>
-          <div class="metric-row"><span class="metric-label">Velocidad</span><span class="metric-val">22 pts/sprint</span></div>
-          <div class="metric-row"><span class="metric-label">Distribución</span><span class="metric-val">60% Build / 40% Run</span></div>
+          <div class="metric-row"><span class="metric-label">Velocidad</span><span class="metric-val">22 puntos por iteración</span></div>
+          <div class="metric-row"><span class="metric-label">Distribución</span><span class="metric-val">60% Desarrollo / 40% Soporte</span></div>
         </div>
         <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">calculate</span> Estructura de Precios</div>
-          <div class="metric-row"><span class="metric-label">Precio Build por sprint</span><span class="metric-val">Q29,700</span></div>
-          <div class="metric-row"><span class="metric-label">Precio Run mensual</span><span class="metric-val">Q39,600</span></div>
-          <div class="metric-row"><span class="metric-label">Extra SLA</span><span class="metric-val">Q5,000/periodo</span></div>
-          <div class="metric-row"><span class="metric-label">Ingreso total mensual</span><span class="metric-val">Q104,000</span></div>
-          <div class="metric-row"><span class="metric-label">Ingreso total proyecto</span><span class="metric-val green">Q676,000</span></div>
+          <div class="info-card-title"><span class="material-icons-outlined">calculate</span> Desglose de Costos</div>
+          <div class="metric-row"><span class="metric-label">Costo de desarrollo por iteración</span><span class="metric-val">Q29,700</span></div>
+          <div class="metric-row"><span class="metric-label">Soporte mensual</span><span class="metric-val">Q39,600</span></div>
+          <div class="metric-row"><span class="metric-label">Cargo por acuerdo de servicio</span><span class="metric-val">Q5,000/periodo</span></div>
+          <div class="metric-row"><span class="metric-label">Ingreso mensual del cliente</span><span class="metric-val">Q104,000</span></div>
+          <div class="metric-row"><span class="metric-label">Ingreso total del proyecto</span><span class="metric-val green">Q676,000</span></div>
         </div>
         <div class="info-card reveal">
           <div class="info-card-title"><span class="material-icons-outlined">percent</span> Rentabilidad</div>
@@ -449,10 +478,10 @@
           <div class="metric-row"><span class="metric-label">Margen bruto real</span><span class="metric-val green">~28.6%</span></div>
         </div>
         <div class="info-card reveal">
-          <div class="info-card-title"><span class="material-icons-outlined">psychology</span> ¿Por qué Scrumban?</div>
+          <div class="info-card-title"><span class="material-icons-outlined">psychology</span> ¿Por qué recomendamos este enfoque?</div>
           <p style="font-size:.82rem;color:#666;line-height:1.8;">
-            Dado el <strong>alto riesgo de cambios</strong> del cliente, se adoptó enfoque <strong style="color:var(--green-dark)">60% Build / 40% Run</strong>.
-            Combina la predictibilidad de sprints con la flexibilidad del flujo continuo para responder a cambios sin comprometer entregables.
+            Dado el <strong>alto riesgo de cambios</strong> del cliente, se adoptó enfoque <strong style="color:var(--green-dark)">60% Desarrollo / 40% Soporte</strong>.
+            Combina la organización de entregas planificadas con la flexibilidad de responder a cambios sin comprometer los resultados acordados.
           </p>
         </div>
       </div>
@@ -477,7 +506,7 @@
       <div class="inv-kpis">
         <div class="inv-kpi">
           <div class="inv-kpi-val">28.6%</div>
-          <div class="inv-kpi-label">Margen máximo (Scrumban)</div>
+          <div class="inv-kpi-label">Mayor rentabilidad</div>
         </div>
         <div class="inv-kpi">
           <div class="inv-kpi-val">Q676K</div>
@@ -485,7 +514,7 @@
         </div>
         <div class="inv-kpi">
           <div class="inv-kpi-val">6 meses</div>
-          <div class="inv-kpi-label">Time to market (Scrum)</div>
+          <div class="inv-kpi-label">Tiempo de lanzamiento</div>
         </div>
       </div>
     </div>
@@ -496,12 +525,12 @@
       <div class="cost-method-name">Scrum</div>
       <div class="cost-amount-badge">Q573,000</div>
       <div class="cost-months-badge">6 meses de trabajo</div>
-      <div class="cost-desc">Alta organización y entregas predecibles mediante sprints definidos.</div>
+      <div class="cost-desc">Alta organización con entregas periódicas y fechas claras de entrega.</div>
       <div class="cost-details-list">
         <div class="cost-detail-row"><span class="cdl">Costo real</span><span class="cdv">Q445,500</span></div>
         <div class="cost-detail-row"><span class="cdl">Margen</span><span class="cdv">22.25%</span></div>
-        <div class="cost-detail-row"><span class="cdl">Burn rate</span><span class="cdv">Q74,250/mes</span></div>
-        <div class="cost-detail-row"><span class="cdl">Costo/sprint</span><span class="cdv">Q37,125</span></div>
+        <div class="cost-detail-row"><span class="cdl">Gasto mensual</span><span class="cdv">Q74,250/mes</span></div>
+        <div class="cost-detail-row"><span class="cdl">Costo por iteración</span><span class="cdv">Q37,125</span></div>
       </div>
     </div>
     <div class="cost-card cc-scrumban reveal" style="position:relative;">
@@ -524,8 +553,8 @@
       <div class="cost-details-list">
         <div class="cost-detail-row"><span class="cdl">Costo real</span><span class="cdv">Q526,750</span></div>
         <div class="cost-detail-row"><span class="cdl">Margen</span><span class="cdv">22.8%</span></div>
-        <div class="cost-detail-row"><span class="cdl">Burn rate</span><span class="cdv">Q75,250/mes</span></div>
-        <div class="cost-detail-row"><span class="cdl">Cycle time</span><span class="cdv">5 días</span></div>
+        <div class="cost-detail-row"><span class="cdl">Gasto mensual</span><span class="cdv">Q75,250/mes</span></div>
+        <div class="cost-detail-row"><span class="cdl">Tiempo por tarea</span><span class="cdv">5 días</span></div>
       </div>
     </div>
   </div>
@@ -533,30 +562,30 @@
   <div class="slide-num">07</div>
 </section>
 
-<!-- ═══════════════════ SLA ═══════════════════ -->
+<!-- ═══════════════════ ACUERDO ═══════════════════ -->
 <section id="sla" class="slide slide-pale">
   <div class="geo geo-tl"></div>
   <div class="geo geo-br"></div>
 
-  <h2 class="slide-title reveal">SLA por Metodología</h2>
+  <h2 class="slide-title reveal">Acuerdo de Servicio</h2>
 
   <div class="tabs-group">
     <div class="tabs-bar reveal">
-      <button class="tab-btn active" data-tab="sla-a">Scrum / Scrumban</button>
+      <button class="tab-btn active" data-tab="sla-a">Enfoque por Iteraciones</button>
       <button class="tab-btn" data-tab="sla-b">Kanban</button>
     </div>
 
     <div class="tab-panel active" id="sla-a">
       <div class="sla-grid">
         <div class="sla-card reveal">
-          <div class="sla-card-title"><span class="material-icons-outlined">shield</span> Severidades</div>
+          <div class="sla-card-title"><span class="material-icons-outlined">shield</span> Niveles de atención</div>
           <table class="sla-table">
             <thead><tr><th>Nivel</th><th>Respuesta</th><th>Resolución</th></tr></thead>
             <tbody>
               <tr><td><span class="sev sev-c">Crítica</span></td><td>1 hora</td><td>8 horas hábiles</td></tr>
               <tr><td><span class="sev sev-a">Alta</span></td><td>4 horas</td><td>3 días hábiles</td></tr>
               <tr><td><span class="sev sev-m">Media</span></td><td>1 día hábil</td><td>10 días hábiles</td></tr>
-              <tr><td><span class="sev sev-b">Baja</span></td><td>2 días hábiles</td><td>Según backlog</td></tr>
+              <tr><td><span class="sev sev-b">Baja</span></td><td>2 días hábiles</td><td>Según prioridad</td></tr>
             </tbody>
           </table>
         </div>
@@ -570,13 +599,13 @@
           <div class="metric-row"><span class="metric-label">Terminación anticipada</span><span class="metric-val">Aviso 15 días</span></div>
         </div>
         <div class="sla-card reveal">
-          <div class="sla-card-title"><span class="material-icons-outlined">bar_chart</span> Métricas Comprometidas</div>
+          <div class="sla-card-title"><span class="material-icons-outlined">bar_chart</span> Compromisos de servicio</div>
           <ul class="check-list">
-            <li><span class="material-icons-outlined">check_circle_outline</span> Tareas completadas por sprint y periodo</li>
-            <li><span class="material-icons-outlined">check_circle_outline</span> Throughput del equipo</li>
-            <li><span class="material-icons-outlined">check_circle_outline</span> WIP y bloqueos por columna</li>
-            <li><span class="material-icons-outlined">check_circle_outline</span> Cycle Time y Lead Time</li>
-            <li><span class="material-icons-outlined">check_circle_outline</span> Distribución Build vs Run</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> Tareas entregadas por iteración y período</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> Productividad del equipo</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> Trabajo en progreso y bloqueos</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> Tiempo por tarea y tiempo de espera</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> Distribución Desarrollo vs Soporte</li>
             <li><span class="material-icons-outlined">check_circle_outline</span> Cumplimiento por severidad</li>
           </ul>
         </div>
@@ -595,23 +624,23 @@
     <div class="tab-panel" id="sla-b">
       <div class="sla-grid">
         <div class="sla-card reveal">
-          <div class="sla-card-title"><span class="material-icons-outlined">shield</span> Severidades Kanban</div>
+          <div class="sla-card-title"><span class="material-icons-outlined">shield</span> Niveles de atención Kanban</div>
           <table class="sla-table">
             <thead><tr><th>Nivel</th><th>Respuesta</th><th>Resolución</th></tr></thead>
             <tbody>
               <tr><td><span class="sev sev-c">Crítica</span></td><td>1 hora</td><td>1–2 días hábiles</td></tr>
               <tr><td><span class="sev sev-a">Alta</span></td><td>4 horas</td><td>3–5 días hábiles</td></tr>
               <tr><td><span class="sev sev-m">Media</span></td><td>1 día hábil</td><td>5–10 días hábiles</td></tr>
-              <tr><td><span class="sev sev-b">Baja</span></td><td>2 días hábiles</td><td>Según backlog</td></tr>
+              <tr><td><span class="sev sev-b">Baja</span></td><td>2 días hábiles</td><td>Según prioridad</td></tr>
             </tbody>
           </table>
         </div>
         <div class="sla-card reveal">
           <div class="sla-card-title"><span class="material-icons-outlined">speed</span> Métricas Garantizadas</div>
-          <div class="metric-row"><span class="metric-label">Throughput semanal</span><span class="metric-val green">4–5 tickets</span></div>
-          <div class="metric-row"><span class="metric-label">Throughput mensual</span><span class="metric-val green">~18 tickets</span></div>
-          <div class="metric-row"><span class="metric-label">Cycle Time</span><span class="metric-val green">5 días hábiles</span></div>
-          <div class="metric-row"><span class="metric-label">Lead Time</span><span class="metric-val green">15–18 días hábiles</span></div>
+          <div class="metric-row"><span class="metric-label">Tareas completadas por semana</span><span class="metric-val green">4–5 tareas</span></div>
+          <div class="metric-row"><span class="metric-label">Tareas completadas por mes</span><span class="metric-val green">~18 tickets</span></div>
+          <div class="metric-row"><span class="metric-label">Tiempo por tarea</span><span class="metric-val green">5 días hábiles</span></div>
+          <div class="metric-row"><span class="metric-label">Tiempo de espera</span><span class="metric-val green">15–18 días hábiles</span></div>
           <div class="metric-row"><span class="metric-label">Reportes</span><span class="metric-val">Mensual</span></div>
           <div class="metric-row"><span class="metric-label">Duración</span><span class="metric-val">7 meses</span></div>
         </div>
@@ -619,9 +648,9 @@
           <div class="sla-card-title"><span class="material-icons-outlined">person_pin</span> Responsabilidades Cliente</div>
           <ul class="check-list">
             <li><span class="material-icons-outlined">check_circle_outline</span> Designar punto de contacto</li>
-            <li><span class="material-icons-outlined">check_circle_outline</span> Información completa en tickets</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> Información completa al registrar solicitudes</li>
             <li><span class="material-icons-outlined">check_circle_outline</span> Responder aclaraciones en 1 día hábil</li>
-            <li><span class="material-icons-outlined">check_circle_outline</span> Validar tickets en revisión final</li>
+            <li><span class="material-icons-outlined">check_circle_outline</span> Validar tareas en revisión final</li>
             <li><span class="material-icons-outlined">check_circle_outline</span> Actualizar horas 1 vez por semestre</li>
           </ul>
         </div>
@@ -630,8 +659,8 @@
           <ul class="check-list">
             <li><span class="material-icons-outlined">looks_one</span> Análisis de causa raíz ante incumplimiento</li>
             <li><span class="material-icons-outlined">looks_two</span> Plan de mejora documentado</li>
-            <li><span class="material-icons-outlined">looks_3</span> Ajuste de límites WIP o capacidad</li>
-            <li><span class="material-icons-outlined">looks_4</span> Revisión del SLA si persiste</li>
+            <li><span class="material-icons-outlined">looks_3</span> Ajuste de carga de trabajo o capacidad</li>
+            <li><span class="material-icons-outlined">looks_4</span> Revisión del acuerdo si persiste</li>
           </ul>
         </div>
       </div>
@@ -659,7 +688,7 @@
     <div class="team-card reveal" style="border-bottom-color:var(--green-dark);">
       <div class="team-card-icon" style="background:var(--green-dark);color:#fff;"><span class="material-icons-outlined">sports_score</span></div>
       <div class="team-role" style="color:var(--green-dark)">Liderazgo</div>
-      <div class="team-name">Scrum Master</div>
+      <div class="team-name">Coordinador de equipo</div>
       <div class="team-id">Middle — Q15,000/mes</div>
     </div>
     <div class="team-card reveal">

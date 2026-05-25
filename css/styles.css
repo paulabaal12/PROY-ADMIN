@@ -23,6 +23,7 @@ body {
   background: var(--white);
   color: var(--black);
   overflow-x: hidden;
+  font-size: 18px;
 }
 
 ::-webkit-scrollbar { width: 5px; }
@@ -54,7 +55,7 @@ nav {
 }
 .nav-brand-logo img { width: 100%; height: 100%; object-fit: cover; }
 .nav-brand-text {
-  font-size: 1.1rem; font-weight: 800;
+  font-size: 1.2rem; font-weight: 800;
   color: var(--green-dark);
   letter-spacing: -0.02em;
 }
@@ -64,7 +65,7 @@ nav {
   display: flex; gap: 2rem; list-style: none;
 }
 .nav-links a {
-  font-size: 0.78rem; font-weight: 600;
+  font-size: 0.92rem; font-weight: 600;
   letter-spacing: 0.05em; text-transform: uppercase;
   color: var(--gray-text);
   text-decoration: none;
@@ -80,7 +81,7 @@ nav {
 }
 .toggle-btn {
   font-family: var(--font);
-  font-size: 0.72rem; font-weight: 600;
+  font-size: 1.2rem; font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   padding: 0.35rem 1rem;
@@ -149,7 +150,7 @@ nav {
 .hero-title .green { color: var(--green-main); }
 
 .hero-names {
-  font-size: 0.85rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #666;
   line-height: 1.8;
@@ -202,7 +203,7 @@ nav {
   border-radius: 20px;
   padding: 2.5rem;
   box-shadow: 0 4px 24px rgba(0,0,0,0.07);
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.9;
   color: var(--gray-text);
   font-weight: 400;
@@ -227,7 +228,7 @@ nav {
 
 .user-group-title {
   display: inline-block;
-  font-size: 0.85rem; font-weight: 700;
+  font-size: 1.2rem; font-weight: 700;
   background: var(--green-light);
   color: #fff;
   padding: 0.4rem 1.2rem;
@@ -252,8 +253,8 @@ nav {
   color: #fff;
 }
 .user-arrow .material-icons-outlined { font-size: 20px; }
-.user-name { font-size: 1rem; font-weight: 700; color: var(--black); margin-bottom: 0.2rem; }
-.user-desc { font-size: 0.82rem; color: #666; line-height: 1.5; }
+.user-name { font-size: 1.2rem; font-weight: 700; color: var(--black); margin-bottom: 0.2rem; }
+.user-desc { font-size: 1.08rem; color: #666; line-height: 1.5; }
 
 /* ──────────────── EPICS ──────────────── */
 .epics-grid {
@@ -278,14 +279,14 @@ nav {
   box-shadow: 0 12px 32px rgba(0,0,0,0.12);
 }
 .epic-code {
-  font-size: 0.68rem; font-weight: 700;
+  font-size: 1.08rem; font-weight: 700;
   color: var(--green-main);
   text-transform: uppercase;
   letter-spacing: 0.12em;
   margin-bottom: 0.4rem;
 }
 .epic-name {
-  font-size: 0.9rem; font-weight: 700;
+  font-size: 1.05rem; font-weight: 700;
   color: var(--black);
   line-height: 1.3;
   margin-bottom: 0.75rem;
@@ -294,7 +295,7 @@ nav {
   display: inline-flex; align-items: center; gap: 0.3rem;
   background: var(--green-bg);
   color: var(--green-dark);
-  font-size: 0.75rem; font-weight: 700;
+  font-size: 1.02rem; font-weight: 700;
   padding: 0.25rem 0.7rem;
   border-radius: 100px;
 }
@@ -309,7 +310,7 @@ nav {
 .epic-card.open .epic-detail { display: block; }
 
 .epic-us {
-  font-size: 0.75rem; color: #666;
+  font-size: 1.02rem; color: #666;
   padding: 0.3rem 0;
   border-bottom: 1px solid #f0f0f0;
   display: flex; align-items: center; gap: 0.5rem;
@@ -354,8 +355,8 @@ nav {
   color: var(--white);
   min-width: 36px;
 }
-.method-badge-text { font-size: 0.95rem; font-weight: 700; color: #fff; }
-.method-badge-sub { font-size: 0.78rem; color: rgba(255,255,255,0.8); margin-top: 2px; }
+.method-badge-text { font-size: 1.08rem; font-weight: 700; color: #fff; }
+.method-badge-sub { font-size: 0.92rem; color: rgba(255,255,255,0.8); margin-top: 2px; }
 
 /* ──────────────── TABS ──────────────── */
 .tabs-bar {
@@ -365,7 +366,7 @@ nav {
 }
 .tab-btn {
   font-family: var(--font);
-  font-size: 0.8rem; font-weight: 700;
+  font-size: 1.08rem; font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   padding: 0.6rem 1.5rem;
@@ -401,7 +402,7 @@ nav {
 }
 
 .info-card-title {
-  font-size: 0.85rem; font-weight: 800;
+  font-size: 1.2rem; font-weight: 800;
   color: var(--green-dark);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -414,7 +415,7 @@ nav {
   display: flex; justify-content: space-between; align-items: center;
   padding: 0.55rem 0;
   border-bottom: 1px solid #f0f0f0;
-  font-size: 0.82rem;
+  font-size: 1.08rem;
 }
 .metric-row:last-child { border-bottom: none; }
 .metric-label { color: #666; }
@@ -470,7 +471,7 @@ nav {
 .cost-card.cc-scrumban:hover { transform: scale(1.04) translateY(-6px); }
 
 .cost-method-name {
-  font-size: 1.75rem; font-weight: 900;
+  font-size: 2rem; font-weight: 900;
   text-transform: uppercase;
   letter-spacing: -0.01em;
   margin-bottom: 0.25rem;
@@ -479,7 +480,7 @@ nav {
   background: rgba(255,255,255,0.2);
   border-radius: 100px;
   padding: 0.5rem 1.25rem;
-  font-size: 1.1rem; font-weight: 800;
+  font-size: 1.2rem; font-weight: 800;
   margin: 1rem 0;
   display: inline-block;
 }
@@ -487,11 +488,11 @@ nav {
   background: rgba(255,255,255,0.15);
   border-radius: 10px;
   padding: 0.6rem 1rem;
-  font-size: 0.85rem; font-weight: 600;
+  font-size: 1.2rem; font-weight: 600;
   margin-bottom: 1rem;
 }
 .cost-desc {
-  font-size: 0.8rem;
+  font-size: 1.08rem;
   opacity: 0.9;
   line-height: 1.6;
   background: rgba(255,255,255,0.12);
@@ -507,7 +508,7 @@ nav {
   display: flex; justify-content: space-between;
   padding: 0.4rem 0;
   border-bottom: 1px solid rgba(255,255,255,0.15);
-  font-size: 0.78rem;
+  font-size: 0.92rem;
 }
 .cost-detail-row:last-child { border-bottom: none; }
 .cdl { opacity: 0.8; }
@@ -529,7 +530,7 @@ nav {
 }
 
 .sla-card-title {
-  font-size: 0.85rem; font-weight: 800;
+  font-size: 1.2rem; font-weight: 800;
   color: var(--green-dark);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -541,7 +542,7 @@ nav {
 
 .sla-table { width: 100%; border-collapse: collapse; }
 .sla-table th {
-  font-size: 0.65rem; font-weight: 700;
+  font-size: 0.92rem; font-weight: 700;
   text-transform: uppercase; letter-spacing: 0.1em;
   color: #999; text-align: left;
   padding: 0.4rem 0.5rem;
@@ -549,7 +550,7 @@ nav {
 }
 .sla-table th:first-child { width: 90px; }
 .sla-table td {
-  font-size: 0.78rem; padding: 0.6rem 0.5rem;
+  font-size: 0.92rem; padding: 0.6rem 0.5rem;
   border-bottom: 1px solid #f5f5f5;
   color: var(--gray-text);
   vertical-align: middle;
@@ -560,7 +561,7 @@ nav {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.7rem; font-weight: 700;
+  font-size: 1.2rem; font-weight: 700;
   padding: 0.25rem 0;
   border-radius: 6px;
   width: 72px;
@@ -574,7 +575,7 @@ nav {
 .check-list { list-style: none; }
 .check-list li {
   display: flex; align-items: flex-start; gap: 0.6rem;
-  font-size: 0.82rem; color: var(--gray-text);
+  font-size: 1.08rem; color: var(--gray-text);
   padding: 0.45rem 0;
   border-bottom: 1px solid #f5f5f5;
 }
@@ -608,14 +609,14 @@ nav {
   color: var(--green-dark);
 }
 .team-card-icon .material-icons-outlined { font-size: 24px; }
-.team-role { font-size: 0.68rem; font-weight: 700; color: var(--green-main); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.25rem; }
-.team-name { font-size: 0.9rem; font-weight: 700; color: var(--black); }
-.team-id   { font-size: 0.75rem; color: #999; margin-top: 0.2rem; }
+.team-role { font-size: 1.08rem; font-weight: 700; color: var(--green-main); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.25rem; }
+.team-name { font-size: 1.05rem; font-weight: 700; color: var(--black); }
+.team-id   { font-size: 1.02rem; color: #999; margin-top: 0.2rem; }
 
 /* ──────────────── SECTION NAV DOTS ──────────────── */
 .slide-num {
   position: absolute; bottom: 1.5rem; right: 2rem;
-  font-size: 0.75rem; font-weight: 700;
+  font-size: 1.02rem; font-weight: 700;
   color: var(--green-pale);
   background: var(--green-dark);
   padding: 0.3rem 0.8rem;
@@ -626,7 +627,7 @@ nav {
 /* ──────────────── PROGRESS ──────────────── */
 .prog-row { margin-bottom: 1rem; }
 .prog-label { display: flex; justify-content: space-between;
-  font-size: 0.78rem; color: #666; margin-bottom: 0.35rem; font-weight: 500; }
+  font-size: 0.92rem; color: #666; margin-bottom: 0.35rem; font-weight: 500; }
 .prog-bar { height: 8px; background: var(--green-bg); border-radius: 4px; overflow: hidden; }
 .prog-fill { height: 100%; background: linear-gradient(90deg, var(--green-dark), var(--green-light));
   border-radius: 4px; width: 0; transition: width 1.2s cubic-bezier(.4,0,.2,1); }
@@ -642,11 +643,11 @@ body.investor .investor-block { display: block; }
   margin-bottom: 2rem;
   position: relative; z-index: 1;
 }
-.investor-banner h2 { font-size: 1.5rem; font-weight: 800; margin-bottom: 0.5rem; }
-.investor-banner p { opacity: 0.85; font-size: 0.9rem; margin-bottom: 1.5rem; }
+.investor-banner h2 { font-size: 1.75rem; font-weight: 800; margin-bottom: 0.5rem; }
+.investor-banner p { opacity: 0.85; font-size: 1.05rem; margin-bottom: 1.5rem; }
 .inv-kpis { display: flex; gap: 2.5rem; flex-wrap: wrap; }
 .inv-kpi-val { font-size: 2rem; font-weight: 900; }
-.inv-kpi-label { font-size: 0.7rem; opacity: 0.8; text-transform: uppercase; letter-spacing: 0.1em; }
+.inv-kpi-label { font-size: 1.2rem; opacity: 0.8; text-transform: uppercase; letter-spacing: 0.1em; }
 
 /* ──────────────── REVEAL ──────────────── */
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
@@ -660,5 +661,94 @@ footer {
   padding: 3rem 2rem;
 }
 .footer-logo { font-size: 2rem; font-weight: 900; color: var(--green-light); margin-bottom: 0.5rem; }
-.footer-sub { font-size: 0.8rem; opacity: 0.7; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.5rem; }
-.footer-names { font-size: 0.78rem; opacity: 0.6; line-height: 2; }
+.footer-sub { font-size: 1.08rem; opacity: 0.7; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.5rem; }
+.footer-names { font-size: 0.92rem; opacity: 0.6; line-height: 2; }
+/* ──────────────── PRODUCT MOCKUP ──────────────── */
+.product-mockup {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 48px rgba(0,0,0,0.13);
+  overflow: hidden;
+  width: 100%;
+  max-width: 440px;
+  border: 1px solid #e8f5ee;
+}
+.pm-bar {
+  background: #f4f6f4;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0.6rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.pm-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: #ddd;
+  display: inline-block;
+}
+.pm-dot:nth-child(1) { background: #ff6b6b; }
+.pm-dot:nth-child(2) { background: #ffd93d; }
+.pm-dot:nth-child(3) { background: #6bcb77; }
+.pm-url {
+  font-size: 1.2rem;
+  color: #aaa;
+  background: #fff;
+  border-radius: 100px;
+  padding: 0.2rem 0.75rem;
+  flex: 1;
+  text-align: center;
+  border: 1px solid #eee;
+}
+.pm-body { padding: 1.25rem; }
+.pm-nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.pm-nav-logo {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: var(--green-dark);
+  background: var(--green-bg);
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+}
+.pm-nav-item {
+  height: 8px;
+  width: 40px;
+  background: #eee;
+  border-radius: 4px;
+}
+.pm-hero-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  background: var(--green-bg);
+  border-radius: 10px;
+  padding: 1rem;
+}
+.pm-hero-text { flex: 1; }
+.pm-h1 { height: 12px; background: var(--green-dark); border-radius: 4px; width: 70%; margin-bottom: 0.5rem; opacity: 0.6; }
+.pm-h2 { height: 8px; background: var(--green-main); border-radius: 4px; width: 90%; margin-bottom: 0.75rem; opacity: 0.3; }
+.pm-btn { height: 22px; width: 80px; background: var(--green-dark); border-radius: 100px; opacity: 0.7; }
+.pm-hero-icon { opacity: 0.4; }
+.pm-cards-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+}
+.pm-card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 0.75rem;
+  text-align: center;
+  border: 1px solid #eee;
+}
+.pm-card-line { height: 6px; background: #e8e8e8; border-radius: 3px; margin-top: 0.4rem; }
+.pm-card-line.short { width: 60%; margin: 0.3rem auto 0; }
